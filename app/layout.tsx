@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Space_Grotesk, IBM_Plex_Mono, Playfair_Display } from 'next/font/google'
+import PageLoader from '@/components/page-loader'
 import './globals.css'
 
 const spaceGrotesk = Space_Grotesk({
@@ -58,6 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${ibmPlexMono.variable} ${playfairDisplay.variable} bg-background`}>
       <body className="antialiased font-sans">
+        <PageLoader />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
