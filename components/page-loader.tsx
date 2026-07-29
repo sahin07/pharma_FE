@@ -2,10 +2,12 @@
 
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useLoaderReady } from '@/components/loader-context'
 
 const MIN_DISPLAY_MS = 1100
 
 export default function PageLoader() {
+  const { markReady } = useLoaderReady()
   const [visible, setVisible] = useState(true)
   const [progress, setProgress] = useState(0)
 
@@ -16,7 +18,6 @@ export default function PageLoader() {
 
     const tick = () => {
       const elapsed = Date.now() - start
-      // Ease toward ~90% while waiting for load, then finish
       const target = document.readyState === 'complete' ? 100 : Math.min(90, 20 + elapsed / 18)
       setProgress((prev) => prev + (target - prev) * 0.12)
       if (!done) frame = requestAnimationFrame(tick)
@@ -31,7 +32,9 @@ export default function PageLoader() {
           done = true
           cancelAnimationFrame(frame)
           setVisible(false)
-        }, 280)
+          // Start page animations as the splash begins fading out
+          markReady()
+        }, 220)
       }, wait)
     }
 
@@ -49,7 +52,7 @@ export default function PageLoader() {
       window.removeEventListener('load', finish)
       document.body.style.overflow = ''
     }
-  }, [])
+  }, [markReady])
 
   useEffect(() => {
     if (!visible) document.body.style.overflow = ''
@@ -66,7 +69,6 @@ export default function PageLoader() {
           aria-busy="true"
           aria-label="Loading PharmaCore"
         >
-          {/* Soft glow */}
           <div
             className="pointer-events-none absolute inset-0 opacity-60"
             style={{
@@ -81,7 +83,6 @@ export default function PageLoader() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
           >
-            {/* Logo mark */}
             <motion.div
               className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary shadow-lg shadow-primary/30"
               animate={{ scale: [1, 1.06, 1] }}
@@ -110,12 +111,10 @@ export default function PageLoader() {
               </div>
             </div>
 
-            {/* Progress bar */}
             <div className="mt-2 h-1 w-40 overflow-hidden rounded-full bg-white/10">
               <motion.div
                 className="h-full rounded-full bg-primary"
                 style={{ width: `${progress}%` }}
-                transition={{ type: 'tween', ease: 'linear', duration: 0.05 }}
               />
             </div>
 
