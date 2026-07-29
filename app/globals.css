@@ -1,0 +1,228 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: 'Space Grotesk', 'Space Grotesk Fallback', sans-serif;
+  --font-mono: 'IBM Plex Mono', 'IBM Plex Mono Fallback', monospace;
+  --font-heading: 'Space Grotesk', 'Space Grotesk Fallback', sans-serif;
+  --font-display: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  color-scheme: light;
+  /* Pure white page background — neon blobs supply all colour depth */
+  --background: oklch(1 0 0);
+  /* Dark navy headings — #0D1B3E */
+  --foreground: oklch(0.20 0.055 265);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.20 0.055 265);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.20 0.055 265);
+  /* True blue primary — #2563EB */
+  --primary: oklch(0.52 0.21 258);
+  --primary-foreground: oklch(1 0 0);
+  /* Cyan-teal secondary */
+  --secondary: oklch(0.60 0.16 210);
+  --secondary-foreground: oklch(1 0 0);
+  --muted: oklch(0.965 0.004 248);
+  --muted-foreground: oklch(0.48 0.02 258);
+  --accent: oklch(0.52 0.21 258);
+  --accent-foreground: oklch(1 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.91 0.006 248);
+  --input: oklch(0.91 0.006 248);
+  --ring: oklch(0.52 0.21 258);
+  --chart-1: oklch(0.52 0.21 258);
+  --chart-2: oklch(0.60 0.16 210);
+  --chart-3: oklch(0.60 0.15 230);
+  --chart-4: oklch(0.65 0.12 200);
+  --chart-5: oklch(0.48 0.18 265);
+  --radius: 1rem;
+  --sidebar: oklch(1 0 0);
+  --sidebar-foreground: oklch(0.20 0.055 265);
+  --sidebar-primary: oklch(0.52 0.21 258);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.965 0.004 248);
+  --sidebar-accent-foreground: oklch(0.20 0.055 265);
+  --sidebar-border: oklch(0.91 0.006 248);
+  --sidebar-ring: oklch(0.52 0.21 258);
+}
+
+/* Light-only design — dark mode intentionally disabled */
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  /* Blue accent words — Playfair italic 500 */
+  .accent-italic {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-style: italic;
+    font-synthesis: none;
+  }
+
+  /* Shared navy fill — same color mix as Browse Products button */
+  .bg-navy-btn {
+    background: linear-gradient(180deg, oklch(0.20 0.055 265), oklch(0.14 0.05 265));
+  }
+
+  /* ── Section neon-glass background system ─────────────────────────────── */
+  /* Solid white with neon radial blobs painted on top via pseudo-elements.  */
+  /* Three variants rotate through the page so sections feel distinct.       */
+
+  /* ── Light A: white — blue top-left, cyan bottom-right ── */
+  .section-bg-a {
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .section-bg-a::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 50% at 5% 15%, oklch(0.72 0.14 258 / 0.16) 0%, transparent 65%),
+      radial-gradient(ellipse 45% 55% at 95% 85%, oklch(0.75 0.14 210 / 0.14) 0%, transparent 62%),
+      radial-gradient(ellipse 30% 25% at 50% 50%, oklch(0.78 0.10 230 / 0.07) 0%, transparent 55%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .section-bg-a > * { position: relative; z-index: 1; }
+
+  /* ── Light B: faint blue tint — violet top-right, teal bottom-left, blue center ── */
+  .section-bg-b {
+    position: relative;
+    background: oklch(0.986 0.005 248);
+    overflow: hidden;
+  }
+  .section-bg-b::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 55% 55% at 88% 10%, oklch(0.70 0.16 270 / 0.15) 0%, transparent 62%),
+      radial-gradient(ellipse 50% 45% at 8% 82%, oklch(0.73 0.14 195 / 0.14) 0%, transparent 60%),
+      radial-gradient(ellipse 35% 30% at 50% 45%, oklch(0.76 0.10 245 / 0.09) 0%, transparent 52%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .section-bg-b > * { position: relative; z-index: 1; }
+
+  /* ── Light C: white — wide blue top arc, cyan bottom corners ── */
+  .section-bg-c {
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .section-bg-c::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 70% 40% at 50% -5%, oklch(0.73 0.14 255 / 0.14) 0%, transparent 65%),
+      radial-gradient(ellipse 38% 45% at 2% 95%, oklch(0.74 0.14 210 / 0.13) 0%, transparent 58%),
+      radial-gradient(ellipse 38% 40% at 98% 58%, oklch(0.72 0.16 268 / 0.13) 0%, transparent 58%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .section-bg-c > * { position: relative; z-index: 1; }
+
+  /* ── Dark: deep navy — vivid blue left, cyan right, violet top-center ── */
+  .section-bg-dark {
+    position: relative;
+    background: oklch(0.16 0.048 265);
+    overflow: hidden;
+  }
+  .section-bg-dark::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 52% 55% at 12% 28%, oklch(0.42 0.22 258 / 0.65) 0%, transparent 62%),
+      radial-gradient(ellipse 48% 52% at 90% 78%, oklch(0.52 0.20 210 / 0.50) 0%, transparent 60%),
+      radial-gradient(ellipse 32% 28% at 54% 8%,  oklch(0.45 0.22 280 / 0.38) 0%, transparent 52%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .section-bg-dark > * { position: relative; z-index: 1; }
+
+  /* ── Navy: darkest — matches navbar CTA button bg ── */
+  /* Certifications section uses this */
+  .section-bg-navy {
+    position: relative;
+    background: oklch(0.20 0.055 265);
+    overflow: hidden;
+  }
+  .section-bg-navy::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 50% 52% at 8% 20%, oklch(0.36 0.22 258 / 0.55) 0%, transparent 60%),
+      radial-gradient(ellipse 44% 48% at 92% 82%, oklch(0.48 0.18 210 / 0.42) 0%, transparent 58%),
+      radial-gradient(ellipse 36% 32% at 58% 5%,  oklch(0.40 0.20 278 / 0.30) 0%, transparent 52%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .section-bg-navy > * { position: relative; z-index: 1; }
+}
