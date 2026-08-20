@@ -74,17 +74,17 @@ export default function Footer() {
               India&apos;s trusted B2B pharmaceutical wholesale company. Supplying quality medicines since 1999.
             </p>
             <div className="space-y-2.5">
-              <a href="tel:+911234567890" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors">
+              <a href="tel:+919816667007" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                +91 12345 67890
+                +91 98166 67007
               </a>
-              <a href="mailto:sales@pharmacore.com" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors">
+              <a href="mailto:support@samaypharmaindia.com" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
-                sales@pharmacore.com
+                support@samaypharmaindia.com
               </a>
               <div className="flex items-start gap-2.5 text-sm text-white/70">
                 <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-                123 Pharma Hub, Andheri East, Mumbai 400069
+                Plot no. 34/35, Industrial Area Road, Trilokpur Road, Kala Amb, Himachal Pradesh 173030
               </div>
             </div>
           </div>

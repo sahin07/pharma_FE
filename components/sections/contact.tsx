@@ -9,21 +9,21 @@ const contactMeta = [
   {
     icon: Phone,
     label: 'Call Us',
-    lines: ['+91 12345 67890', '+91 98765 43210'],
+    lines: ['+91 98166 67007'],
     sub: 'Mon – Sat, 9 am – 6 pm IST',
     accent: 'primary',
   },
   {
     icon: Mail,
     label: 'Email Us',
-    lines: ['sales@pharmacore.com', 'support@pharmacore.com'],
+    lines: ['support@samaypharmaindia.com'],
     sub: 'Reply within 2 business hours',
     accent: 'secondary',
   },
   {
     icon: MapPin,
-    label: 'Head Office',
-    lines: ['123 Pharma Hub, Andheri East', 'Mumbai, Maharashtra 400069'],
+    label: 'Address',
+    lines: ['Plot no. 34/35, Industrial Area Road', 'Trilokpur Road, Kala Amb, Himachal Pradesh 173030'],
     sub: 'India',
     accent: 'primary',
   },
@@ -40,7 +40,7 @@ const fields = [
   { id: 'name',    label: 'Full Name',              type: 'text',  placeholder: 'Dr. Rajesh Sharma',     required: true },
   { id: 'email',   label: 'Email Address',           type: 'email', placeholder: 'rajesh@hospital.com',   required: true },
   { id: 'company', label: 'Company / Hospital',      type: 'text',  placeholder: 'Apollo Hospitals',      required: false },
-  { id: 'phone',   label: 'Phone Number',            type: 'tel',   placeholder: '+91 98765 43210',       required: false },
+  { id: 'phone',   label: 'Phone Number',            type: 'tel',   placeholder: '+91 98166 67007',       required: false },
 ]
 
 export default function ContactSection() {

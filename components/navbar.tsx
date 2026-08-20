@@ -62,13 +62,13 @@ export default function Navbar() {
             WHO-GMP Certified &nbsp;·&nbsp; ISO 9001:2015 &nbsp;·&nbsp; Nationwide Distribution
           </span>
           <div className="flex items-center gap-6 font-mono text-[12px] tracking-wider text-white/70">
-            <a href="tel:+911234567890" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="tel:+919816667007" className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone className="w-3.5 h-3.5" />
-              +91 12345 67890
+              +91 98166 67007
             </a>
             <span className="opacity-40">|</span>
-            <a href="mailto:sales@pharmacore.com" className="hover:text-white transition-colors">
-              sales@pharmacore.com
+            <a href="mailto:support@samaypharmaindia.com" className="hover:text-white transition-colors">
+              support@samaypharmaindia.com
             </a>
           </div>
         </div>

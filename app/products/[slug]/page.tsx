@@ -203,7 +203,7 @@ export default async function ProductDetailPage({ params }: Props) {
                   Request a Quote
                 </Link>
                 <a
-                  href="tel:+911234567890"
+                  href="tel:+919816667007"
                   className="flex-1 flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-foreground font-semibold rounded-full border border-border shadow-md hover:border-primary/30 hover:bg-muted/40 hover:-translate-y-0.5 transition-all"
                 >
                   <Phone className="w-4 h-4 text-primary" />
@@ -214,7 +214,7 @@ export default async function ProductDetailPage({ params }: Props) {
               {/* Quick contact */}
               <div className="mt-5 flex items-center gap-2 text-sm text-muted-foreground bg-muted/50 rounded-xl px-4 py-3 border border-border">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
-                <span>Email us at <a href="mailto:sales@pharmacore.com" className="text-primary font-medium hover:underline">sales@pharmacore.com</a> for bulk pricing</span>
+                <span>Email us at <a href="mailto:support@samaypharmaindia.com" className="text-primary font-medium hover:underline">support@samaypharmaindia.com</a> for bulk pricing</span>
               </div>
             </div>
           </div>
