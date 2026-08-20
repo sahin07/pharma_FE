@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useLoaderReady } from '@/components/loader-context'
 
@@ -63,17 +64,17 @@ export default function PageLoader() {
       {visible && (
         <motion.div
           key="page-loader"
-          className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-navy-btn"
+          className="fixed inset-0 z-[9999] flex flex-col items-center justify-center section-bg-why"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] } }}
           aria-busy="true"
-          aria-label="Loading PharmaCore"
+          aria-label="Loading Samay Pharma"
         >
           <div
             className="pointer-events-none absolute inset-0 opacity-60"
             style={{
               background:
-                'radial-gradient(ellipse 50% 40% at 50% 45%, oklch(0.52 0.21 258 / 0.22), transparent 70%)',
+                'radial-gradient(ellipse 50% 40% at 50% 45%, color-mix(in srgb, #3DC0C3 28%, transparent), transparent 70%)',
             }}
           />
 
@@ -84,32 +85,19 @@ export default function PageLoader() {
             transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
           >
             <motion.div
-              className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary shadow-lg shadow-primary/30"
-              animate={{ scale: [1, 1.06, 1] }}
+              className="flex items-center justify-center"
+              animate={{ scale: [1, 1.04, 1] }}
               transition={{ duration: 1.6, repeat: Infinity, ease: 'easeInOut' }}
             >
-              <svg
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="white"
-                strokeWidth="2.2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-              </svg>
+              <Image
+                src="/images/logos/3.png"
+                alt="Samay Pharma"
+                width={200}
+                height={45}
+                className="h-10 w-auto object-contain"
+                priority
+              />
             </motion.div>
-
-            <div className="text-center">
-              <div className="font-sans text-xl font-bold tracking-tight text-white">
-                PharmaCore
-              </div>
-              <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.22em] text-white/45">
-                Wholesale
-              </div>
-            </div>
 
             <div className="mt-2 h-1 w-40 overflow-hidden rounded-full bg-white/10">
               <motion.div

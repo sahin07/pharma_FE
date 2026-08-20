@@ -126,7 +126,7 @@ export default function ProductsClient() {
               }`}
               style={
                 showFilters
-                  ? { background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))' }
+                  ? { background: 'linear-gradient(180deg, #3DC0C3, #00827F)' }
                   : undefined
               }
             >
@@ -321,7 +321,7 @@ export default function ProductsClient() {
                 }`}
                 style={
                   page === i + 1
-                    ? { background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))' }
+                    ? { background: 'linear-gradient(180deg, #3DC0C3, #00827F)' }
                     : undefined
                 }
               >

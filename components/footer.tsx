@@ -1,7 +1,8 @@
 'use client'
 
 import Link from 'next/link'
-import { HeartPulse, Phone, Mail, MapPin, ArrowRight, Globe, Share2, MessageSquare, AtSign } from 'lucide-react'
+import Image from 'next/image'
+import { Phone, Mail, MapPin, ArrowRight, Globe, Share2, MessageSquare, AtSign } from 'lucide-react'
 
 const footerLinks = {
   company: {
@@ -55,26 +56,19 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer
-      className="text-primary-foreground"
-      style={{
-        background: 'linear-gradient(135deg, oklch(0.14 0.06 258) 0%, oklch(0.22 0.10 210) 100%)',
-      }}
-    >
+    <footer className="text-primary-foreground section-bg-why">
       <div className="max-w-[1680px] mx-auto px-10 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mb-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-2.5 mb-6 group">
-              <div className="w-9 h-9 bg-primary rounded-xl flex items-center justify-center group-hover:bg-primary/80 transition-colors">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                </svg>
-              </div>
-              <div>
-                <div className="font-sans font-bold text-white text-[15px] tracking-tight leading-none">PharmaCore</div>
-                <div className="font-mono text-[9px] tracking-[0.2em] text-white/40 uppercase leading-none mt-0.5">Wholesale</div>
-              </div>
+            <Link href="/" className="inline-flex items-center mb-6 shrink-0">
+              <Image
+                src="/images/logos/3.png"
+                alt="Samay Pharma"
+                width={150}
+                height={34}
+                className="h-8 w-auto object-contain"
+              />
             </Link>
             <p className="text-[13px] text-white/50 leading-relaxed mb-6 max-w-[240px]">
               India&apos;s trusted B2B pharmaceutical wholesale company. Supplying quality medicines since 1999.
@@ -133,7 +127,7 @@ export default function Footer() {
                 type="submit"
                 className="px-6 py-2.5 text-white font-bold rounded-full text-sm shadow-md hover:brightness-105 transition-all shrink-0"
                 style={{
-                  background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))',
+                  background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
                 }}
               >
                 Subscribe

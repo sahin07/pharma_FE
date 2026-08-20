@@ -197,7 +197,7 @@ export default async function ProductDetailPage({ params }: Props) {
                   href="/contact"
                   className="flex-1 flex items-center justify-center gap-2 px-6 py-3.5 text-primary-foreground font-bold rounded-full shadow-md shadow-primary/20 hover:brightness-105 hover:-translate-y-0.5 transition-all"
                   style={{
-                    background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))',
+                    background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
                   }}
                 >
                   Request a Quote

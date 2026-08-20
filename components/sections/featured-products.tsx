@@ -229,7 +229,7 @@ export default function FeaturedProductsSection() {
             href="/products"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 text-primary-foreground font-bold rounded-full shadow-md hover:brightness-105 transition-all"
             style={{
-              background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))',
+              background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
             }}
           >
             View All Products

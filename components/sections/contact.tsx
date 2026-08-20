@@ -58,11 +58,8 @@ export default function ContactSection() {
   return (
     <section
       ref={ref}
-      className="relative overflow-hidden"
+      className="relative overflow-hidden section-bg-why"
       id="contact"
-      style={{
-        background: 'linear-gradient(135deg, oklch(0.14 0.06 258) 0%, oklch(0.22 0.10 210) 100%)',
-      }}
     >
 
       {/* ── Content ───────────────────────────────────────────────────────── */}
@@ -276,7 +273,7 @@ export default function ContactSection() {
                         type="submit"
                         className="w-full flex items-center justify-center gap-3 px-6 py-4 text-white font-bold rounded-full text-sm shadow-md shadow-primary/30 hover:brightness-105 transition-all group"
                         style={{
-                          background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))',
+                          background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
                         }}
                       >
                         Send Inquiry

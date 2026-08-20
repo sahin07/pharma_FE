@@ -11,7 +11,7 @@ const lato = Lato({
   weight: ['300', '400', '700', '900'],
 })
 
-/* Accent italic only — blue display words */
+/* Accent italic only — brand display words */
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',

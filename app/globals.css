@@ -51,42 +51,44 @@
 
 :root {
   color-scheme: light;
-  /* Pure white page background — neon blobs supply all colour depth */
+  /* Pure white page background — teal blobs supply colour depth */
   --background: oklch(1 0 0);
-  /* Dark navy headings — #0D1B3E */
-  --foreground: oklch(0.20 0.055 265);
+  /* Dark teal-ink headings */
+  --foreground: oklch(0.22 0.04 190);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.20 0.055 265);
+  --card-foreground: oklch(0.22 0.04 190);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.20 0.055 265);
-  /* True blue primary — #2563EB */
-  --primary: oklch(0.52 0.21 258);
+  --popover-foreground: oklch(0.22 0.04 190);
+  /* Brand teal — #00827F / #3DC0C3 */
+  --brand-light: #3DC0C3;
+  --brand-dark: #00827F;
+  --brand-gradient: linear-gradient(180deg, #3DC0C3, #00827F);
+  --primary: #00827F;
   --primary-foreground: oklch(1 0 0);
-  /* Cyan-teal secondary */
-  --secondary: oklch(0.60 0.16 210);
+  --secondary: #3DC0C3;
   --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.965 0.004 248);
-  --muted-foreground: oklch(0.48 0.02 258);
-  --accent: oklch(0.52 0.21 258);
+  --muted: oklch(0.965 0.008 190);
+  --muted-foreground: oklch(0.48 0.03 190);
+  --accent: #00827F;
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.91 0.006 248);
-  --input: oklch(0.91 0.006 248);
-  --ring: oklch(0.52 0.21 258);
-  --chart-1: oklch(0.52 0.21 258);
-  --chart-2: oklch(0.60 0.16 210);
-  --chart-3: oklch(0.60 0.15 230);
-  --chart-4: oklch(0.65 0.12 200);
-  --chart-5: oklch(0.48 0.18 265);
+  --border: oklch(0.91 0.01 190);
+  --input: oklch(0.91 0.01 190);
+  --ring: #00827F;
+  --chart-1: #00827F;
+  --chart-2: #3DC0C3;
+  --chart-3: oklch(0.58 0.10 185);
+  --chart-4: oklch(0.70 0.10 195);
+  --chart-5: oklch(0.42 0.08 190);
   --radius: 1rem;
   --sidebar: oklch(1 0 0);
-  --sidebar-foreground: oklch(0.20 0.055 265);
-  --sidebar-primary: oklch(0.52 0.21 258);
+  --sidebar-foreground: oklch(0.22 0.04 190);
+  --sidebar-primary: #00827F;
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.965 0.004 248);
-  --sidebar-accent-foreground: oklch(0.20 0.055 265);
-  --sidebar-border: oklch(0.91 0.006 248);
-  --sidebar-ring: oklch(0.52 0.21 258);
+  --sidebar-accent: oklch(0.965 0.008 190);
+  --sidebar-accent-foreground: oklch(0.22 0.04 190);
+  --sidebar-border: oklch(0.91 0.01 190);
+  --sidebar-ring: #00827F;
 }
 
 /* Light-only design — dark mode intentionally disabled */
@@ -115,7 +117,7 @@
     font-family: var(--font-display);
   }
 
-  /* Blue accent words — Playfair italic 500 */
+  /* Brand accent words — Playfair italic 500 */
   .accent-italic {
     font-family: var(--font-display);
     font-weight: 500;
@@ -123,16 +125,40 @@
     font-synthesis: none;
   }
 
-  /* Shared navy fill — same color mix as Browse Products button */
+  /* Shared dark teal fill — section CTAs / dark panels */
   .bg-navy-btn {
-    background: linear-gradient(180deg, oklch(0.20 0.055 265), oklch(0.14 0.05 265));
+    background: linear-gradient(180deg, #00827F, #006663);
   }
 
+  /* Brand button gradient — #3DC0C3 → #00827F */
+  .bg-brand-btn {
+    background: linear-gradient(180deg, #3DC0C3, #00827F);
+  }
+
+  /* Why Choose Us — deep brand teal so light text / accents read clearly */
+  .section-bg-why {
+    position: relative;
+    background: linear-gradient(165deg, #042524 0%, #061a19 48%, #08302e 100%);
+    overflow: hidden;
+  }
+  .section-bg-why::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 55% 50% at 8% 20%, color-mix(in srgb, #00827F 35%, transparent) 0%, transparent 62%),
+      radial-gradient(ellipse 50% 48% at 92% 85%, color-mix(in srgb, #3DC0C3 18%, transparent) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 35% at 50% 50%, color-mix(in srgb, #00827F 12%, transparent) 0%, transparent 55%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .section-bg-why > * { position: relative; z-index: 1; }
+
   /* ── Section neon-glass background system ─────────────────────────────── */
-  /* Solid white with neon radial blobs painted on top via pseudo-elements.  */
+  /* Solid white with teal radial blobs painted on top via pseudo-elements.  */
   /* Three variants rotate through the page so sections feel distinct.       */
 
-  /* ── Light A: white — blue top-left, cyan bottom-right ── */
+  /* ── Light A: white — teal top-left, cyan bottom-right ── */
   .section-bg-a {
     position: relative;
     background: #ffffff;
@@ -143,18 +169,18 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 60% 50% at 5% 15%, oklch(0.72 0.14 258 / 0.16) 0%, transparent 65%),
-      radial-gradient(ellipse 45% 55% at 95% 85%, oklch(0.75 0.14 210 / 0.14) 0%, transparent 62%),
-      radial-gradient(ellipse 30% 25% at 50% 50%, oklch(0.78 0.10 230 / 0.07) 0%, transparent 55%);
+      radial-gradient(ellipse 60% 50% at 5% 15%, color-mix(in srgb, #3DC0C3 22%, transparent) 0%, transparent 65%),
+      radial-gradient(ellipse 45% 55% at 95% 85%, color-mix(in srgb, #00827F 16%, transparent) 0%, transparent 62%),
+      radial-gradient(ellipse 30% 25% at 50% 50%, color-mix(in srgb, #3DC0C3 10%, transparent) 0%, transparent 55%);
     pointer-events: none;
     z-index: 0;
   }
   .section-bg-a > * { position: relative; z-index: 1; }
 
-  /* ── Light B: faint blue tint — violet top-right, teal bottom-left, blue center ── */
+  /* ── Light B: faint teal tint ── */
   .section-bg-b {
     position: relative;
-    background: oklch(0.986 0.005 248);
+    background: oklch(0.986 0.008 190);
     overflow: hidden;
   }
   .section-bg-b::before {
@@ -162,15 +188,15 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 55% 55% at 88% 10%, oklch(0.70 0.16 270 / 0.15) 0%, transparent 62%),
-      radial-gradient(ellipse 50% 45% at 8% 82%, oklch(0.73 0.14 195 / 0.14) 0%, transparent 60%),
-      radial-gradient(ellipse 35% 30% at 50% 45%, oklch(0.76 0.10 245 / 0.09) 0%, transparent 52%);
+      radial-gradient(ellipse 55% 55% at 88% 10%, color-mix(in srgb, #3DC0C3 18%, transparent) 0%, transparent 62%),
+      radial-gradient(ellipse 50% 45% at 8% 82%, color-mix(in srgb, #00827F 16%, transparent) 0%, transparent 60%),
+      radial-gradient(ellipse 35% 30% at 50% 45%, color-mix(in srgb, #3DC0C3 10%, transparent) 0%, transparent 52%);
     pointer-events: none;
     z-index: 0;
   }
   .section-bg-b > * { position: relative; z-index: 1; }
 
-  /* ── Light C: white — wide blue top arc, cyan bottom corners ── */
+  /* ── Light C: white — wide teal top arc ── */
   .section-bg-c {
     position: relative;
     background: #ffffff;
@@ -181,18 +207,18 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 70% 40% at 50% -5%, oklch(0.73 0.14 255 / 0.14) 0%, transparent 65%),
-      radial-gradient(ellipse 38% 45% at 2% 95%, oklch(0.74 0.14 210 / 0.13) 0%, transparent 58%),
-      radial-gradient(ellipse 38% 40% at 98% 58%, oklch(0.72 0.16 268 / 0.13) 0%, transparent 58%);
+      radial-gradient(ellipse 70% 40% at 50% -5%, color-mix(in srgb, #3DC0C3 18%, transparent) 0%, transparent 65%),
+      radial-gradient(ellipse 38% 45% at 2% 95%, color-mix(in srgb, #00827F 14%, transparent) 0%, transparent 58%),
+      radial-gradient(ellipse 38% 40% at 98% 58%, color-mix(in srgb, #3DC0C3 14%, transparent) 0%, transparent 58%);
     pointer-events: none;
     z-index: 0;
   }
   .section-bg-c > * { position: relative; z-index: 1; }
 
-  /* ── Dark: deep navy — vivid blue left, cyan right, violet top-center ── */
+  /* ── Dark panels — same deep brand teal family as Why Choose Us ── */
   .section-bg-dark {
     position: relative;
-    background: oklch(0.16 0.048 265);
+    background: linear-gradient(165deg, #042524 0%, #061a19 48%, #08302e 100%);
     overflow: hidden;
   }
   .section-bg-dark::before {
@@ -200,19 +226,17 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 52% 55% at 12% 28%, oklch(0.42 0.22 258 / 0.65) 0%, transparent 62%),
-      radial-gradient(ellipse 48% 52% at 90% 78%, oklch(0.52 0.20 210 / 0.50) 0%, transparent 60%),
-      radial-gradient(ellipse 32% 28% at 54% 8%,  oklch(0.45 0.22 280 / 0.38) 0%, transparent 52%);
+      radial-gradient(ellipse 52% 55% at 12% 28%, color-mix(in srgb, #00827F 32%, transparent) 0%, transparent 62%),
+      radial-gradient(ellipse 48% 52% at 90% 78%, color-mix(in srgb, #3DC0C3 16%, transparent) 0%, transparent 60%),
+      radial-gradient(ellipse 32% 28% at 54% 8%,  color-mix(in srgb, #00827F 14%, transparent) 0%, transparent 52%);
     pointer-events: none;
     z-index: 0;
   }
   .section-bg-dark > * { position: relative; z-index: 1; }
 
-  /* ── Navy: darkest — matches navbar CTA button bg ── */
-  /* Certifications section uses this */
   .section-bg-navy {
     position: relative;
-    background: oklch(0.20 0.055 265);
+    background: linear-gradient(165deg, #031f1e 0%, #051716 45%, #072b29 100%);
     overflow: hidden;
   }
   .section-bg-navy::before {
@@ -220,9 +244,9 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 50% 52% at 8% 20%, oklch(0.36 0.22 258 / 0.55) 0%, transparent 60%),
-      radial-gradient(ellipse 44% 48% at 92% 82%, oklch(0.48 0.18 210 / 0.42) 0%, transparent 58%),
-      radial-gradient(ellipse 36% 32% at 58% 5%,  oklch(0.40 0.20 278 / 0.30) 0%, transparent 52%);
+      radial-gradient(ellipse 50% 52% at 8% 20%, color-mix(in srgb, #00827F 30%, transparent) 0%, transparent 60%),
+      radial-gradient(ellipse 44% 48% at 92% 82%, color-mix(in srgb, #3DC0C3 14%, transparent) 0%, transparent 58%),
+      radial-gradient(ellipse 36% 32% at 58% 5%,  color-mix(in srgb, #00827F 12%, transparent) 0%, transparent 52%);
     pointer-events: none;
     z-index: 0;
   }

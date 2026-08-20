@@ -35,7 +35,7 @@ export default function CTABanner() {
             <div className="relative h-[400px] w-[360px] lg:h-[500px] lg:w-[460px]">
               <Image
                 src="/images/doctor-with-pills-cutout.png"
-                alt="PharmaCore pharmaceutical professional"
+                alt="Samay Pharma pharmaceutical professional"
                 fill
                 className="object-contain object-bottom"
                 sizes="460px"
@@ -68,11 +68,11 @@ export default function CTABanner() {
               variants={staggerContainer(0.06, 0.1)}
               className="font-sans text-3xl md:text-4xl lg:text-5xl font-bold text-foreground text-balance mb-5 leading-tight"
             >
-              {['Ready', 'to', 'Streamline', 'Your', 'Pharmaceutical'].map((w, i) => (
+              {['Ready', 'to', 'Outsource', 'Quality', 'Pharma'].map((w, i) => (
                 <motion.span key={i} variants={wordReveal} className="inline-block mr-[0.22em]">{w}</motion.span>
               ))}
               <motion.span variants={wordReveal} className="accent-italic text-primary inline-block">
-                Procurement?
+                Products?
               </motion.span>
             </motion.h2>
 
@@ -82,8 +82,8 @@ export default function CTABanner() {
               transition={{ delay: 0.55, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
               className="text-muted-foreground text-base max-w-lg leading-relaxed mb-8"
             >
-              Join 1,200+ healthcare providers who trust PharmaCore for reliable,
-              quality-assured pharmaceutical supplies. Get personalised pricing within 24 hours.
+              Partner with Samay Pharma for third-party manufacturing — quality
+              medicines at a fair price, from our Kala Amb plant.
             </motion.p>
 
             {/* Buttons */}
@@ -96,7 +96,7 @@ export default function CTABanner() {
                   href="/contact"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 text-white font-bold rounded-full shadow-md hover:brightness-105 transition-all"
                   style={{
-                    background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))',
+                    background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
                   }}
                 >
                   Get a Free Quote
@@ -110,7 +110,7 @@ export default function CTABanner() {
               </motion.div>
               <motion.div variants={buttonEntrance} whileHover={{ scale: 1.04, y: -2 }} whileTap={{ scale: 0.97 }}>
                 <a
-                  href="tel:+911234567890"
+                  href="tel:+919816667007"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-foreground font-semibold rounded-full border border-border shadow-md hover:border-primary/30 hover:bg-muted/40 transition-all"
                 >
                   <motion.span
@@ -131,7 +131,7 @@ export default function CTABanner() {
               transition={{ delay: 0.9 }}
               className="mt-6 text-muted-foreground/70 text-xs font-mono tracking-wide uppercase"
             >
-              1,200+ partners &nbsp;·&nbsp; WHO-GMP certified &nbsp;·&nbsp; 24h response
+              GMP-GLP &nbsp;·&nbsp; ISO 9001:2015 &nbsp;·&nbsp; FSSAI
             </motion.p>
           </motion.div>
 

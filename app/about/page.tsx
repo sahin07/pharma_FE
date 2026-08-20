@@ -7,8 +7,8 @@ import CertificationsSection from '@/components/sections/certifications'
 import CTABanner from '@/components/sections/cta-banner'
 
 export const metadata: Metadata = {
-  title: 'About PharmaCore Wholesale | Our Story & Mission',
-  description: 'Learn about PharmaCore Wholesale — 25+ years of trusted pharmaceutical distribution, WHO-GMP certification, and commitment to quality healthcare supply.',
+  title: 'About Samay Pharma | Our Story & Mission',
+  description: 'Samay Pharma India Pvt. Ltd. manufactures quality medicines from Kala Amb, Himachal Pradesh — GMP-GLP compliant tablets, capsules, liquids, and ointments, including third-party manufacturing.',
 }
 
 export default function AboutPage() {
@@ -23,10 +23,10 @@ export default function AboutPage() {
             <span className="mx-2">/</span>
             <span>About</span>
           </div>
-          <h1 className="font-heading text-4xl font-bold text-foreground">About PharmaCore</h1>
+          <h1 className="font-heading text-4xl font-bold text-foreground">About Samay Pharma</h1>
         </div>
       </div>
-      <AboutSection />
+      <AboutSection ctaHref="/contact" ctaLabel="Partner With Us" />
       <WhyChooseUsSection />
       <CertificationsSection />
       <CTABanner />

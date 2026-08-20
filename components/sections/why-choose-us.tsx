@@ -58,14 +58,14 @@ export default function WhyChooseUsSection() {
   return (
     <section
       ref={ref}
-      className="py-14 md:py-20 overflow-hidden bg-navy-btn"
+      className="py-14 md:py-20 overflow-hidden section-bg-why"
     >
       <div className="max-w-[1680px] mx-auto px-10">
         <SectionHeading
           badge="Why Choose Us"
-          title="The PharmaCore"
-          accentWord="Difference"
-          subtitle="We combine industry expertise, regulatory compliance, and logistics excellence to deliver an unmatched wholesale pharmaceutical experience."
+          title="The Samay Pharma"
+          accentWord="Promise"
+          subtitle="We believe access to safe, effective, and affordable healthcare is a right — and we manufacture to that standard."
           inView={inView}
           dark
         />

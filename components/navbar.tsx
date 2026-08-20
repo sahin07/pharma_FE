@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
@@ -81,16 +82,15 @@ export default function Navbar() {
       >
         <nav className="max-w-[1680px] mx-auto px-10 flex items-center justify-between h-[4.75rem]">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-10 h-10 bg-foreground rounded-xl flex items-center justify-center group-hover:bg-primary transition-colors duration-200">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-              </svg>
-            </div>
-            <div>
-              <div className="font-sans font-bold text-foreground text-base tracking-tight leading-none">PharmaCore</div>
-              <div className="font-mono text-[10px] tracking-[0.2em] text-muted-foreground uppercase leading-none mt-1">Wholesale</div>
-            </div>
+          <Link href="/" className="flex items-center shrink-0 group">
+            <Image
+              src="/images/logos/2.png"
+              alt="Samay Pharma"
+              width={160}
+              height={38}
+              className="h-9 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -168,7 +168,7 @@ export default function Navbar() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 text-[15px] font-bold text-white px-7 py-3 rounded-full shadow-md hover:brightness-105 transition-all"
               style={{
-                background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))',
+                background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
               }}
             >
               Get a Quote
@@ -216,7 +216,7 @@ export default function Navbar() {
                     href="/contact"
                     className="block w-full text-center px-4 py-3 text-sm font-bold text-primary-foreground rounded-full shadow-md hover:brightness-105 transition-all"
                     style={{
-                      background: 'linear-gradient(180deg, oklch(0.58 0.20 258), oklch(0.48 0.21 258))',
+                      background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
                     }}
                     onClick={() => setMobileOpen(false)}
                   >

@@ -43,8 +43,8 @@ export default function TrustedPartners() {
         </motion.div>
 
         {/* Edge fades */}
-        <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[oklch(0.16_0.045_265)] to-transparent pointer-events-none" />
-        <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[oklch(0.16_0.045_265)] to-transparent pointer-events-none" />
+        <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#042524] to-transparent pointer-events-none" />
+        <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[#042524] to-transparent pointer-events-none" />
       </div>
     </section>
   )

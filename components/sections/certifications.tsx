@@ -43,11 +43,11 @@ const CertIcons = [
 ]
 
 const certifications = [
-  { year: '2001', title: 'WHO-GMP Certification', body: 'World Health Organization', description: 'Good Manufacturing Practices across all product categories' },
-  { year: '2008', title: 'ISO 9001:2015', body: 'Bureau Veritas', description: 'International Quality Management System certification' },
-  { year: '2015', title: 'CDSCO License', body: 'Central Drugs Standard Control Org.', description: "India's national regulatory authority for drug standards" },
-  { year: '2019', title: 'GDP Certification', body: 'Indian Pharmaceutical Alliance', description: 'Good Distribution Practices for pharmaceutical supply chain' },
-  { year: '2022', title: 'ISO 13485:2016', body: 'TÜV SÜD', description: 'Quality management systems for medical devices' },
+  { year: 'GMP', badge: 'Active', title: 'GMP Certification', body: 'Good Manufacturing Practice', description: 'Manufacturing aligned to GMP so every batch meets required quality and safety standards' },
+  { year: 'GLP', badge: 'Active', title: 'GLP Compliance', body: 'Good Laboratory Practice', description: 'GMP-GLP compliant operations across formulation, testing, and quality control' },
+  { year: '2015', badge: 'Active', title: 'ISO 9001:2015', body: 'Quality Management', description: 'International quality management system covering how we manufacture and control our products' },
+  { year: 'FSSAI', badge: 'Active', title: 'FSSAI Certification', body: 'Food Safety Standards', description: 'Certified against FSSAI requirements for applicable product categories' },
+  { year: 'IP', badge: 'Active', title: 'Pharmacopoeia Standards', body: 'Statutory Compliance', description: 'Products formulated to meet relevant pharmacopoeia standards and statutory requirements' },
 ]
 
 export default function CertificationsSection() {
@@ -96,17 +96,17 @@ export default function CertificationsSection() {
             <div className="mb-8">
               <div className="w-10 h-1 bg-primary rounded-full mb-5" />
               <p className="text-white/60 text-[15px] leading-relaxed">
-                Every product we supply is backed by rigorous international certifications — ensuring your supply chain meets the highest global standards.
+                Every product we manufacture is held to international quality norms — effective, pure, and composed to the required standard.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-4 mb-8">
               {[
-                { value: '20+', label: 'Years certified' },
-                { value: '5', label: 'Active licenses' },
-                { value: '100%', label: 'Audit pass rate' },
-                { value: 'WHO', label: 'Global standard' },
+                { value: 'GMP', label: 'GLP compliant' },
+                { value: 'ISO', label: '9001:2015' },
+                { value: 'FSSAI', label: 'Certified' },
+                { value: '2', label: 'Facilities' },
               ].map(({ value, label }, i) => (
                 <motion.div
                   key={label}
@@ -123,7 +123,7 @@ export default function CertificationsSection() {
 
             {/* CTA */}
             <motion.a
-              href="#"
+              href="/contact"
               initial={{ opacity: 0 }}
               animate={inView ? { opacity: 1 } : {}}
               transition={{ delay: 0.55 }}
@@ -178,7 +178,7 @@ export default function CertificationsSection() {
                     {/* Timeline dot */}
                     <motion.div
                       variants={scalePop}
-                      className={`absolute left-[14px] top-5 w-[18px] h-[18px] rounded-full ${dotClass} shadow-lg border-2 border-[oklch(0.20_0.055_265)] z-10`}
+                      className={`absolute left-[14px] top-5 w-[18px] h-[18px] rounded-full ${dotClass} shadow-lg border-2 border-[#061a19] z-10`}
                     />
 
                     {/* Card */}
@@ -212,7 +212,7 @@ export default function CertificationsSection() {
                       <div className="flex items-center justify-between gap-4">
                         <p className="text-white/50 text-[13px] leading-relaxed">{cert.description}</p>
                         <span className={`shrink-0 font-mono text-[11px] font-bold px-3 py-1 rounded-full border ${accentClass} whitespace-nowrap`}>
-                          Since {cert.year}
+                          {cert.badge}
                         </span>
                       </div>
                     </motion.div>

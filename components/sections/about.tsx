@@ -17,20 +17,26 @@ import {
 } from '@/lib/animations'
 
 const highlights = [
-  'Direct partnerships with 200+ licensed manufacturers',
-  'Temperature-controlled cold-chain infrastructure',
-  'Dedicated account managers for every client',
-  'Real-time order tracking and reporting',
+  'GMP-GLP compliant plant with modern labs, chemical plants, and large-scale lines',
+  'Full oral and topical range: tablets, capsules, liquids, and ointments',
+  'In-house R&D for formulation work, including prolonged-release products',
+  'Third-party manufacturing for small and large pharmaceutical companies',
 ]
 
 const miniStats = [
-  { value: '5,000+', label: 'Products' },
-  { value: '1,200+', label: 'Partners' },
-  { value: '500+', label: 'Cities' },
-  { value: '98%', label: 'Satisfaction' },
+  { value: 'TAB', label: 'Tablets' },
+  { value: 'CAP', label: 'Capsules' },
+  { value: 'LIQ', label: 'Liquids' },
+  { value: 'OIN', label: 'Ointments' },
 ]
 
-export default function AboutSection() {
+export default function AboutSection({
+  ctaHref = '/about',
+  ctaLabel = 'Discover More',
+}: {
+  ctaHref?: string
+  ctaLabel?: string
+}) {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
@@ -60,7 +66,7 @@ export default function AboutSection() {
             >
               <span className="inline-flex items-center gap-2 bg-white border border-border font-mono text-[10px] tracking-[0.14em] uppercase text-muted-foreground px-4 py-1.5 rounded-full shadow-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
-                About PharmaCore
+                About Samay Pharma
               </span>
             </motion.div>
 
@@ -74,7 +80,7 @@ export default function AboutSection() {
               <motion.div style={{ y: imgY }} className="absolute inset-[-10%] inset-x-0">
                 <Image
                   src="/images/about-warehouse.png"
-                  alt="PharmaCore pharmaceutical warehouse"
+                  alt="Samay Pharma manufacturing facility"
                   fill
                   className="object-cover scale-110"
                 />
@@ -89,7 +95,7 @@ export default function AboutSection() {
               whileHover={{ y: -4, transition: { duration: 0.2 } }}
               className="absolute -bottom-6 -right-5 bg-foreground text-white rounded-2xl px-6 py-5 shadow-2xl shadow-black/20"
             >
-              <div className="font-sans font-semibold text-[13px] mb-3 text-white/70 uppercase tracking-wide font-mono">Est. 1999</div>
+              <div className="font-sans font-semibold text-[13px] mb-3 text-white/70 uppercase tracking-wide font-mono">Kala Amb, H.P.</div>
               <div className="grid grid-cols-2 gap-x-8 gap-y-3">
                 {miniStats.map(({ value, label }, i) => (
                   <motion.div
@@ -116,9 +122,9 @@ export default function AboutSection() {
           >
             <SectionHeading
               badge="Our Story"
-              title="Building Healthier India Through Reliable"
-              accentWord="Supply"
-              subtitle="Founded in 1999, PharmaCore bridges world-class manufacturers and healthcare providers — ensuring the right medicines reach the right people at the right time."
+              title="Building a Healthier Life Through Quality"
+              accentWord="Medicines"
+              subtitle="Based in Kala Amb, Himachal Pradesh, Samay Pharma India manufactures quality medicines — tablets, capsules, liquids, and ointments — to international pharmacopoeia standards, at prices meant to stay within reach."
               centered={false}
               inView={inView}
             />
@@ -154,10 +160,10 @@ export default function AboutSection() {
               className="inline-block"
             >
               <Link
-                href="/about"
+                href={ctaHref}
                 className="inline-flex items-center justify-center gap-2 text-white font-bold text-sm px-8 py-4 rounded-full shadow-md hover:brightness-105 transition-all bg-navy-btn"
               >
-                Discover More
+                {ctaLabel}
                 <motion.span
                   animate={{ x: [0, 3, 0], y: [0, -3, 0] }}
                   transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}

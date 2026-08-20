@@ -75,42 +75,42 @@ export const stats = [
 export const features = [
   {
     icon: 'Shield',
-    title: 'WHO-GMP Certified',
-    description: 'All products sourced exclusively from WHO-GMP certified manufacturers ensuring international quality standards.',
+    title: 'GMP-GLP Certified',
+    description: 'Manufacturing aligned to GMP-GLP, pharmacopoeia standards, and statutory requirements — so composition, purity, and safety stay consistent.',
   },
   {
     icon: 'Truck',
-    title: 'Fast Distribution',
-    description: 'Pan-India distribution network with temperature-controlled logistics for sensitive pharmaceutical products.',
+    title: 'Third-Party Manufacturing',
+    description: 'Contract manufacturing for small and large pharma companies that need a reliable partner for quality products at scale.',
   },
   {
     icon: 'Award',
-    title: 'Quality Assurance',
-    description: 'Rigorous quality control processes at every stage from procurement to final delivery.',
+    title: 'Certified Quality',
+    description: 'GMP, ISO 9001:2015, and FSSAI credentials behind how we manufacture, test, and release every batch.',
   },
   {
     icon: 'Users',
-    title: 'Trusted Suppliers',
-    description: 'Partnerships with 200+ licensed pharmaceutical manufacturers and authorized distributors.',
+    title: 'Dedicated Team',
+    description: 'A focused team working to keep quality high and medicines effective — from the plant floor to the partners we serve.',
   },
   {
     icon: 'MapPin',
-    title: 'Nationwide Delivery',
-    description: 'Serving 500+ cities across India with reliable last-mile pharmaceutical delivery.',
+    title: 'Two-Location Setup',
+    description: 'Corporate office in Delhi and a manufacturing unit in Kala Amb, Himachal Pradesh — with shear, fluid-bed, and film-coating capability.',
   },
   {
     icon: 'Tag',
-    title: 'Competitive Pricing',
-    description: 'Bulk procurement advantage passed directly to our clients with transparent pricing models.',
+    title: 'Affordable Medicines',
+    description: 'Quality formulations at reasonable prices, from everyday remedies to complex prescription medicines.',
   },
 ]
 
 export const certifications = [
-  { year: '2001', title: 'WHO-GMP Certification', body: 'World Health Organization', description: 'Certified for Good Manufacturing Practices across all product categories' },
-  { year: '2008', title: 'ISO 9001:2015', body: 'Bureau Veritas', description: 'International Quality Management System certification' },
-  { year: '2015', title: 'CDSCO License', body: 'Central Drugs Standard Control Organization', description: 'Full licensing from India\'s national regulatory authority for drug standards' },
-  { year: '2019', title: 'GDP Certification', body: 'Indian Pharmaceutical Alliance', description: 'Good Distribution Practices certification for pharmaceutical supply chain' },
-  { year: '2022', title: 'ISO 13485:2016', body: 'TÜV SÜD', description: 'Quality management systems for medical devices' },
+  { year: 'GMP', title: 'GMP Certification', body: 'Good Manufacturing Practice', description: 'Manufacturing aligned to GMP so every batch meets required quality and safety standards' },
+  { year: 'GLP', title: 'GLP Compliance', body: 'Good Laboratory Practice', description: 'GMP-GLP compliant operations across formulation, testing, and quality control' },
+  { year: '2015', title: 'ISO 9001:2015', body: 'Quality Management', description: 'International quality management system covering how we manufacture and control our products' },
+  { year: 'FSSAI', title: 'FSSAI Certification', body: 'Food Safety Standards', description: 'Certified against FSSAI requirements for applicable product categories' },
+  { year: 'IP', title: 'Pharmacopoeia Standards', body: 'Statutory Compliance', description: 'Products formulated to meet relevant pharmacopoeia standards and statutory requirements' },
 ]
 
 export const processSteps = [
