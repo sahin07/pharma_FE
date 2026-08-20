@@ -135,6 +135,11 @@
     background: linear-gradient(180deg, #3DC0C3, #00827F);
   }
 
+  /* Deep brand teal fill only — safe for fixed overlays (no position override) */
+  .bg-brand-deep {
+    background: linear-gradient(165deg, #042524 0%, #061a19 48%, #08302e 100%);
+  }
+
   /* Why Choose Us — deep brand teal so light text / accents read clearly */
   .section-bg-why {
     position: relative;

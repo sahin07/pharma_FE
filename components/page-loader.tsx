@@ -33,7 +33,6 @@ export default function PageLoader() {
           done = true
           cancelAnimationFrame(frame)
           setVisible(false)
-          // Start page animations as the splash begins fading out
           markReady()
         }, 220)
       }, wait)
@@ -64,7 +63,7 @@ export default function PageLoader() {
       {visible && (
         <motion.div
           key="page-loader"
-          className="fixed inset-0 z-[9999] flex flex-col items-center justify-center section-bg-why"
+          className="fixed inset-0 z-[9999] flex h-[100dvh] min-h-[100dvh] w-full flex-col items-center justify-center bg-brand-deep"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] } }}
           aria-busy="true"
@@ -79,7 +78,7 @@ export default function PageLoader() {
           />
 
           <motion.div
-            className="relative z-10 flex flex-col items-center gap-6"
+            className="relative z-10 flex flex-col items-center gap-6 px-6"
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
@@ -94,14 +93,14 @@ export default function PageLoader() {
                 alt="Samay Pharma"
                 width={200}
                 height={45}
-                className="h-10 w-auto object-contain"
+                className="h-9 w-auto max-w-[min(200px,70vw)] object-contain sm:h-10"
                 priority
               />
             </motion.div>
 
-            <div className="mt-2 h-1 w-40 overflow-hidden rounded-full bg-white/10">
+            <div className="mt-2 h-1 w-36 overflow-hidden rounded-full bg-white/10 sm:w-40">
               <motion.div
-                className="h-full rounded-full bg-primary"
+                className="h-full rounded-full bg-[#3DC0C3]"
                 style={{ width: `${progress}%` }}
               />
             </div>
