@@ -74,7 +74,7 @@ export default function CertificationsSection() {
             initial={{ opacity: 0, y: 24 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="font-sans font-bold text-white text-4xl md:text-5xl leading-[1.1] text-balance"
+            className="font-heading font-black text-white text-4xl md:text-5xl leading-[1.1] text-balance"
           >
             Internationally{' '}
             <em className="accent-italic text-primary">Recognized</em>{' '}

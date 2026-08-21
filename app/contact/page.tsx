@@ -19,7 +19,7 @@ export default function ContactPage() {
             <span>/</span>
             <span className="text-white/65">Contact</span>
           </div>
-          <h1 className="font-sans text-5xl font-bold text-white">Contact <em className="not-italic italic text-secondary">Us</em></h1>
+          <h1 className="font-heading text-5xl font-black text-white">Contact <em className="not-italic italic text-secondary">Us</em></h1>
           <p className="text-white/50 text-base mt-3 max-w-md">Reach our pharmaceutical experts for pricing, sourcing, and partnership inquiries.</p>
         </div>
       </div>

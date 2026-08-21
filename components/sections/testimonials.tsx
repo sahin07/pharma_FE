@@ -75,7 +75,7 @@ export default function TestimonialsSection() {
 
             <motion.h2
               variants={staggerContainer(0.07, 0.1)}
-              className="font-sans font-bold text-white leading-[1.1] text-[2.1rem] mb-6"
+              className="font-heading font-black text-white leading-[1.1] text-[2.1rem] mb-6"
             >
               {['Our', 'Happy'].map((w, i) => (
                 <motion.span key={i} variants={{ hidden: { opacity: 0, y: 24, skewY: 3 }, show: { opacity: 1, y: 0, skewY: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } } }} className="inline-block mr-[0.26em]">{w}</motion.span>

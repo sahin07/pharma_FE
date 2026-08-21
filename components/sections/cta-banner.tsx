@@ -66,7 +66,7 @@ export default function CTABanner() {
             {/* Heading */}
             <motion.h2
               variants={staggerContainer(0.06, 0.1)}
-              className="font-sans text-3xl md:text-4xl lg:text-5xl font-bold text-foreground text-balance mb-5 leading-tight"
+              className="font-heading text-3xl md:text-4xl lg:text-5xl font-black text-foreground text-balance mb-5 leading-tight"
             >
               {['Ready', 'to', 'Outsource', 'Quality', 'Pharma'].map((w, i) => (
                 <motion.span key={i} variants={wordReveal} className="inline-block mr-[0.22em]">{w}</motion.span>

@@ -20,7 +20,7 @@ export default function CertificationsPage() {
             <span className="mx-2">/</span>
             <span>Certifications</span>
           </div>
-          <h1 className="font-heading text-4xl font-bold text-foreground">Quality & Certifications</h1>
+          <h1 className="font-heading text-4xl font-black text-foreground">Quality & Certifications</h1>
         </div>
       </div>
       <CertificationsSection />

@@ -23,7 +23,7 @@ export default function AboutPage() {
             <span className="mx-2">/</span>
             <span>About</span>
           </div>
-          <h1 className="font-heading text-4xl font-bold text-foreground">About Samay Pharma</h1>
+          <h1 className="font-heading text-4xl font-black text-foreground">About Samay Pharma</h1>
         </div>
       </div>
       <AboutSection ctaHref="/contact" ctaLabel="Partner With Us" />

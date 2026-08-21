@@ -20,7 +20,7 @@ export default function ProductsPage() {
             <span className="mx-2">/</span>
             <span>Products</span>
           </div>
-          <h1 className="font-heading text-4xl font-bold text-foreground">Product Catalog</h1>
+          <h1 className="font-heading text-4xl font-black text-foreground">Product Catalog</h1>
           <p className="text-muted-foreground mt-2">5,000+ certified pharmaceutical products from leading manufacturers</p>
         </div>
       </div>

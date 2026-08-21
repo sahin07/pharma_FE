@@ -85,7 +85,7 @@ export default function ContactSection() {
             </motion.div>
 
             {/* Heading */}
-            <h2 className="font-sans font-bold text-white text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.15] text-balance mb-6">
+            <h2 className="font-heading font-black text-white text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.15] text-balance mb-6">
               Let&apos;s Start a{' '}
               <em className="accent-italic text-primary">Conversation</em>
             </h2>

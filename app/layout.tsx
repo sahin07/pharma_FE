@@ -1,23 +1,55 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Lato, Playfair_Display } from 'next/font/google'
+import localFont from 'next/font/local'
 import Providers from '@/components/providers'
 import './globals.css'
 
-const lato = Lato({
-  subsets: ['latin'],
-  variable: '--font-sans',
+/* Nexa Text Pro = thin/regular; Nexa Pro = bold/black (same type family, different cuts) */
+const nexa = localFont({
+  src: [
+    {
+      path: '../public/fontface/NexaTextPro_Trial-Thin.woff2',
+      weight: '100',
+      style: 'normal',
+    },
+    {
+      path: '../public/fontface/NexaTextPro_Trial-ThinItalic.woff2',
+      weight: '100',
+      style: 'italic',
+    },
+    {
+      path: '../public/fontface/NexaTextPro_Trial-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../public/fontface/NexaTextPro_Trial-RegularItalic.woff2',
+      weight: '400',
+      style: 'italic',
+    },
+    {
+      path: '../public/fontface/NexaPro_Trial-Bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../public/fontface/NexaPro_Trial-BoldItalic.woff2',
+      weight: '700',
+      style: 'italic',
+    },
+    {
+      path: '../public/fontface/NexaPro_Trial-Black.woff2',
+      weight: '900',
+      style: 'normal',
+    },
+    {
+      path: '../public/fontface/NexaPro_Trial-BlackItalic.woff2',
+      weight: '900',
+      style: 'italic',
+    },
+  ],
+  variable: '--font-nexa',
   display: 'swap',
-  weight: ['300', '400', '700', '900'],
-})
-
-/* Accent italic only — brand display words */
-const playfairDisplay = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
-  display: 'swap',
-  weight: ['500'],
-  style: ['italic'],
 })
 
 export const metadata: Metadata = {
@@ -51,7 +83,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${lato.variable} ${playfairDisplay.variable} bg-background`}>
+    <html lang="en" className={`${nexa.variable} bg-background`}>
       <body className="antialiased font-sans">
         <Providers>
           {children}

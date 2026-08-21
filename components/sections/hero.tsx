@@ -115,7 +115,7 @@ export default function HeroSection() {
               {/* Heading — word-by-word reveal */}
               <motion.h1
                 variants={staggerContainer(0.07, 0.05)}
-                className="font-sans font-bold text-foreground leading-[1.1] text-balance text-[2.6rem] md:text-5xl xl:text-[3.25rem] mb-6"
+                className="font-heading font-black text-foreground leading-[1.1] text-balance text-[2.6rem] md:text-5xl xl:text-[3.25rem] mb-6"
               >
                 <SplitWords text="Advancing Health" />
                 <br />

@@ -66,7 +66,7 @@ export default function SectionHeading({
         initial="hidden"
         animate={inView ? 'show' : 'hidden'}
         className={cn(
-          'font-sans font-bold leading-[1.15] text-balance text-3xl md:text-4xl lg:text-[2.75rem]',
+          'font-heading font-black leading-[1.15] text-balance text-3xl md:text-4xl lg:text-[2.75rem]',
           dark ? 'text-white' : 'text-foreground'
         )}
       >

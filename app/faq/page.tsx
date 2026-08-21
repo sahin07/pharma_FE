@@ -20,7 +20,7 @@ export default function FAQPage() {
             <span className="mx-2">/</span>
             <span>FAQ</span>
           </div>
-          <h1 className="font-heading text-4xl font-bold text-foreground">Frequently Asked Questions</h1>
+          <h1 className="font-heading text-4xl font-black text-foreground">Frequently Asked Questions</h1>
         </div>
       </div>
       <FAQSection />
