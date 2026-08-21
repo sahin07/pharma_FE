@@ -37,18 +37,16 @@ const CategorySVGs: Record<string, () => React.ReactNode> = {
       <path d="M14 14l4 4"/>
     </svg>
   ),
-  'Medical Devices': () => (
+  Ointments: () => (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M6 12h4l2-4 4 8 2-4h4"/>
-      <circle cx="16" cy="22" r="3"/>
+      <path d="M12 6h8v4l2 2v12a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V12l2-2V6z"/>
+      <line x1="12" y1="14" x2="20" y2="14"/>
     </svg>
   ),
-  'Surgical Products': () => (
+  Liquids: () => (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M8 8l16 16M8 24 L24 8"/>
-      <circle cx="16" cy="16" r="6"/>
-      <line x1="16" y1="10" x2="16" y2="22"/>
-      <line x1="10" y1="16" x2="22" y2="16"/>
+      <path d="M12 4h8l1 4v16a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2V8l1-4z"/>
+      <path d="M12 16c2 3 6 3 8 0"/>
     </svg>
   ),
   'OTC Medicines': () => (
@@ -69,7 +67,7 @@ export default function CategoriesSection() {
           badge="Our Lab Expertise"
           title="Comprehensive Pharmaceutical"
           accentWord="Catalog"
-          subtitle="From generic medicines to specialty drugs and medical devices, our catalog covers every need of modern healthcare providers."
+          subtitle="From tablets and capsules to liquids and ointments — our medicine catalog covers the needs of modern healthcare providers."
           inView={inView}
         />
 

@@ -108,7 +108,7 @@ export default function HeroSection() {
                     animate={play ? { scale: [1, 1.5, 1] } : {}}
                     transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
                   />
-                  India&apos;s Most Trusted Pharma Wholesaler
+                  India&apos;s Most Trusted Pharmaceutical Company
                 </span>
               </motion.div>
 
@@ -125,7 +125,7 @@ export default function HeroSection() {
                   variants={wordReveal}
                   className="accent-italic text-primary inline-block"
                 >
-                  Wholesale
+                  Manufacturing
                 </motion.em>
                 {' '}
                 <motion.span variants={wordReveal} className="inline-block">
@@ -137,8 +137,8 @@ export default function HeroSection() {
                 variants={wordReveal}
                 className="text-muted-foreground leading-relaxed text-[1.0625rem] mb-10 max-w-[440px]"
               >
-                Supplying certified, quality-assured medicines and medical devices to
-                hospitals, pharmacies, and healthcare chains across India.
+                Manufacturing certified, quality-assured medicines for hospitals,
+                pharmacies, and healthcare partners across India.
               </motion.p>
 
               {/* CTA buttons */}

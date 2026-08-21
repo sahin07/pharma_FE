@@ -11,7 +11,7 @@ export default function TrustedPartners() {
     <section className="py-14 section-bg-dark border-y border-white/8">
       <div className="max-w-[1680px] mx-auto px-10 mb-8 text-center">
         <p className="font-mono text-[10px] font-medium text-white uppercase tracking-[0.22em]">
-          Trusted by Leading Pharmaceutical Manufacturers
+          Trusted by Leading Pharmaceutical Partners
         </p>
       </div>
 

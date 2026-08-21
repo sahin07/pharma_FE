@@ -5,8 +5,8 @@ import ProductsClient from '@/components/products-client'
 import CTABanner from '@/components/sections/cta-banner'
 
 export const metadata: Metadata = {
-  title: 'Products | PharmaCore Wholesale — 5,000+ Medicines & Medical Devices',
-  description: 'Browse PharmaCore Wholesale catalog: 5,000+ medicines, medical devices, and surgical products from WHO-GMP certified manufacturers.',
+  title: 'Products | Samay Pharma — Quality Medicines Catalog',
+  description: 'Browse Samay Pharma catalog: tablets, capsules, syrups, injectables, ointments, and OTC medicines from our GMP-GLP certified manufacturing unit.',
 }
 
 export default function ProductsPage() {
@@ -21,7 +21,7 @@ export default function ProductsPage() {
             <span>Products</span>
           </div>
           <h1 className="font-heading text-4xl font-black text-foreground">Product Catalog</h1>
-          <p className="text-muted-foreground mt-2">5,000+ certified pharmaceutical products from leading manufacturers</p>
+          <p className="text-muted-foreground mt-2">Certified medicines manufactured at our GMP-GLP compliant facility</p>
         </div>
       </div>
       <ProductsClient />

@@ -5,8 +5,8 @@ import FAQSection from '@/components/sections/faq'
 import CTABanner from '@/components/sections/cta-banner'
 
 export const metadata: Metadata = {
-  title: 'FAQ | PharmaCore Wholesale',
-  description: 'Frequently asked questions about ordering, payment terms, certifications, and delivery at PharmaCore Wholesale.',
+  title: 'FAQ | Samay Pharma',
+  description: 'Frequently asked questions about ordering, payment terms, certifications, and delivery at Samay Pharma.',
 }
 
 export default function FAQPage() {

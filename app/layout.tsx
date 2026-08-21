@@ -53,19 +53,19 @@ const nexa = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'PharmaCore Wholesale | Premium B2B Pharmaceutical Distributor',
+  title: 'Samay Pharma | Trusted Pharmaceutical Manufacturing Company',
   description:
-    'PharmaCore Wholesale is a trusted B2B pharmaceutical wholesale company supplying high-quality medicines, medical devices, and surgical products to healthcare providers nationwide.',
+    'Samay Pharma is a trusted pharmaceutical manufacturing company producing high-quality medicines for healthcare providers nationwide.',
   keywords: [
-    'pharmaceutical wholesale',
-    'medicine distributor',
+    'pharmaceutical manufacturing',
+    'medicine manufacturer',
     'B2B pharma',
     'WHO-GMP certified',
-    'medical wholesale',
+    'third-party manufacturing',
   ],
   openGraph: {
-    title: 'PharmaCore Wholesale',
-    description: 'Your Trusted B2B Pharmaceutical Wholesale Partner',
+    title: 'Samay Pharma',
+    description: 'Your Trusted Pharmaceutical Manufacturing Partner',
     type: 'website',
   },
 }

@@ -49,21 +49,21 @@ const allProducts = [
   },
   {
     id: 11,
-    name: 'Pulse Oximeter',
-    brand: 'Choicemmed',
-    category: 'Medical Devices',
-    description: 'Fingertip pulse oximeter for SpO2 and heart rate monitoring',
-    image: '/images/products/bp-monitor.png',
-    slug: 'pulse-oximeter',
+    name: 'Omeprazole 20mg Capsules',
+    brand: 'Samay Pharma',
+    category: 'Capsules',
+    description: 'Proton pump inhibitor for acid reflux and peptic ulcer disease',
+    image: '/images/products/amoxicillin.png',
+    slug: 'omeprazole-20mg',
   },
   {
     id: 12,
-    name: 'Disposable Syringes (Box/100)',
-    brand: 'Dispovan',
-    category: 'Surgical Products',
-    description: 'Sterile disposable syringes, 2ml/5ml/10ml variants available',
-    image: '/images/products/surgical-gloves.png',
-    slug: 'disposable-syringes',
+    name: 'Ibuprofen 400mg Tablets',
+    brand: 'Samay Pharma',
+    category: 'Tablets',
+    description: 'NSAID for pain relief, inflammation, and fever management',
+    image: '/images/products/metformin.png',
+    slug: 'ibuprofen-400mg',
   },
 ]
 
@@ -74,8 +74,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = allProducts.find((p) => p.slug === slug)
   if (!product) return { title: 'Product Not Found' }
   return {
-    title: `${product.name} | PharmaCore Wholesale`,
-    description: `${product.description}. Buy ${product.name} from PharmaCore Wholesale — WHO-GMP certified distributor.`,
+    title: `${product.name} | Samay Pharma`,
+    description: `${product.description}. Manufactured by Samay Pharma — GMP-GLP certified pharmaceutical manufacturer.`,
   }
 }
 
@@ -91,10 +91,10 @@ const productDetails = {
 }
 
 const highlights = [
-  'Sourced from WHO-GMP certified manufacturer',
+  'Manufactured in a GMP-GLP certified facility',
   'CDSCO licensed and fully documented',
   'Cold-chain compliant packaging available',
-  'Bulk pricing on request',
+  'Bulk and third-party manufacturing on request',
 ]
 
 export default async function ProductDetailPage({ params }: Props) {

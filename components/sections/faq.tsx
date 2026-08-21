@@ -51,7 +51,7 @@ export default function FAQSection() {
           badge="FAQ"
           title="Frequently Asked"
           accentWord="Questions"
-          subtitle="Everything you need to know about placing orders and working with PharmaCore."
+          subtitle="Everything you need to know about placing orders and working with Samay Pharma."
           inView={inView}
         />
 

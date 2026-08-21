@@ -5,8 +5,8 @@ import CertificationsSection from '@/components/sections/certifications'
 import CTABanner from '@/components/sections/cta-banner'
 
 export const metadata: Metadata = {
-  title: 'Certifications | PharmaCore Wholesale',
-  description: 'PharmaCore Wholesale certifications: WHO-GMP, ISO 9001:2015, CDSCO, GDP, and ISO 13485. Verified quality from globally recognized bodies.',
+  title: 'Certifications | Samay Pharma',
+  description: 'Samay Pharma certifications: GMP, GLP, ISO 9001:2015, and FSSAI. Verified quality from recognized standards bodies.',
 }
 
 export default function CertificationsPage() {

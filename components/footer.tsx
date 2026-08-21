@@ -21,8 +21,8 @@ const footerLinks = {
       { label: 'Tablets & Capsules', href: '/products?category=tablets' },
       { label: 'Syrups & Liquids', href: '/products?category=syrups' },
       { label: 'Injectables', href: '/products?category=injectables' },
-      { label: 'Medical Devices', href: '/products?category=medical-devices' },
-      { label: 'Surgical Products', href: '/products?category=surgical' },
+      { label: 'Ointments', href: '/products?category=ointments' },
+      { label: 'OTC Medicines', href: '/products?category=otc' },
     ],
   },
   services: {
@@ -71,7 +71,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-[13px] text-white/50 leading-relaxed mb-6 max-w-[240px]">
-              India&apos;s trusted B2B pharmaceutical wholesale company. Supplying quality medicines since 1999.
+              India&apos;s trusted pharmaceutical manufacturing company. Quality medicines since 1999.
             </p>
             <div className="space-y-2.5">
               <a href="tel:+919816667007" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors">
@@ -139,7 +139,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-mono text-[11px] tracking-wide text-white/35 text-center">
-            &copy; {new Date().getFullYear()} PharmaCore Wholesale Pvt. Ltd. All rights reserved.
+            &copy; {new Date().getFullYear()} Samay Pharma India Pvt. Ltd. All rights reserved.
           </p>
           <div className="flex items-center gap-3">
             {socials.map((social) => (

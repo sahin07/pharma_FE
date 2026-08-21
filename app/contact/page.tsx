@@ -4,8 +4,8 @@ import Footer from '@/components/footer'
 import ContactSection from '@/components/sections/contact'
 
 export const metadata: Metadata = {
-  title: 'Contact PharmaCore Wholesale | Get a Quote',
-  description: 'Contact PharmaCore Wholesale for product inquiries, pricing, and partnership opportunities. Our team responds within 2 business hours.',
+  title: 'Contact Samay Pharma | Get a Quote',
+  description: 'Contact Samay Pharma for product inquiries, pricing, and manufacturing partnership opportunities. Our team responds within 2 business hours.',
 }
 
 export default function ContactPage() {
@@ -20,7 +20,7 @@ export default function ContactPage() {
             <span className="text-white/65">Contact</span>
           </div>
           <h1 className="font-heading text-5xl font-black text-white">Contact <em className="not-italic italic text-secondary">Us</em></h1>
-          <p className="text-white/50 text-base mt-3 max-w-md">Reach our pharmaceutical experts for pricing, sourcing, and partnership inquiries.</p>
+          <p className="text-white/50 text-base mt-3 max-w-md">Reach our pharmaceutical experts for pricing, manufacturing, and partnership inquiries.</p>
         </div>
       </div>
       <ContactSection />

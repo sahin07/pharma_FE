@@ -14,8 +14,6 @@ import {
   Syringe,
   FlaskConical,
   HeartPulse,
-  Stethoscope,
-  ShieldCheck,
   Package,
   ArrowUpRight,
 } from 'lucide-react'
@@ -25,9 +23,9 @@ const productCategories = [
   { name: 'Capsules', href: '/products?category=capsules', icon: Package, description: 'Gelatin-encapsulated medicines' },
   { name: 'Syrups', href: '/products?category=syrups', icon: FlaskConical, description: 'Liquid oral formulations' },
   { name: 'Injectables', href: '/products?category=injectables', icon: Syringe, description: 'Sterile parenteral preparations' },
-  { name: 'Medical Devices', href: '/products?category=medical-devices', icon: Stethoscope, description: 'Diagnostic & therapeutic equipment' },
-  { name: 'Surgical Products', href: '/products?category=surgical', icon: ShieldCheck, description: 'Sterile surgical consumables' },
-  { name: 'OTC Medicines', href: '/products?category=otc', icon: HeartPulse, description: 'Consumer health products' },
+  { name: 'Ointments', href: '/products?category=ointments', icon: HeartPulse, description: 'Topical creams, gels & ointments' },
+  { name: 'Liquids', href: '/products?category=liquids', icon: FlaskConical, description: 'Oral liquid medicines' },
+  { name: 'OTC Medicines', href: '/products?category=otc', icon: Package, description: 'Consumer health products' },
 ]
 
 const navLinks = [

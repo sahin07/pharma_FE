@@ -3,8 +3,8 @@ export const categories = [
   { id: 2, name: 'Capsules', icon: '🔴', count: 180, slug: 'capsules', description: 'Gelatin-encapsulated medicines for precise dosing' },
   { id: 3, name: 'Syrups', icon: '🧪', count: 95, slug: 'syrups', description: 'Liquid oral formulations including suspensions and elixirs' },
   { id: 4, name: 'Injectables', icon: '💉', count: 210, slug: 'injectables', description: 'Sterile parenteral preparations for IV, IM, and SC administration' },
-  { id: 5, name: 'Medical Devices', icon: '🩺', count: 145, slug: 'medical-devices', description: 'Diagnostic and therapeutic medical equipment' },
-  { id: 6, name: 'Surgical Products', icon: '⚕️', count: 88, slug: 'surgical', description: 'Sterile surgical instruments, drapes, and consumables' },
+  { id: 5, name: 'Ointments', icon: '🧴', count: 120, slug: 'ointments', description: 'Topical formulations including creams, gels, and ointments' },
+  { id: 6, name: 'Liquids', icon: '💧', count: 88, slug: 'liquids', description: 'Oral liquid medicines including suspensions and solutions' },
   { id: 7, name: 'OTC Medicines', icon: '🏥', count: 260, slug: 'otc', description: 'Over-the-counter consumer health products' },
 ]
 
@@ -47,21 +47,21 @@ export const featuredProducts = [
   },
   {
     id: 5,
-    name: 'Digital Blood Pressure Monitor',
-    brand: 'Omron Healthcare',
-    category: 'Medical Devices',
-    description: 'Clinically validated upper arm blood pressure monitoring device',
+    name: 'Diclofenac Gel 30g',
+    brand: 'Samay Pharma',
+    category: 'Ointments',
+    description: 'Topical NSAID gel for musculoskeletal pain and inflammation',
     image: '/images/products/bp-monitor.png',
-    slug: 'digital-bp-monitor',
+    slug: 'diclofenac-gel-30g',
   },
   {
     id: 6,
-    name: 'Surgical Gloves (Box/100)',
-    brand: 'Ansell Medical',
-    category: 'Surgical Products',
-    description: 'Sterile latex examination gloves, powder-free, various sizes',
-    image: '/images/products/surgical-gloves.png',
-    slug: 'surgical-gloves',
+    name: 'Cough Syrup 100ml',
+    brand: 'Samay Pharma',
+    category: 'Liquids',
+    description: 'Oral liquid formulation for relief of dry and productive cough',
+    image: '/images/products/paracetamol-syrup.png',
+    slug: 'cough-syrup-100ml',
   },
 ]
 
@@ -116,7 +116,7 @@ export const certifications = [
 export const processSteps = [
   { step: 1, title: 'Send Inquiry', description: 'Submit your product requirements via our online form, email, or phone. Our team responds within 2 hours.', icon: 'MessageSquare' },
   { step: 2, title: 'Consultation', description: 'Our pharmaceutical experts review your needs and provide tailored product recommendations with pricing.', icon: 'HeadphonesIcon' },
-  { step: 3, title: 'Order Processing', description: 'Once confirmed, your order is verified, documents prepared, and sourcing initiated from certified manufacturers.', icon: 'ClipboardList' },
+  { step: 3, title: 'Order Processing', description: 'Once confirmed, your order is verified, documents prepared, and production is scheduled at our manufacturing unit.', icon: 'ClipboardList' },
   { step: 4, title: 'Dispatch', description: 'Products packed in cold-chain compliant packaging and dispatched via our trusted logistics partners.', icon: 'Package' },
   { step: 5, title: 'Delivery', description: 'Track your shipment in real-time. Guaranteed delivery within 48-72 hours to most major cities.', icon: 'CheckCircle' },
 ]
@@ -127,7 +127,7 @@ export const testimonials = [
     name: 'Dr. Rajesh Sharma',
     role: 'Procurement Head',
     company: 'Apollo Hospitals',
-    quote: 'PharmaCore has been our primary wholesale partner for 8 years. Their product quality, documentation, and delivery reliability is unmatched in the industry.',
+    quote: 'Samay Pharma has been our primary manufacturing partner for 8 years. Their product quality, documentation, and delivery reliability is unmatched in the industry.',
     rating: 5,
     avatar: 'RS',
   },
@@ -145,7 +145,7 @@ export const testimonials = [
     name: 'Mohammed Iqbal',
     role: 'General Manager',
     company: 'City Hospital Network',
-    quote: 'We&apos;ve streamlined our pharmaceutical procurement by 40% since partnering with PharmaCore. Their digital ordering system is a game-changer.',
+    quote: 'We&apos;ve streamlined our pharmaceutical procurement by 40% since partnering with Samay Pharma. Their ordering process is a game-changer.',
     rating: 5,
     avatar: 'MI',
   },
@@ -154,7 +154,7 @@ export const testimonials = [
     name: 'Sunita Patel',
     role: 'Pharmacy Director',
     company: 'Fortis Medical Centre',
-    quote: 'Consistent quality, competitive prices, and a dedicated account manager. PharmaCore understands the unique demands of hospital procurement.',
+    quote: 'Consistent quality, competitive prices, and a dedicated account manager. Samay Pharma understands the unique demands of hospital procurement.',
     rating: 5,
     avatar: 'SP',
   },
@@ -163,11 +163,11 @@ export const testimonials = [
 export const faqs = [
   {
     question: 'What is the minimum order quantity (MOQ)?',
-    answer: 'Our MOQ varies by product category. For most pharmaceuticals, the minimum order is 1 carton (typically 100-500 units). For medical devices, MOQ is 1 unit. Please contact our sales team for specific product MOQs.',
+    answer: 'Our MOQ varies by product category. For most medicines, the minimum order is 1 carton (typically 100-500 units). Please contact our sales team for specific product MOQs.',
   },
   {
     question: 'Are all products WHO-GMP certified?',
-    answer: 'Yes, all products in our catalog are sourced exclusively from WHO-GMP certified manufacturers. We maintain strict supplier qualification processes and conduct periodic audits to ensure compliance.',
+    answer: 'Yes. Our medicines are manufactured in a GMP-GLP compliant facility and aligned to pharmacopoeia and statutory quality requirements.',
   },
   {
     question: 'What are your payment terms?',
@@ -195,11 +195,11 @@ export const partners = [
 export const insights = [
   {
     id: 1,
-    title: 'Lab-On-A-Chip Devices For Rapid Diagnostics',
+    title: 'Advances In Oral Solid Dosage Manufacturing',
     date: 'March 18, 2026',
-    slug: 'lab-on-a-chip-devices-rapid-diagnostics',
+    slug: 'advances-oral-solid-dosage-manufacturing',
     image: '/images/insights/lab-on-chip.png',
-    tags: ['Biomedical'],
+    tags: ['Manufacturing'],
   },
   {
     id: 2,

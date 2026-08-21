@@ -90,7 +90,7 @@ export default function ContactSection() {
               <em className="accent-italic text-primary">Conversation</em>
             </h2>
             <p className="text-white/55 text-base leading-relaxed mb-12 max-w-sm">
-              Our pharmaceutical experts are ready to help you source the right products, get competitive pricing, and streamline your supply chain.
+              Our pharmaceutical experts are ready to help you with the right medicines, competitive pricing, and manufacturing partnerships.
             </p>
 
             {/* Contact rows */}
