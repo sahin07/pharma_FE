@@ -10,26 +10,15 @@ import {
   X,
   Phone,
   ChevronDown,
-  Pill,
-  FlaskConical,
-  HeartPulse,
-  Package,
   ArrowUpRight,
 } from 'lucide-react'
 import { categories } from '@/lib/data'
-
-const categoryIcons = {
-  Capsules: Package,
-  Tablets: Pill,
-  'Oral Liquids': FlaskConical,
-  Ointments: HeartPulse,
-} as const
+import { CategoryIcon } from '@/lib/category-icons'
 
 const productCategories = categories.map((cat) => ({
   name: cat.name,
   label: cat.name,
   href: `/products/${cat.slug}`,
-  icon: categoryIcons[cat.name as keyof typeof categoryIcons],
   badge: cat.badge,
   count: cat.countLabel,
   description: cat.description,
@@ -156,7 +145,7 @@ export default function Navbar() {
                                 <div className="flex items-start justify-between mb-2">
                                   <div className="flex items-center gap-3">
                                     <div className="w-10 h-10 rounded-xl bg-white shadow-sm border border-border/60 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-200">
-                                      <cat.icon className="w-5 h-5" />
+                                      <CategoryIcon name={cat.name} size={20} />
                                     </div>
                                     <div>
                                       <h4 className="text-base font-bold text-foreground group-hover:text-primary transition-colors flex items-center gap-1.5">

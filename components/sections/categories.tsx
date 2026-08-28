@@ -5,35 +5,8 @@ import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
 import SectionHeading from '@/components/section-heading'
 import { categories } from '@/lib/data'
+import { CategoryIcon } from '@/lib/category-icons'
 import { staggerContainer, iconPop, lineDraw } from '@/lib/animations'
-
-/* Outlined medical SVG icons matching the reference screenshot */
-const CategorySVGs: Record<string, () => React.ReactNode> = {
-  Tablets: () => (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="4" y="10" width="24" height="12" rx="6"/>
-      <line x1="16" y1="10" x2="16" y2="22"/>
-    </svg>
-  ),
-  Capsules: () => (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M10 16C10 11.582 12.686 8 16 8s6 3.582 6 8-2.686 8-6 8-6-3.582-6-8z"/>
-      <line x1="10" y1="16" x2="22" y2="16"/>
-    </svg>
-  ),
-  'Oral Liquids': () => (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 4h8l1 4v16a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2V8l1-4z"/>
-      <path d="M12 16c2 3 6 3 8 0"/>
-    </svg>
-  ),
-  Ointments: () => (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 6h8v4l2 2v12a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V12l2-2V6z"/>
-      <line x1="12" y1="14" x2="20" y2="14"/>
-    </svg>
-  ),
-}
 
 export default function CategoriesSection() {
   const ref = useRef(null)
@@ -57,7 +30,6 @@ export default function CategoriesSection() {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"
         >
           {categories.map((cat, i) => {
-            const SvgIcon = CategorySVGs[cat.name]
             const accents = [
               { border: 'hover:border-primary/50', icon: 'text-primary bg-primary/8 group-hover:bg-primary group-hover:text-white', num: 'text-primary', activeBorder: 'border-primary/50', activeIcon: 'bg-primary text-white', activeShadow: 'shadow-xl shadow-primary/8' },
               { border: 'hover:border-secondary/50', icon: 'text-secondary bg-secondary/8 group-hover:bg-secondary group-hover:text-white', num: 'text-secondary', activeBorder: 'border-secondary/50', activeIcon: 'bg-secondary text-white', activeShadow: 'shadow-xl shadow-secondary/8' },
@@ -87,17 +59,15 @@ export default function CategoriesSection() {
                   }`}
                 >
                   {/* Icon — pops in with rotate */}
-                  {SvgIcon && (
-                    <motion.div
+                  <motion.div
                       variants={iconPop}
                       transition={{ delay: i * 0.08 + 0.2 }}
                       className={`absolute top-5 right-5 w-11 h-11 rounded-xl flex items-center justify-center transition-all duration-300 ${
                         isDefaultHover ? a.activeIcon : a.icon
                       }`}
                     >
-                      <SvgIcon />
+                      <CategoryIcon name={cat.name} size={32} />
                     </motion.div>
-                  )}
 
                   <span className={`font-mono text-[10px] tracking-[0.14em] uppercase ${a.num} mb-2 block`}>
                     {String(i + 1).padStart(2, '0')}
