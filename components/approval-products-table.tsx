@@ -168,6 +168,15 @@ export default function ApprovalProductsTable({
                       </>
                     ) : null}
 
+                    {row.type === 'base' ? (
+                      <>
+                        <td className={rowCell(compositionCell)}>{row.name}</td>
+                        <td className={rowCell(cell)} />
+                        <td className={rowCell(`${cell} text-center`)}>{row.qty}</td>
+                        <td className={rowCell(cell)} />
+                      </>
+                    ) : null}
+
                     {row.type === 'colour' || row.type === 'note' ? (
                       <>
                         <td className={rowCell(compositionCellWrap)}>{row.text}</td>
