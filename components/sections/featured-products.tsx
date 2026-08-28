@@ -28,33 +28,16 @@ const TabIcons: Record<string, () => React.ReactNode> = {
       <line x1="3" y1="8" x2="13" y2="8"/>
     </svg>
   ),
-  Syrups: () => (
+  'Oral Liquids': () => (
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
-      <path d="M6 3h4l1 2v7a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5l1-2z"/>
-      <line x1="5" y1="7" x2="11" y2="7"/><path d="M7 3V2h2v1"/>
-    </svg>
-  ),
-  Injectables: () => (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
-      <line x1="12" y1="4" x2="4" y2="12"/><path d="M10 3l3 3-1 1-3-3z"/>
-      <line x1="5" y1="11" x2="3" y2="13"/>
+      <path d="M6 2h4l1 2v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4l1-2z"/>
+      <path d="M6 8c1 2 3 2 4 0"/>
     </svg>
   ),
   Ointments: () => (
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
       <path d="M6 2h4v2l1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5l1-1V2z"/>
       <line x1="6" y1="7" x2="10" y2="7"/>
-    </svg>
-  ),
-  Liquids: () => (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
-      <path d="M6 2h4l1 2v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4l1-2z"/>
-      <path d="M6 8c1 2 3 2 4 0"/>
-    </svg>
-  ),
-  'OTC Medicines': () => (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
-      <path d="M4 7h3V4h2v3h3v2h-3v3H7V9H4V7z"/>
     </svg>
   ),
 }

@@ -1,0 +1,2843 @@
+{
+  "source": "APPROVAL LIST  SAMAY PHARMA ...... (1) (1) (1).pdf",
+  "company": "Samay Pharma India Pvt. Ltd",
+  "extractedAt": "2026-08-28T17:35:24",
+  "extractionMethod": "spatial-pymupdf",
+  "pageImages": {
+    "tablets": [
+      "/approval-pdf-pages/tablets/page-002.png",
+      "/approval-pdf-pages/tablets/page-003.png",
+      "/approval-pdf-pages/tablets/page-004.png",
+      "/approval-pdf-pages/tablets/page-005.png",
+      "/approval-pdf-pages/tablets/page-006.png",
+      "/approval-pdf-pages/tablets/page-007.png",
+      "/approval-pdf-pages/tablets/page-008.png",
+      "/approval-pdf-pages/tablets/page-009.png",
+      "/approval-pdf-pages/tablets/page-010.png",
+      "/approval-pdf-pages/tablets/page-011.png",
+      "/approval-pdf-pages/tablets/page-012.png",
+      "/approval-pdf-pages/tablets/page-013.png",
+      "/approval-pdf-pages/tablets/page-014.png",
+      "/approval-pdf-pages/tablets/page-015.png",
+      "/approval-pdf-pages/tablets/page-016.png",
+      "/approval-pdf-pages/tablets/page-017.png",
+      "/approval-pdf-pages/tablets/page-018.png",
+      "/approval-pdf-pages/tablets/page-019.png",
+      "/approval-pdf-pages/tablets/page-020.png",
+      "/approval-pdf-pages/tablets/page-021.png",
+      "/approval-pdf-pages/tablets/page-022.png",
+      "/approval-pdf-pages/tablets/page-023.png",
+      "/approval-pdf-pages/tablets/page-024.png",
+      "/approval-pdf-pages/tablets/page-025.png",
+      "/approval-pdf-pages/tablets/page-026.png",
+      "/approval-pdf-pages/tablets/page-027.png",
+      "/approval-pdf-pages/tablets/page-028.png",
+      "/approval-pdf-pages/tablets/page-029.png",
+      "/approval-pdf-pages/tablets/page-030.png",
+      "/approval-pdf-pages/tablets/page-031.png",
+      "/approval-pdf-pages/tablets/page-032.png"
+    ],
+    "capsules": [
+      "/approval-pdf-pages/capsules/page-033.png",
+      "/approval-pdf-pages/capsules/page-034.png",
+      "/approval-pdf-pages/capsules/page-035.png",
+      "/approval-pdf-pages/capsules/page-036.png",
+      "/approval-pdf-pages/capsules/page-037.png"
+    ],
+    "oral-liquids": [
+      "/approval-pdf-pages/oral-liquids/page-038.png",
+      "/approval-pdf-pages/oral-liquids/page-039.png",
+      "/approval-pdf-pages/oral-liquids/page-040.png",
+      "/approval-pdf-pages/oral-liquids/page-041.png",
+      "/approval-pdf-pages/oral-liquids/page-042.png",
+      "/approval-pdf-pages/oral-liquids/page-043.png",
+      "/approval-pdf-pages/oral-liquids/page-044.png",
+      "/approval-pdf-pages/oral-liquids/page-045.png",
+      "/approval-pdf-pages/oral-liquids/page-046.png"
+    ],
+    "ointments": [
+      "/approval-pdf-pages/ointments/page-047.png",
+      "/approval-pdf-pages/ointments/page-048.png",
+      "/approval-pdf-pages/ointments/page-049.png",
+      "/approval-pdf-pages/ointments/page-050.png",
+      "/approval-pdf-pages/ointments/page-051.png"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Tablets",
+      "slug": "tablets",
+      "productCount": 304,
+      "products": [
+        {
+          "serialNo": 1,
+          "formulation": "Ofloxacin Tablets IP 400mg",
+          "composition": "Each film coated tablet contains\nOfloxacin IP 400 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "1-ofloxacin-tablets-ip-400mg"
+        },
+        {
+          "serialNo": 2,
+          "formulation": "Methylprednisolone Tablets IP",
+          "composition": "Each film coated tablet contains\nMethylprednisolene IP 24 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "2-methylprednisolone-tablets-ip"
+        },
+        {
+          "serialNo": 3,
+          "formulation": "Lornoxicam & Thiocolchicoside Tablets",
+          "composition": "Each film coated tablet contains\nLornoxicam 4 mg\nThiocolchicoside IP 8 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "3-lornoxicam-thiocolchicoside-tablets"
+        },
+        {
+          "serialNo": 4,
+          "formulation": "Diacerein & Aceclofenac Tablets",
+          "composition": "Each film coated tablet contains\nDiacerein IP 50 mg\nAceclofenac IP 100 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "4-diacerein-aceclofenac-tablets"
+        },
+        {
+          "serialNo": 5,
+          "formulation": "Betahistine Tablets IP",
+          "composition": "Each film coatedtablet contains\nBetahistine Hydrochloride IP 8 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "5-betahistine-tablets-ip"
+        },
+        {
+          "serialNo": 6,
+          "formulation": "Ferrous Bisglycinate, Folic Acid, Zinc Bisglycinate & Methylcobalamin Tablets",
+          "composition": "Each film coated tablet contains\nFerrous Bisglycinate 60 mg\nFolic acid IP 1 mg\nZinc Bisglycinate 15 mg\nMethylcobalamin IP 500 mcg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "6-ferrous-bisglycinate-folic-acid-zinc-bisglycinate-methylcobalamin-tablets"
+        },
+        {
+          "serialNo": 7,
+          "formulation": "Biotin & Folic Acid Tablets",
+          "composition": "Each film coated tablet contains\nBiotin USP 5 mg\nFolic acid IP 5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "7-biotin-folic-acid-tablets"
+        },
+        {
+          "serialNo": 8,
+          "formulation": "Gabapentin, Methylcobalamin & Alpha Lipoic Acid Tablets",
+          "composition": "Each film coated tablet contains\nGabapentin USP 300 mg\nMethylcobalamin IP 500 mcg\nAlpha Lipoic Acid USP 100 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "8-gabapentin-methylcobalamin-alpha-lipoic-acid-tablets"
+        },
+        {
+          "serialNo": 9,
+          "formulation": "Ferrous Ascorbate, Folic Acid & Zinc Tablets",
+          "composition": "Each film coated tablet contains\nFerrous Ascorbate\neq. to elemental Iron 100 mg\nFolic Acid IP 1.5 mg\nZinc Sulphate Monohydrate\neq. to Elemental Zinc\nUSP 61.8\n22.5\nmg\nmg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "9-ferrous-ascorbate-folic-acid-zinc-tablets"
+        },
+        {
+          "serialNo": 10,
+          "formulation": "Calcium Citrate Maleate with Vitamin D3 Tablets",
+          "composition": "Each film coated tablet contains\nCalcium Citrate Maleate\neq. to Elemental Calcium\nIP\n250 mg\nVitamin D3 IP 200 IU\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "10-calcium-citrate-maleate-with-vitamin-d3-tablets"
+        },
+        {
+          "serialNo": 11,
+          "formulation": "Folic acid Tablet IP",
+          "composition": "Each film coated tablet contains\nFolic Acid IP 5 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "11-folic-acid-tablet-ip"
+        },
+        {
+          "serialNo": 12,
+          "formulation": "Aceclofenac & Paracetamol tablets",
+          "composition": "Each uncoated tablet contains\nAceclofenac IP 100 mg\nParacetamol IP 325 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "12-aceclofenac-paracetamol-tablets"
+        },
+        {
+          "serialNo": 13,
+          "formulation": "Artemether & Lumefentrine tablets",
+          "composition": "Each Film coated tablet contains\nArtemether IP 80 mg\nLumefentrine USP 480 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "13-artemether-lumefentrine-tablets"
+        },
+        {
+          "serialNo": 14,
+          "formulation": "Febuxostat Tablets",
+          "composition": "Each Film coated tablet contains\nFebuxostat 40 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "14-febuxostat-tablets"
+        },
+        {
+          "serialNo": 15,
+          "formulation": "Febuxostat Tablets",
+          "composition": "Each Film coated tablet contains\nFebuxostat 80 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "15-febuxostat-tablets"
+        },
+        {
+          "serialNo": 16,
+          "formulation": "Rabeprazole & Domperidone Tablets IP",
+          "composition": "Each enteric coated tablet contains\nRabeprazole sodium\nEq. to Rabeprazole\nIP\n20 mg\nDomperidone IP 10 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "16-rabeprazole-domperidone-tablets-ip"
+        },
+        {
+          "serialNo": 17,
+          "formulation": "Etoricoxib Tablets IP 60 mg",
+          "composition": "Each film coated tablet contains\nEtoricoxib IP 60 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "17-etoricoxib-tablets-ip-60-mg"
+        },
+        {
+          "serialNo": 18,
+          "formulation": "Etoricoxib Tablets IP 90 mg",
+          "composition": "Each film coated tablet contains\nEtoricoxib IP 90 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "18-etoricoxib-tablets-ip-90-mg"
+        },
+        {
+          "serialNo": 19,
+          "formulation": "Etoricoxib Tablets IP 120 mg",
+          "composition": "Each film coated tablet contains\nEtoricoxib IP 120 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "19-etoricoxib-tablets-ip-120-mg"
+        },
+        {
+          "serialNo": 20,
+          "formulation": "Etoricoxib & Thiocolchicoside Tablets",
+          "composition": "Each film coated tablet contains\nEtoricoxib IP 60 mg\nThiocolchicoside IP 8 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "20-etoricoxib-thiocolchicoside-tablets"
+        },
+        {
+          "serialNo": 21,
+          "formulation": "Rosuvastatin Tablets IP 10 mg",
+          "composition": "Each film coated tablet contains\nRosuvastatin Calcium\nEq. to Rosuvastatin\nIP\n10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "21-rosuvastatin-tablets-ip-10-mg"
+        },
+        {
+          "serialNo": 22,
+          "formulation": "Rosuvastatin Tablets IP 20 mg",
+          "composition": "Each film coated tablet contains\nRosuvastatin Calcium\nEq. to Rosuvastatin\nIP\n20 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "22-rosuvastatin-tablets-ip-20-mg"
+        },
+        {
+          "serialNo": 23,
+          "formulation": "Rosuvastatin & Fenofibrate Tablets IP",
+          "composition": "Each film coated tablet contains\nRosuvastatin Calcium\nEq. to Rosuvastatin\nIP\n10 mg\nFenofibrate IP 160 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "23-rosuvastatin-fenofibrate-tablets-ip"
+        },
+        {
+          "serialNo": 24,
+          "formulation": "Telmisartan Tablets IP 40 mg",
+          "composition": "Each uncoated tablet contains\nTelmisartan IP 20 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "24-telmisartan-tablets-ip-40-mg"
+        },
+        {
+          "serialNo": 25,
+          "formulation": "Telmisartan Tablets IP 40 mg",
+          "composition": "Each uncoated tablet contains\nTelmisartan IP 40 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "25-telmisartan-tablets-ip-40-mg"
+        },
+        {
+          "serialNo": 26,
+          "formulation": "Telmisartan Tablets IP 80 mg",
+          "composition": "Each uncoated tablet contains\nTelmisartan IP 80 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "26-telmisartan-tablets-ip-80-mg"
+        },
+        {
+          "serialNo": 27,
+          "formulation": "Telmisartan & Hydrochlorothiazide Tablets IP",
+          "composition": "Each film coated tablet contains\nTelmisartan IP 80 mg\nHydrochlorothiazide IP 12.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "27-telmisartan-hydrochlorothiazide-tablets-ip"
+        },
+        {
+          "serialNo": 28,
+          "formulation": "Amlodipine & Atenolol Tablets IP",
+          "composition": "Each uncoated tablet contains\nAmlodipine Besylate\nEq. to Amlodipine\nIP\n5 mg\nAtenolol IP 50 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "28-amlodipine-atenolol-tablets-ip"
+        },
+        {
+          "serialNo": 29,
+          "formulation": "Levofloxacin Tablets IP 500 mg",
+          "composition": "Each film coated tablet contains\nLevofloxacin Hemihydrate\nEq. to Levofloxacin\nIP\n500 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "29-levofloxacin-tablets-ip-500-mg"
+        },
+        {
+          "serialNo": 30,
+          "formulation": "Levofloxacin Tablets IP 750 mg",
+          "composition": "Each film coated tablet contains\nLevofloxacin Hemihydrate\nEq. to Levofloxacin\nIP\n750 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "30-levofloxacin-tablets-ip-750-mg"
+        },
+        {
+          "serialNo": 31,
+          "formulation": "Metformin Hydrochloride Sustained release Tablets IP",
+          "composition": "Each uncoated Sustained release tablet contains\nMetformin Hydrochloride IP 500 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "31-metformin-hydrochloride-sustained-release-tablets-ip"
+        },
+        {
+          "serialNo": 32,
+          "formulation": "Drotaverine Tablets IP",
+          "composition": "Each film coated tablet contains\nDrotaverine Hydrochloride\nEq. to Drotaverine\nIP\n80 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "32-drotaverine-tablets-ip"
+        },
+        {
+          "serialNo": 33,
+          "formulation": "Ciprofloxacin Tablets IP 250 mg",
+          "composition": "Each film coated tablet contains\nCiprofloxacin Hydrochloride\nEq. to Ciprofloxacin\nIP\n250 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "33-ciprofloxacin-tablets-ip-250-mg"
+        },
+        {
+          "serialNo": 34,
+          "formulation": "Ciprofloxacin Tablets IP 500 mg",
+          "composition": "Each film coated tablet contains\nCiprofloxacin Hydrochloride\nEq. to Ciprofloxacin\nIP\n500 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "34-ciprofloxacin-tablets-ip-500-mg"
+        },
+        {
+          "serialNo": 35,
+          "formulation": "Citicoline Tablets IP 500 mg",
+          "composition": "Each film coated tablet contains\nCiticoline Sodium\nEq. to Citicoline\nIP\n500 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "35-citicoline-tablets-ip-500-mg"
+        },
+        {
+          "serialNo": 36,
+          "formulation": "Citicoline & Piracetam Tablets IP",
+          "composition": "Each film coated tablet contains\nCiticoline Sodium\nEq. to Citicoline\nIP\n500 mg\nPiracetam IP 800 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "36-citicoline-piracetam-tablets-ip"
+        },
+        {
+          "serialNo": 37,
+          "formulation": "Flunarizine Tablets 5 mg",
+          "composition": "Each uncoated tablet contains\nFlunarizine Dihydrochloride\nEq. to Flunarizine\nBP\n5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "37-flunarizine-tablets-5-mg"
+        },
+        {
+          "serialNo": 38,
+          "formulation": "Flunarizine Tablets 10 mg",
+          "composition": "Each uncoated tablet contains\nFlunarizine Dihydrochloride\nEq. to Flunarizine\nBP\n10 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "38-flunarizine-tablets-10-mg"
+        },
+        {
+          "serialNo": 39,
+          "formulation": "Amitriptyline Hydrochloride Tablets IP",
+          "composition": "Each film coated tablet contains\nAmitriptyline Hydrochloride IP 10 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "39-amitriptyline-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 40,
+          "formulation": "Amitriptyline Hydrochloride Tablets IP",
+          "composition": "Each film coated tablet contains\nAmitriptyline Hydrochloride IP 25 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "40-amitriptyline-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 41,
+          "formulation": "Olmesartan Medoxomil & Hydrochlorothiaz ide Tablets IP",
+          "composition": "Each film coated tablet contains\nOlmesartan Medoxomil IP 20 mg\nHydrochlorothiazide IP 12.5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "41-olmesartan-medoxomil-hydrochlorothiaz-ide-tablets-ip"
+        },
+        {
+          "serialNo": 42,
+          "formulation": "Olmesartan Medoxomil & Hydrochlorothiaz ide Tablets IP",
+          "composition": "Each film coated tablet contains\nOlmesartan Medoxomil IP 40 mg\nHydrochlorothiazide IP 12.5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "42-olmesartan-medoxomil-hydrochlorothiaz-ide-tablets-ip"
+        },
+        {
+          "serialNo": 43,
+          "formulation": "Olmesartan Medoxomil Tablets IP 20 mg",
+          "composition": "Each film coated tablet contains\nOlmesartan Medoxomil IP 20 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "43-olmesartan-medoxomil-tablets-ip-20-mg"
+        },
+        {
+          "serialNo": 44,
+          "formulation": "Olmesartan Medoxomil Tablets IP 40 mg",
+          "composition": "Each film coated tablet contains\nOlmesartan Medoxomil IP 40 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "44-olmesartan-medoxomil-tablets-ip-40-mg"
+        },
+        {
+          "serialNo": 45,
+          "formulation": "Atorvastatin Tablets IP 10 mg",
+          "composition": "Each film coated tablet contains\nAtorvastatin Calcium\nEq. to Atorvastatin\nIP\n10 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "45-atorvastatin-tablets-ip-10-mg"
+        },
+        {
+          "serialNo": 46,
+          "formulation": "Atorvastatin Tablets IP 20 mg",
+          "composition": "Each film coated tablet contains\nAtorvastatin Calcium\nEq. to Atorvastatin\nIP\n20 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "46-atorvastatin-tablets-ip-20-mg"
+        },
+        {
+          "serialNo": 47,
+          "formulation": "Atorvastatin Tablets IP 40 mg",
+          "composition": "Each film coated tablet contains\nAtorvastatin Calcium\nEq. to Atorvastatin\nIP\n40 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "47-atorvastatin-tablets-ip-40-mg"
+        },
+        {
+          "serialNo": 48,
+          "formulation": "Albendazole Tablets IP",
+          "composition": "Each uncoated tablet contains\nAlbendazole IP 400 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "48-albendazole-tablets-ip"
+        },
+        {
+          "serialNo": 49,
+          "formulation": "Albendazole & Ivermectin",
+          "composition": "Each uncoated tablet contains\nAlbendazole IP 400 mg\nIvermectin IP 6 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "49-albendazole-ivermectin"
+        },
+        {
+          "serialNo": 50,
+          "formulation": "Terbinafine Tablet IP",
+          "composition": "Each uncoated tablet contains\nTerbinafine Hydrochloride\nEq. to Terbinafine\nIP\n250 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "50-terbinafine-tablet-ip"
+        },
+        {
+          "serialNo": 51,
+          "formulation": "Aceclofenac sustained release Tablets 200 mg",
+          "composition": "Each uncoated sustained release tablet contains\nAceclofenac IP 200 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "51-aceclofenac-sustained-release-tablets-200-mg"
+        },
+        {
+          "serialNo": 52,
+          "formulation": "Drotaverine Hydrochloride & Aceclofenac Tablets",
+          "composition": "Each film coated tablet contains\nDrotaverine Hydrochloride IP 80 mg\nAceclofenac IP 100 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "52-drotaverine-hydrochloride-aceclofenac-tablets"
+        },
+        {
+          "serialNo": 53,
+          "formulation": "Propranolol Hydrochloride Tablets IP",
+          "composition": "Each uncoated tablet contains\nPropranolol Hydrochloride IP 40 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "53-propranolol-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 54,
+          "formulation": "Voglibose Tablets 0.3 mg",
+          "composition": "Each uncoated mouth dissolving tablet contains\nVoglibose IP 0.3 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "54-voglibose-tablets-0-3-mg"
+        },
+        {
+          "serialNo": 55,
+          "formulation": "Voglibose Tablets 0.2 mg",
+          "composition": "Each uncoated mouth dissolving tablet contains\nVoglibose IP 0.2 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "55-voglibose-tablets-0-2-mg"
+        },
+        {
+          "serialNo": 56,
+          "formulation": "Gliclazide Tablets IP 80 mg",
+          "composition": "Each uncoated tablet contains\nGliclazide IP 80 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "56-gliclazide-tablets-ip-80-mg"
+        },
+        {
+          "serialNo": 57,
+          "formulation": "Ramipril Tablets IP 2.5 mg",
+          "composition": "Each film coated tablet contains\nRamipril IP 2.5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "57-ramipril-tablets-ip-2-5-mg"
+        },
+        {
+          "serialNo": 58,
+          "formulation": "Ramipril Tablets IP 5 mg",
+          "composition": "Each film coated tablet contains\nRamipril IP 5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "58-ramipril-tablets-ip-5-mg"
+        },
+        {
+          "serialNo": 59,
+          "formulation": "Ethamsylate Tablets 250 mg",
+          "composition": "Each film coated tablet contains\nEthamsylate BP 250 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "59-ethamsylate-tablets-250-mg"
+        },
+        {
+          "serialNo": 60,
+          "formulation": "Ethamsylate Tablets 500 mg",
+          "composition": "Each film coated tablet contains\nEthamsylate BP 500 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "60-ethamsylate-tablets-500-mg"
+        },
+        {
+          "serialNo": 61,
+          "formulation": "Levocetirizine Dihydrochloride & Montelukast dispersible Tablets",
+          "composition": "Each uncoated dispersible tablet contains\nLevocetirizine Dihydrochloride IP 2.5 mg\nMontelukast Sodium\nEq. to Montelukast\nIP\n5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "61-levocetirizine-dihydrochloride-montelukast-dispersible-tablets"
+        },
+        {
+          "serialNo": 62,
+          "formulation": "Amisulpride Tablets IP 200 mg",
+          "composition": "Each uncoated tablet contains\nAmisulpride IP 200 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "62-amisulpride-tablets-ip-200-mg"
+        },
+        {
+          "serialNo": 63,
+          "formulation": "Amisulpride Tablets IP 100 mg",
+          "composition": "Each uncoated tablet contains\nAmisulpride IP 100 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "63-amisulpride-tablets-ip-100-mg"
+        },
+        {
+          "serialNo": 64,
+          "formulation": "Amisulpride Tablets IP 50 mg",
+          "composition": "Each uncoated tablet contains\nAmisulpride IP 50 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "64-amisulpride-tablets-ip-50-mg"
+        },
+        {
+          "serialNo": 65,
+          "formulation": "Ebastine Tablets IP",
+          "composition": "Each film coated tablet contains\nEbastine IP 10 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "65-ebastine-tablets-ip"
+        },
+        {
+          "serialNo": 66,
+          "formulation": "Metoprolol Tartrate & Amlodipine Tablets IP",
+          "composition": "Each film coated tablet contains\nMetoprolol Succinate\nEq. to Metoprolol Tartrate\nIP 47.5",
+          "slug": "66-metoprolol-tartrate-amlodipine-tablets-ip"
+        },
+        {
+          "serialNo": 67,
+          "formulation": "Vildaglipthin & Metformin Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nVildaglipthin 50 mg\nMetformin Hydrochloride IP 500 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "67-vildaglipthin-metformin-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 68,
+          "formulation": "Vildaglipthin Tablets",
+          "composition": "Each uncoated tablet contains\nVildaglipthin 50 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "68-vildaglipthin-tablets"
+        },
+        {
+          "serialNo": 69,
+          "formulation": "Cinnarizine Tablets IP 25 mg",
+          "composition": "Each film coated tablet contains\nCinnarizine IP 25 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "69-cinnarizine-tablets-ip-25-mg"
+        },
+        {
+          "serialNo": 70,
+          "formulation": "Ivermectin Tablets",
+          "composition": "Each uncoated tablet contains\nIvermectin IP 6 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "70-ivermectin-tablets"
+        },
+        {
+          "serialNo": 71,
+          "formulation": "Etoricoxib &Thiocolchicoside Tablets",
+          "composition": "Each film coated tablet contains\nEtoricoxib IP 60 mg\nThiocolchicoside IP 4 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "71-etoricoxib-thiocolchicoside-tablets"
+        },
+        {
+          "serialNo": 72,
+          "formulation": "Linezolid Tablets IP",
+          "composition": "Each film coated tablet contains\nLinezolid IP 600 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "72-linezolid-tablets-ip"
+        },
+        {
+          "serialNo": 73,
+          "formulation": "Telmisartan & Amlodipine Tablets IP",
+          "composition": "Each uncoated tablet contains\nTelmisartan IP 40 mg\nAmlodipine Besylate\nEq. to Amlodipine\nIP\n5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "73-telmisartan-amlodipine-tablets-ip"
+        },
+        {
+          "serialNo": 74,
+          "formulation": "Fluconazole Tablets IP",
+          "composition": "Each uncoated tablet contains\nFluconazole IP 200 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "74-fluconazole-tablets-ip"
+        },
+        {
+          "serialNo": 75,
+          "formulation": "Ondansetron Orally Disintegrating Tablets IP",
+          "composition": "Each uncoated Orally Disintegrating tablet contains\nOndansetron Hydrochloride\nEq. to Ondansetron\nIP\n4 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "75-ondansetron-orally-disintegrating-tablets-ip"
+        },
+        {
+          "serialNo": 76,
+          "formulation": "Fexofenadine Hydrochloride Tablets IP",
+          "composition": "Each film coated tablet contains\nFexofenadine Hydrochloride IP 120 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "76-fexofenadine-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 77,
+          "formulation": "Fexofenadine Hydrochloride Tablets IP",
+          "composition": "Each film coated tablet contains\nFexofenadine Hydrochloride IP 180 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "77-fexofenadine-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 78,
+          "formulation": "Methylcobalamin (ER) Tablets JP",
+          "composition": "Each extended release tablet contains\nMethylcobalamin IP 1500 mcg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "78-methylcobalamin-er-tablets-jp"
+        },
+        {
+          "serialNo": 79,
+          "formulation": "Ursodeoxycholic Acid Tablets IP",
+          "composition": "Each uncoated tablet contains\nUrsodeoxycholic Acid IP 150 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "79-ursodeoxycholic-acid-tablets-ip"
+        },
+        {
+          "serialNo": 80,
+          "formulation": "Azithromycin Tablets IP",
+          "composition": "Each film coated tablet contains\nAzithromycin Dihydrate\nEq. to Azithromycin\nIP\n250 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "80-azithromycin-tablets-ip"
+        },
+        {
+          "serialNo": 81,
+          "formulation": "Rabeprazole Gastro resistant Tablets IP",
+          "composition": "Each enteric coated tablet contains\nRabeprazole sodium\nEq. to Rabeprazole\nIP\n20 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "81-rabeprazole-gastro-resistant-tablets-ip"
+        },
+        {
+          "serialNo": 82,
+          "formulation": "Azithromycin Tablets IP",
+          "composition": "Each film coated tablet contains\nAzithromycin Dihydrate\nEq. to Azithromycin\nIP\n500 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "82-azithromycin-tablets-ip"
+        },
+        {
+          "serialNo": 83,
+          "formulation": "Ursodeoxycholic Acid Tablets IP",
+          "composition": "Each uncoated tablet contains\nUrsodeoxycholic Acid IP 300 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "83-ursodeoxycholic-acid-tablets-ip"
+        },
+        {
+          "serialNo": 84,
+          "formulation": "Pantoprazole Gastro resistant Tablets IP",
+          "composition": "Each enteric coated tablet contains\nPantoprazole sodium\nEq. to Pantoprazole\nIP\n40 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "84-pantoprazole-gastro-resistant-tablets-ip"
+        },
+        {
+          "serialNo": 85,
+          "formulation": "Pantoprazole & Domperidone Gastro resistant Tablets",
+          "composition": "Each enteric coated tablet contains\nPantoprazole sodium\nEq. to Pantoprazole\nIP\n40 mg\nDomperidone IP 10 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "85-pantoprazole-domperidone-gastro-resistant-tablets"
+        },
+        {
+          "serialNo": 86,
+          "formulation": "Paracetamol Tablets IP 650 mg",
+          "composition": "Each uncoated tablet contains\nParacetamol IP 650 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "86-paracetamol-tablets-ip-650-mg"
+        },
+        {
+          "serialNo": 87,
+          "formulation": "Paracetamol Tablets IP 500 mg",
+          "composition": "Each uncoated tablet contains\nParacetamol IP 500 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "87-paracetamol-tablets-ip-500-mg"
+        },
+        {
+          "serialNo": 88,
+          "formulation": "Diclofenac Potassium, Paracetamol & Chlorzoxazone Tablets",
+          "composition": "Each uncoated tablet contains\nDiclofenac Potassium IP 50 mg\nParacetamol IP 325 mg\nChlorzoxazone USP 250 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "88-diclofenac-potassium-paracetamol-chlorzoxazone-tablets"
+        },
+        {
+          "serialNo": 89,
+          "formulation": "Aceclofenac, Paracetamol & Chlorzoxazone Tablets",
+          "composition": "Each uncoated tablet contains\nAceclofenac IP 100 mg\nParacetamol IP 325 mg\nChlorzoxazone USP 250 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "89-aceclofenac-paracetamol-chlorzoxazone-tablets"
+        },
+        {
+          "serialNo": 90,
+          "formulation": "Nimesulide&Para cetamol Tablets Not for Children below",
+          "composition": "",
+          "slug": "90-nimesulide-para-cetamol-tablets-not-for-children-below"
+        },
+        {
+          "serialNo": 91,
+          "formulation": "Diclofenac Sodium & Paracetamol Tablets IP",
+          "composition": "Each uncoated tablet contains\nDiclofenac Sodium IP 50 mg\nParacetamol IP 325 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "91-diclofenac-sodium-paracetamol-tablets-ip"
+        },
+        {
+          "serialNo": 92,
+          "formulation": "Diclofenac Potassium &Serratiopeptidas e Tablets",
+          "composition": "Each enteric coated tablet contains\nDiclofenac Potassium IP 50 mg\nSerratiopeptidase\n(as enteric coated granules\nenzyme activity 20,000 units)\nIP 10 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "92-diclofenac-potassium-serratiopeptidas-e-tablets"
+        },
+        {
+          "serialNo": 93,
+          "formulation": "Aceclofenac, Paracetamol &Serratiopeptidas e Tablets",
+          "composition": "Each film coated tablet contains\nAceclofenac IP 100 mg\nParacetamol IP 325 mg\nSerratiopeptidase\n(as enteric coated granules\nenzyme activity 30,000 units)\nIP 15 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "93-aceclofenac-paracetamol-serratiopeptidas-e-tablets"
+        },
+        {
+          "serialNo": 94,
+          "formulation": "Aceclofenac, Paracetamol &Serratiopeptidas e Tablets",
+          "composition": "Each film coated tablet contains\nAceclofenac IP 100 mg\nParacetamol IP 325 mg\nSerratiopeptidase\n(as enteric coated granules\nenzyme activity 20,000 units)\nIP 10 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "94-aceclofenac-paracetamol-serratiopeptidas-e-tablets"
+        },
+        {
+          "serialNo": 95,
+          "formulation": "Ofloxacin Tablets IP 200mg",
+          "composition": "Each film coated tablet contains\nOfloxacin IP 200 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "95-ofloxacin-tablets-ip-200mg"
+        },
+        {
+          "serialNo": 96,
+          "formulation": "Methylprednisolon e Tablets IP",
+          "composition": "Each film coated tablet contains\nMethylprednisolone IP 2 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "96-methylprednisolon-e-tablets-ip"
+        },
+        {
+          "serialNo": 97,
+          "formulation": "Methylprednisolon e Tablets IP",
+          "composition": "Each film coated tablet contains\nMethylprednisolone IP 4 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "97-methylprednisolon-e-tablets-ip"
+        },
+        {
+          "serialNo": 98,
+          "formulation": "Methylprednisolon e Tablets IP",
+          "composition": "Each film coated tablet contains\nMethylprednisolone IP 16 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "98-methylprednisolon-e-tablets-ip"
+        },
+        {
+          "serialNo": 99,
+          "formulation": "Ofloxacin & Ornidazole Tablets IP",
+          "composition": "Each film coated tablet contains\nOfloxacin IP 200 mg\nOrnidazole HCl IP 500 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "99-ofloxacin-ornidazole-tablets-ip"
+        },
+        {
+          "serialNo": 100,
+          "formulation": "Levocetirizine Dihydrochloride Tablets IP",
+          "composition": "Each uncoated tablet contains\nLevocetirizine Dihydrochloride IP 5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "100-levocetirizine-dihydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 101,
+          "formulation": "Levocetirizine Dihydrochloride & Montelukast Tablets IP",
+          "composition": "Each film coated tablet contains\nLevocetirizine Dihydrochloride IP 5 mg\nMontelukast Sodium\nEq. to Montelukast\nIP\n10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "101-levocetirizine-dihydrochloride-montelukast-tablets-ip"
+        },
+        {
+          "serialNo": 102,
+          "formulation": "Cinnarizine Tablets IP 25 mg",
+          "composition": "Each film coated tablet contains\nCinnarizine IP 25 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "102-cinnarizine-tablets-ip-25-mg"
+        },
+        {
+          "serialNo": 103,
+          "formulation": "Aceclofenac &Thiocolchicoside Tablets",
+          "composition": "Each film coated tablet contains\nAceclofenac IP 100 mg\nThiocolchicoside IP 4 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "103-aceclofenac-thiocolchicoside-tablets"
+        },
+        {
+          "serialNo": 104,
+          "formulation": "Glimepiride & Metformin Hydrochloride (Prolonged￾Release) Tablets IP",
+          "composition": "Each film coated tablet contains\nGlimepiride IP 1 mg\nMetformin Hydrochloride\n(as prolonged-release form)\nIP 500 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "104-glimepiride-metformin-hydrochloride-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 105,
+          "formulation": "Metoprolol Tartrate (ER) & Ramipril Tablets",
+          "composition": "Each film coated tablet contains\nMetoprolol Succinate\nEq. to Metoprolol Tartrate\n(as extended release)\nIP 23.75",
+          "slug": "105-metoprolol-tartrate-er-ramipril-tablets"
+        },
+        {
+          "serialNo": 106,
+          "formulation": "Paroxetine Tablet IP",
+          "composition": "Each film coated tablet contains\nParoxetine Hydrochloride\nEq. to Paroxetine\nIP\n10 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "106-paroxetine-tablet-ip"
+        },
+        {
+          "serialNo": 107,
+          "formulation": "Paroxetine Tablet IP",
+          "composition": "Each film coated tablet contains\nParoxetine Hydrochloride\nEq. to Paroxetine\nIP\n20 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "107-paroxetine-tablet-ip"
+        },
+        {
+          "serialNo": 108,
+          "formulation": "Paroxetine Tablet IP",
+          "composition": "Each film coated tablet contains\nParoxetine Hydrochloride\nEq. to Paroxetine\nIP\n30 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "108-paroxetine-tablet-ip"
+        },
+        {
+          "serialNo": 109,
+          "formulation": "Esomeprazole gastro-resistant Tablets IP",
+          "composition": "Each gastro-resistant tablet contains\nEsomeprazole Magnesium Trihydrate\nEq. to Esomeprazole\nIP\n40 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "109-esomeprazole-gastro-resistant-tablets-ip"
+        },
+        {
+          "serialNo": 110,
+          "formulation": "Gliclazide (MR) Tablets",
+          "composition": "Each uncoated modified release tablet contains\nGliclazide IP 30 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "110-gliclazide-mr-tablets"
+        },
+        {
+          "serialNo": 111,
+          "formulation": "Gliclazide (MR) & Metformin Hydrochloride (ER) Tablets",
+          "composition": "Each uncoated tablet contains\nGliclazide\n(as modified released form)\nIP 60 mg\nMetformin Hydrochloride\n(as extended released form)\nIP 500 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "111-gliclazide-mr-metformin-hydrochloride-er-tablets"
+        },
+        {
+          "serialNo": 112,
+          "formulation": "Divalproex Sodium prolonged release Tablets IP",
+          "composition": "Each film coated prolonged release tablet contains\nDivalproex Sodium\nEq. to Valproic Acid\nIP\n500 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "112-divalproex-sodium-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 113,
+          "formulation": "Divalproex Sodium prolonged release Tablets IP",
+          "composition": "Each film coated prolonged release tablet contains\nDivalproex Sodium\nEq. to Valproic Acid\nIP\n750 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "113-divalproex-sodium-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 114,
+          "formulation": "Flupentixol Tablets 0.5 mg",
+          "composition": "Each film coated tablet contains\nFlupentixol Hydrochloride\nEq. to Flupentixol\nBP\n0.5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "114-flupentixol-tablets-0-5-mg"
+        },
+        {
+          "serialNo": 115,
+          "formulation": "Metformin Hydrochloride & Voglibose Tablets",
+          "composition": "Each film coated tablet contains\nMetformin Hydrochloride IP 500 mg\nVoglibose IP 0.3 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "115-metformin-hydrochloride-voglibose-tablets"
+        },
+        {
+          "serialNo": 116,
+          "formulation": "Levetiracetam Tablets IP",
+          "composition": "Each film coated tablet contains\nLevetiracetam IP 250 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "116-levetiracetam-tablets-ip"
+        },
+        {
+          "serialNo": 117,
+          "formulation": "Levetiracetam Tablets IP",
+          "composition": "Each film coated tablet contains\nLevetiracetam IP 500 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "117-levetiracetam-tablets-ip"
+        },
+        {
+          "serialNo": 118,
+          "formulation": "Pregabalin sustained release Tablets",
+          "composition": "Each sustained release tablet contains\nPregabalin IP 75 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "118-pregabalin-sustained-release-tablets"
+        },
+        {
+          "serialNo": 119,
+          "formulation": "Rifaximin Tablets 400 mg",
+          "composition": "Each film coated tablet contains\nRifaximin 400 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "119-rifaximin-tablets-400-mg"
+        },
+        {
+          "serialNo": 120,
+          "formulation": "Calcium Carbonate, Calcitriol & Zinc Tablets",
+          "composition": "Each film coated tablet contains\nCalcium Carbonate\nEq. to Elemental Calcium\n(derived from an organic oyster\nshells)\nIP 1250\n500\nmg\nmg\nCalcitriol IP 0.25 mcg\nZinc Sulphate Monohydrate\nEq. to Elemental Zinc\nIP\n7.5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "120-calcium-carbonate-calcitriol-zinc-tablets"
+        },
+        {
+          "serialNo": 121,
+          "formulation": "Calcium Carbonate & Vitamin D3 Tablets IP",
+          "composition": "Each film coated tablet contains\nCalcium Carbonate\nEq. to Elemental Calcium\n(derived from an organic oyster\nshells)\nIP 1250\n500\nmg\nmg\nVitamin D3 IP 250 IU\nExcipents q.s\nColour: Approved colour added",
+          "slug": "121-calcium-carbonate-vitamin-d3-tablets-ip"
+        },
+        {
+          "serialNo": 122,
+          "formulation": "Sodium Feredetate, Vitamin B12 & Folic Acid Tablets",
+          "composition": "Each film coated tablet contains\nSodium Feredetate\nEq. to Elemental Iron\nBP 231",
+          "slug": "122-sodium-feredetate-vitamin-b12-folic-acid-tablets"
+        },
+        {
+          "serialNo": 123,
+          "formulation": "Alfacalcidol& Calcium Carbonate Tablets",
+          "composition": "Each film coated tablet contains\nAlfacalcidol IP 0.25 mcg\nCalcium Carbonate\nEq. to Elemental Calcium\n(derived from an organic oyster\nshells)\nIP 1250\n500\nmg\nmg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "123-alfacalcidol-calcium-carbonate-tablets"
+        },
+        {
+          "serialNo": 124,
+          "formulation": "Hydroxyzine Hydrochloride Tablets IP",
+          "composition": "Each film coated tablet contains\nHydroxyzine Hydrochloride IP 25 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "124-hydroxyzine-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 125,
+          "formulation": "Duloxetine Gastro resistant Tablets IP 20 mg",
+          "composition": "Each enteric coated tablet contains\nDuloxetine Hydrochloride\nEq. to Duloxetine\nIP\n20 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "125-duloxetine-gastro-resistant-tablets-ip-20-mg"
+        },
+        {
+          "serialNo": 126,
+          "formulation": "Dicyclomine Hydrochloride & Mefenamic Acid Tablets IP",
+          "composition": "Each uncoated tablet contains\nDicyclomine Hydrochloride IP 10 mg\nMefenamic Acid IP 250 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "126-dicyclomine-hydrochloride-mefenamic-acid-tablets-ip"
+        },
+        {
+          "serialNo": 127,
+          "formulation": "Losartan Potassium Tablets IP 50 mg",
+          "composition": "Each film coated tablet contains\nLosartan Potassium IP 50 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "127-losartan-potassium-tablets-ip-50-mg"
+        },
+        {
+          "serialNo": 128,
+          "formulation": "Amitriptyline Hydrochloride Tablets IP 10mg",
+          "composition": "Each film coated tablet contains\nAmitriptyline Hydrochloride IP 10 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "128-amitriptyline-hydrochloride-tablets-ip-10mg"
+        },
+        {
+          "serialNo": 129,
+          "formulation": "Amitriptyline Hydrochloride Tablets IP 25mg",
+          "composition": "Each film coated tablet contains\nAmitriptyline Hydrochloride IP 25 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "129-amitriptyline-hydrochloride-tablets-ip-25mg"
+        },
+        {
+          "serialNo": 130,
+          "formulation": "Metformin Hydrochloride Prolonged￾Release Tablets IP",
+          "composition": "Each uncoated prolonged-release tablet contains\nMetformin Hydrochloride IP 1000 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "130-metformin-hydrochloride-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 131,
+          "formulation": "Gabapentin & Mecobalamin Tablets",
+          "composition": "Each film coated tablet contains\nGabapentin IP 300 mg\nMecobalamin IP 500 mcg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "131-gabapentin-mecobalamin-tablets"
+        },
+        {
+          "serialNo": 132,
+          "formulation": "Montelukast Tablets IP",
+          "composition": "Each film coated tablet contains\nMontelukast Sodium\nEq. to Montelukast\nIP\n10 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "132-montelukast-tablets-ip"
+        },
+        {
+          "serialNo": 133,
+          "formulation": "Piroxicam IP Tablets 20 mg",
+          "composition": "Each uncoated tablet contains\nPiroxicam IP 20 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "133-piroxicam-ip-tablets-20-mg"
+        },
+        {
+          "serialNo": 134,
+          "formulation": "Isoxsuprine Hydrochloride sustained release Tablets",
+          "composition": "Each uncoated sustained release tablet contains\nIsoxsuprine Hydrochloride IP 40 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "134-isoxsuprine-hydrochloride-sustained-release-tablets"
+        },
+        {
+          "serialNo": 135,
+          "formulation": "Fluconazole Tablets IP 100 mg",
+          "composition": "Each uncoated tablet contains\nFluconazole IP 100 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "135-fluconazole-tablets-ip-100-mg"
+        },
+        {
+          "serialNo": 136,
+          "formulation": "Calcium, Calcitriol & Zinc Tablets",
+          "composition": "Each uncoated tablet contains\nCalcium Citrate\nEq. to Elemental Calcium\nIP\n200 mg\nCalcitriol IP 0.25 mcg\nZinc Sulphate Monohydrate\nEq. to elemental Zinc\nIP\n7.5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "136-calcium-calcitriol-zinc-tablets"
+        },
+        {
+          "serialNo": 137,
+          "formulation": "Drotaverine & Mefenamic Acid Tablets",
+          "composition": "Each film coated tablet contains\nDrotaverine IP 80 mg\nMefenamic Acid IP 250 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "137-drotaverine-mefenamic-acid-tablets"
+        },
+        {
+          "serialNo": 138,
+          "formulation": "Nortriptyline & Pregabalin Tablets",
+          "composition": "Each film coated tablet contains\nNortriptyline Hydrochloride\nEq. to Nortriptyline\nIP\n10 mg\nPregabalin IP 75 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "138-nortriptyline-pregabalin-tablets"
+        },
+        {
+          "serialNo": 139,
+          "formulation": "Mefenamic Acid & Dicyclomine Hydrochloride Tablets IP",
+          "composition": "Each uncoated tablet contains\nMefenamic Acid IP 500 mg\nDicyclomine Hydrochloride IP 20 mg\nExcipients q.s",
+          "slug": "139-mefenamic-acid-dicyclomine-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 140,
+          "formulation": "Acetaminophen Tablets IP 650 mg",
+          "composition": "Each uncoated tablet contains\nAcetaminophen IP 650 mg\nExcipients q.s",
+          "slug": "140-acetaminophen-tablets-ip-650-mg"
+        },
+        {
+          "serialNo": 141,
+          "formulation": "Metadoxine, Silymarin, L￾Ornithine L￾Aspartate, Pyridoxine Hydrochloride & Folic Acid Tablets",
+          "composition": "Each film coated tablet contains\nMetadoxine IP 500 mg\nSilymarin 140 mg\nL-Ornithine L-Aspartate 150 mg\nPyridoxine Hydrochloride IP 3 mg\nFolic Acid IP 1.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "141-metadoxine-silymarin-l-ornithine-l-aspartate-pyridoxine-hydrochloride-folic-acid-tablets"
+        },
+        {
+          "serialNo": 142,
+          "formulation": "Trioxsalen Tablets USP",
+          "composition": "Each film coated tablets contains:\nTrioxsalen USP 25 mg\nExpicients q.s\nApproved colour used",
+          "slug": "142-trioxsalen-tablets-usp"
+        },
+        {
+          "serialNo": 143,
+          "formulation": "Chlorthalidone Tablets IP",
+          "composition": "Each uncoated tablet contains\nChlorthalidone IP 50 mg\nExcipients q.s",
+          "slug": "143-chlorthalidone-tablets-ip"
+        },
+        {
+          "serialNo": 144,
+          "formulation": "Omeprazole & Domperidone Tablets IP",
+          "composition": "Each enteric coated tablet contains\nOmeprazole Magnesium\nEq. to Omeprazole\nUSP\n20 mg\nDomperidone IP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "144-omeprazole-domperidone-tablets-ip"
+        },
+        {
+          "serialNo": 145,
+          "formulation": "Gliclazide modified Tablets",
+          "composition": "Each uncoated modified release tablet contains\nGliclazide IP 30 mg\nExcipients q.s",
+          "slug": "145-gliclazide-modified-tablets"
+        },
+        {
+          "serialNo": 146,
+          "formulation": "Gliclazide modified Tablets",
+          "composition": "Each uncoated modified release tablet contains\nGliclazide IP 60 mg\nExcipients q.s",
+          "slug": "146-gliclazide-modified-tablets"
+        },
+        {
+          "serialNo": 147,
+          "formulation": "Mefenamic Acid & Paracetamol Tablets",
+          "composition": "Each uncoated tablet contains\nMefenamic Acid IP 500 mg\nParacetamol IP 325 mg\nExcipients q.s",
+          "slug": "147-mefenamic-acid-paracetamol-tablets"
+        },
+        {
+          "serialNo": 148,
+          "formulation": "Telmisartan & Chlorthalidone Tablets",
+          "composition": "Each uncoated tablet contains\nTelmisartan IP 40 mg\nChlorthalidone IP 6.25 mg\nExcipients q.s",
+          "slug": "148-telmisartan-chlorthalidone-tablets"
+        },
+        {
+          "serialNo": 149,
+          "formulation": "Telmisartan & Chlorthalidone Tablets",
+          "composition": "Each uncoated tablet contains\nTelmisartan IP 40 mg\nChlorthalidone IP 12.5 mg\nExcipients q.s",
+          "slug": "149-telmisartan-chlorthalidone-tablets"
+        },
+        {
+          "serialNo": 150,
+          "formulation": "Aceclofenac & Thiocolchicoside Tablets",
+          "composition": "Each film coated tablet contains\nAceclofenac IP 100 mg\nThiocolchicoside IP 8 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "150-aceclofenac-thiocolchicoside-tablets"
+        },
+        {
+          "serialNo": 151,
+          "formulation": "Glimepiride & Pioglitazone Tablets",
+          "composition": "Each film coated tablet contains\nGlimepiride IP 1 mg\nPioglitazone Hydrochloride\nEq. to Pioglitazone\nIP\n15 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "151-glimepiride-pioglitazone-tablets"
+        },
+        {
+          "serialNo": 152,
+          "formulation": "Glimepiride & Pioglitazone Tablets",
+          "composition": "Each film coated tablet contains\nGlimepiride IP 2 mg\nPioglitazone Hydrochloride\nEq. to Pioglitazone\nIP\n15 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "152-glimepiride-pioglitazone-tablets"
+        },
+        {
+          "serialNo": 153,
+          "formulation": "Mefenamic Acid & Tranexamic Acid Tablets",
+          "composition": "Each film coated tablet contains\nMefenamic Acid IP 250 mg\nTranexamic Acid IP 500 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "153-mefenamic-acid-tranexamic-acid-tablets"
+        },
+        {
+          "serialNo": 154,
+          "formulation": "Etodolac extended release Tablets IP",
+          "composition": "Each film coated extended release tablet contains\nEtodolac IP 200 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "154-etodolac-extended-release-tablets-ip"
+        },
+        {
+          "serialNo": 155,
+          "formulation": "Sertraline Tablets IP",
+          "composition": "Each film coated tablet contains\nSertraline Hydrochloride\nEq. to Sertraline\nIP\n25 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "155-sertraline-tablets-ip"
+        },
+        {
+          "serialNo": 156,
+          "formulation": "Sertraline Tablets IP",
+          "composition": "Each film coated tablet contains\nSertraline Hydrochloride\nEq. to Sertraline\nIP\n50 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "156-sertraline-tablets-ip"
+        },
+        {
+          "serialNo": 157,
+          "formulation": "Sertraline Tablets IP",
+          "composition": "Each film coated tablet contains\nSertraline Hydrochloride\nEq. to Sertraline\nIP\n100 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "157-sertraline-tablets-ip"
+        },
+        {
+          "serialNo": 158,
+          "formulation": "Elemental Calcium & Vitamin D3 Tablets",
+          "composition": "Each film coated tablet contains\nCalcium Citrate Malate\nEq. to Elemental Calcium\nUSP\n250 mg\nVitamin D3 IP 200 IU\nExcipients q.s\nColour: Approved colour added",
+          "slug": "158-elemental-calcium-vitamin-d3-tablets"
+        },
+        {
+          "serialNo": 159,
+          "formulation": "Trypsin, Bromelain, Rutoside Trihydrate & Diclofenac Sodium Tablets",
+          "composition": "Each enteric coated tablet contains\nTrypsin BP 48 mg\nBromelain 90 mg\nRutoside Trihydrate BP 100 mg\nDiclofenac Sodium IP 5 mg\nExcipents q.s\nApproved colour used",
+          "slug": "159-trypsin-bromelain-rutoside-trihydrate-diclofenac-sodium-tablets"
+        },
+        {
+          "serialNo": 160,
+          "formulation": "Deflazacort Tablets",
+          "composition": "Each uncoated tablet contains\nDeflazacort 6 mg\nExcipents q.s\nApproved colour used",
+          "slug": "160-deflazacort-tablets"
+        },
+        {
+          "serialNo": 161,
+          "formulation": "Di￾Iodohydroxyquin oline Tablets IP",
+          "composition": "Each uncoated tablet contains\nDi-Iodohydroxyquinoline IP 300 mg\nExcipents q.s\nApproved colour used",
+          "slug": "161-di-iodohydroxyquin-oline-tablets-ip"
+        },
+        {
+          "serialNo": 162,
+          "formulation": "Metronidazole Tablets IP 200 mg",
+          "composition": "Each film coated tablet contains\nMetronidazole IP 200 mg\nExcipients q.s\nApproved colour used",
+          "slug": "162-metronidazole-tablets-ip-200-mg"
+        },
+        {
+          "serialNo": 163,
+          "formulation": "Metronidazole Tablets IP 400 mg",
+          "composition": "Each film coated tablet contains\nMetronidazole IP 400 mg\nExcipients q.s\nApproved colour used",
+          "slug": "163-metronidazole-tablets-ip-400-mg"
+        },
+        {
+          "serialNo": 164,
+          "formulation": "Betahistine Hydrochloride Tablets IP",
+          "composition": "Each uncoated tablet contains\nBetahistine Hydrochloride IP 8 mg\nExcipients q.s",
+          "slug": "164-betahistine-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 165,
+          "formulation": "Betahistine Hydrochloride Tablets IP",
+          "composition": "Each uncoated tablet contains\nBetahistine Hydrochloride IP 16 mg\nExcipients q.s",
+          "slug": "165-betahistine-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 166,
+          "formulation": "Betahistine Hydrochloride (SR) Tablets IP",
+          "composition": "Each film coated sustained release tablet contains\nBetahistine Hydrochloride IP 24 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "166-betahistine-hydrochloride-sr-tablets-ip"
+        },
+        {
+          "serialNo": 167,
+          "formulation": "Fenofibrate & Rosuvastatin Tablets",
+          "composition": "Each film coated tablet contains\nFenofibrate IP 67 mg\nRosuvastatin Calcium\nEq. to Rosuvastatin\nIP\n5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "167-fenofibrate-rosuvastatin-tablets"
+        },
+        {
+          "serialNo": 168,
+          "formulation": "Fenofibrate & Rosuvastatin Tablets",
+          "composition": "Each film coated tablet contains\nFenofibrate IP 145 mg\nRosuvastatin Calcium\nEq. to Rosuvastatin\nIP\n10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "168-fenofibrate-rosuvastatin-tablets"
+        },
+        {
+          "serialNo": 169,
+          "formulation": "Fenofibrate & Rosuvastatin Tablets",
+          "composition": "Each film coated tablet contains\nFenofibrate IP 160 mg\nRosuvastatin Calcium\nEq. to Rosuvastatin\nIP\n20 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "169-fenofibrate-rosuvastatin-tablets"
+        },
+        {
+          "serialNo": 170,
+          "formulation": "Diacerein & Aceclofenac Tablets",
+          "composition": "Each film coated tablet contains\nDiacerein IP 50 mg\nAceclofenac IP 100 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "170-diacerein-aceclofenac-tablets"
+        },
+        {
+          "serialNo": 171,
+          "formulation": "Phenytoin Sodium Tablets IP 300 mg",
+          "composition": "Each film coated tablet contains\nPhenytoin Sodium IP 300 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "171-phenytoin-sodium-tablets-ip-300-mg"
+        },
+        {
+          "serialNo": 172,
+          "formulation": "Loratadine & Ambroxol Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nLoratadine IP 5 mg\nAmbroxol Hydrochloride IP 60 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "172-loratadine-ambroxol-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 173,
+          "formulation": "Deslortadine Tablets",
+          "composition": "Each film coated tablet contains\nDeslortadine 5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "173-deslortadine-tablets"
+        },
+        {
+          "serialNo": 174,
+          "formulation": "Glimepiride & Metformin Hydrochloride Prolonged Release Tablets IP",
+          "composition": "Each uncoated bilayered tablet contains\nGlimepiride IP 1 mg\nMetformin Hydrochloride\n(as Prolonged Release form)\nIP 500 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "174-glimepiride-metformin-hydrochloride-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 175,
+          "formulation": "Glimepiride & Metformin Hydrochloride Prolonged Release Tablets IP",
+          "composition": "Each uncoated bilayered tablet contains\nGlimepiride IP 2 mg\nMetformin Hydrochloride\n(as Prolonged Release form)\nIP 500 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "175-glimepiride-metformin-hydrochloride-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 176,
+          "formulation": "Glimepiride & Metformin Hydrochloride Prolonged Release Tablets IP",
+          "composition": "Each film coated tablet contains\nGlimepiride IP 3 mg\nMetformin Hydrochloride\n(as Prolonged Release form)\nIP 1000 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "176-glimepiride-metformin-hydrochloride-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 177,
+          "formulation": "Glimepiride & Metformin Hydrochloride Prolonged Release Tablets IP",
+          "composition": "Each film coated tablet contains\nGlimepiride IP 4 mg\nMetformin Hydrochloride\n(as Prolonged Release form)\nIP 1000 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "177-glimepiride-metformin-hydrochloride-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 178,
+          "formulation": "Sertaconazole Nitrate Vaginal Tablets",
+          "composition": "Each uncoated vaginal tablet contains\nSertaconazole Nitrate IP 500 mg\nExcipients q.s",
+          "slug": "178-sertaconazole-nitrate-vaginal-tablets"
+        },
+        {
+          "serialNo": 179,
+          "formulation": "Teneligliptin Tablets",
+          "composition": "Each film coated tablet contains\nTeneligliptin Hydrobromide Hydrate\nEq. to Teneligliptin\nIP\n20 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "179-teneligliptin-tablets"
+        },
+        {
+          "serialNo": 180,
+          "formulation": "Tolperisone Hydrochloride & Diclofenac Sodium Tablets",
+          "composition": "Each film coated tablet contains\n:-\nTolperisone Hydrochloride 150 mg\nDiclofenac Sodium IP 50 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "180-tolperisone-hydrochloride-diclofenac-sodium-tablets"
+        },
+        {
+          "serialNo": 181,
+          "formulation": "Lamotrigine Tablets IP",
+          "composition": "Each uncoated dispersible tablet contains\nLamotrigine IP 100 mg\nExcipients q.s",
+          "slug": "181-lamotrigine-tablets-ip"
+        },
+        {
+          "serialNo": 182,
+          "formulation": "Metoprolol Tartrate prolonged release Tablets IP",
+          "composition": "Each uncoated prolonged release tablet contains\nMetoprolol Succinate\nEq. to Metoprolol Tartrate\nIP 23.75",
+          "slug": "182-metoprolol-tartrate-prolonged-release-tablets-ip"
+        },
+        {
+          "serialNo": 183,
+          "formulation": "Clarithromycin Tablets IP",
+          "composition": "Each film coated tablet contains\nClarithromycin IP 250 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "183-clarithromycin-tablets-ip"
+        },
+        {
+          "serialNo": 184,
+          "formulation": "Folic Acid, Riboflavin & Niacinamide Tablets",
+          "composition": "Each film coated tablet contains\nFolic Acid IP 1.5 mg\nRiboflavin IP 10 mg\nNiacinamide IP 50 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "184-folic-acid-riboflavin-niacinamide-tablets"
+        },
+        {
+          "serialNo": 185,
+          "formulation": "Clarithromycin Tablets IP",
+          "composition": "Each film coated tablet contains\nClarithromycin IP 500 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "185-clarithromycin-tablets-ip"
+        },
+        {
+          "serialNo": 186,
+          "formulation": "Tolperisone Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\n:-\nTolperisone Hydrochloride 150 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "186-tolperisone-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 187,
+          "formulation": "Biotin & Folic Acid Tablets",
+          "composition": "Each film coated tablet contains\nBiotin BP 5 mg\nFolic Acid IP 5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "187-biotin-folic-acid-tablets"
+        },
+        {
+          "serialNo": 188,
+          "formulation": "Metoprolol Tartrate (extended release) & Ramipril Tablets",
+          "composition": "Each uncoated tablet contains\nMetoprolol Succinate\nEq. to Metoprolol Tartrate\n(as extended release form)\nIP 47.50",
+          "slug": "188-metoprolol-tartrate-extended-release-ramipril-tablets"
+        },
+        {
+          "serialNo": 189,
+          "formulation": "Topiramate Tablets IP",
+          "composition": "Each film coated tablet contains\nTopiramate IP 25 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "189-topiramate-tablets-ip"
+        },
+        {
+          "serialNo": 190,
+          "formulation": "Tolperisone Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\n:-\nTolperisone Hydrochloride 50 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "190-tolperisone-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 191,
+          "formulation": "Tolperisone Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\n:-\nTolperisone Hydrochloride 100 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "191-tolperisone-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 192,
+          "formulation": "Glimepiride Tablets IP",
+          "composition": "Each uncoated tablet contains\nGlimepiride IP 1 mg\nExcipients q.s",
+          "slug": "192-glimepiride-tablets-ip"
+        },
+        {
+          "serialNo": 193,
+          "formulation": "Telmisartan & Rosuvastatin Tablets",
+          "composition": "Each film coated tablet contains\nTelmisartan IP 40 mg\nRosuvastatin Calcium\nEq. to Rosuvastatin\nIP\n10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "193-telmisartan-rosuvastatin-tablets"
+        },
+        {
+          "serialNo": 194,
+          "formulation": "L-Carnitine, Methylcobalamin & Folic Acid Tablets",
+          "composition": "Each film coated tablet contains\n:-\nL-Carnitine L-Tartrate\nEq. to L-Carnitine 500 mg\nMethylcobalamin IP 500 mcg\nFolic Acid IP 1.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "194-l-carnitine-methylcobalamin-folic-acid-tablets"
+        },
+        {
+          "serialNo": 195,
+          "formulation": "L-Carnitine, Methylcobalamin & Folic Acid Tablets",
+          "composition": "Each film coated tablet contains\n:-\nL-Carnitine L-Tartrate\nEq. to L-Carnitine 500 mg\nMethylcobalamin IP 1500 mcg\nFolic Acid IP 1.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "195-l-carnitine-methylcobalamin-folic-acid-tablets"
+        },
+        {
+          "serialNo": 196,
+          "formulation": "Ofloxacin & Tinidazole Tablets",
+          "composition": "Each film coated tablet contains\n:-\nOfloxacin IP 100 mg\nTinidazole IP 300 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "196-ofloxacin-tinidazole-tablets"
+        },
+        {
+          "serialNo": 197,
+          "formulation": "Ofloxacin & Tinidazole Tablets",
+          "composition": "Each film coated tablet contains\n:-\nOfloxacin IP 200 mg\nTinidazole IP 600 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "197-ofloxacin-tinidazole-tablets"
+        },
+        {
+          "serialNo": 198,
+          "formulation": "Glimepiride Tablets IP",
+          "composition": "Each uncoated tablet contains\nGlimepiride IP 2 mg\nExcipients q.s",
+          "slug": "198-glimepiride-tablets-ip"
+        },
+        {
+          "serialNo": 199,
+          "formulation": "Telmisartan & Chlorthalidone Tablets",
+          "composition": "Each uncoated tablet contains\nTelmisartan IP 40 mg\nChlorthalidone IP 12.5 mg\nExcipients q.s",
+          "slug": "199-telmisartan-chlorthalidone-tablets"
+        },
+        {
+          "serialNo": 200,
+          "formulation": "Levosulpiride Tablets",
+          "composition": "Each uncoated tablet contains\nLevosulpiride 25 mg\nExcipients q.s",
+          "slug": "200-levosulpiride-tablets"
+        },
+        {
+          "serialNo": 201,
+          "formulation": "Ramipril Tablets IP 1.25 mg",
+          "composition": "Each film coated tablet contains\nRamipril IP 1.25 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "201-ramipril-tablets-ip-1-25-mg"
+        },
+        {
+          "serialNo": 202,
+          "formulation": "Ramipril Tablets IP 10 mg",
+          "composition": "Each film coated tablet contains\nRamipril IP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "202-ramipril-tablets-ip-10-mg"
+        },
+        {
+          "serialNo": 203,
+          "formulation": "Levocetirizine Dihydrochloride & Ambroxol Hydrochloride (sustained release)Tablets",
+          "composition": "Each film coated tablet contains\nLevocetirizine Dihydrochloride IP 5 mg\nAmbroxol Hydrochloride\n(as sustained release foam)\nIP 75 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "203-levocetirizine-dihydrochloride-ambroxol-hydrochloride-sustained-release-tablets"
+        },
+        {
+          "serialNo": 204,
+          "formulation": "Lornoxicam Tablets",
+          "composition": "Each film coated tablet contains\nLornoxicam 8 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "204-lornoxicam-tablets"
+        },
+        {
+          "serialNo": 205,
+          "formulation": "Fluvoxamine Maleate Tablets IP",
+          "composition": "Each uncoated tablet contains\nFluvoxamine Maleate IP 50 mg\nExcipients q.s",
+          "slug": "205-fluvoxamine-maleate-tablets-ip"
+        },
+        {
+          "serialNo": 206,
+          "formulation": "Fluvoxamine Maleate Tablets IP",
+          "composition": "Each uncoated tablet contains\nFluvoxamine Maleate IP 100 mg\nExcipients q.s",
+          "slug": "206-fluvoxamine-maleate-tablets-ip"
+        },
+        {
+          "serialNo": 207,
+          "formulation": "Nicorandil Tablets IP",
+          "composition": "Each film coated tablet contains\nNicorandil IP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "207-nicorandil-tablets-ip"
+        },
+        {
+          "serialNo": 208,
+          "formulation": "Nicorandil Tablets IP",
+          "composition": "Each film coated tablet contains\nNicorandil IP 20 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "208-nicorandil-tablets-ip"
+        },
+        {
+          "serialNo": 209,
+          "formulation": "Montelukast & Fexofenadine Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nMontelukast Sodium\nEq. to Montelukast\nIP 10 mg\nFexofenadine Hydrochloride IP 120 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "209-montelukast-fexofenadine-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 210,
+          "formulation": "Rifaximin Tablets",
+          "composition": "Each film coated tablet contains\nRifaximin BP 550 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "210-rifaximin-tablets"
+        },
+        {
+          "serialNo": 211,
+          "formulation": "Tranexamic Acid & Ethamsylate Tablets IP",
+          "composition": "Each film coated tablet contains\nTranexamic Acid IP 250 mg\nEthamsylate BP 250 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "211-tranexamic-acid-ethamsylate-tablets-ip"
+        },
+        {
+          "serialNo": 212,
+          "formulation": "Aceclofenac & Tizanidine Tablets",
+          "composition": "Each film coated tablet contains\nAceclofenac IP 100 mg\nTizanidine IP 2 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "212-aceclofenac-tizanidine-tablets"
+        },
+        {
+          "serialNo": 213,
+          "formulation": "Calcium Carbonate & Vitamin D3 Tablets IP",
+          "composition": "Each film coated tablet contains\nCalcium Carbonate\nEq. to Elemental Calcium\n(derived from an organic oyster\nshells)\nIP 1250\n500\nmg\nmg\nVitamin D3 IP 500 IU\nExcipents q.s\nColour: Approved colour added",
+          "slug": "213-calcium-carbonate-vitamin-d3-tablets-ip"
+        },
+        {
+          "serialNo": 214,
+          "formulation": "Deflazacort Tablets",
+          "composition": "Each uncoated tablet contains\nDeflazacort 18 mg\nExcipients q.s",
+          "slug": "214-deflazacort-tablets"
+        },
+        {
+          "serialNo": 215,
+          "formulation": "Deflazacort Tablets",
+          "composition": "Each uncoated tablet contains\nDeflazacort 24 mg\nExcipients q.s",
+          "slug": "215-deflazacort-tablets"
+        },
+        {
+          "serialNo": 216,
+          "formulation": "Deflazacort Tablets",
+          "composition": "Each uncoated tablet contains\nDeflazacort 30 mg\nExcipients q.s",
+          "slug": "216-deflazacort-tablets"
+        },
+        {
+          "serialNo": 217,
+          "formulation": "Mefenamic Acid & Dicyclomine Hydrochloride Tablets IP",
+          "composition": "Each uncoated tablet contains\nMefenamic Acid IP 250 mg\nDicyclomine Hydrochloride IP 10 mg\nExcipients q.s",
+          "slug": "217-mefenamic-acid-dicyclomine-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 218,
+          "formulation": "Febuxostat Tablets",
+          "composition": "Each Film coated tablet contains\nFebuxostat 120 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "218-febuxostat-tablets"
+        },
+        {
+          "serialNo": 219,
+          "formulation": "Methylcobalamin , Levocarnitine & Folic Acid Tablet",
+          "composition": "Each uncoated tablet contains\nMethylcobalamin IP 1500 mcg\nLevocarnitine IP 250 mg\nFolic Acid IP 1.5 mg\nExcipents q.s",
+          "slug": "219-methylcobalamin-levocarnitine-folic-acid-tablet"
+        },
+        {
+          "serialNo": 220,
+          "formulation": "Diacerein, Glucosamine Sulfate Potassium Chloride & Methylsulfonylm ethane Tablet",
+          "composition": "Each film coated tablet contains\nDiacerein IP 50 mg\nGlucosamine Sulfate Potassium\nChloride\nUSP 750 mg\nMethylsulfonylmethane USP 250 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "220-diacerein-glucosamine-sulfate-potassium-chloride-methylsulfonylm-ethane-tablet"
+        },
+        {
+          "serialNo": 221,
+          "formulation": "Telmisartan & Nebivolol Hydrochloride Tablets",
+          "composition": "Each uncoated bilayred tablet contains\nTelmisartan IP 40 mg\nNebivolol Hydrochloride\nEq. to Nebivolol\nIP\n5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "221-telmisartan-nebivolol-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 222,
+          "formulation": "Calcium Citrate, Magnesium, Zinc & Vitamin D3 Tablets",
+          "composition": "Each film coated tablet contains\nCalcium Citrate USP 1000 mg\nMagnesium Hydroxide\nEq. to Magnesium\nIP\n100 mg\nZinc Sulphate Monohydrate\nEq. to Elemental Zinc\nIP\n4 mg\nVitamin D3 IP 200 IU\nExcipents q.s\nColour: Approved colour added",
+          "slug": "222-calcium-citrate-magnesium-zinc-vitamin-d3-tablets"
+        },
+        {
+          "serialNo": 223,
+          "formulation": "Metformin Hydrochloride (sustained release ) & Voglibose Tablets",
+          "composition": "Each film coated tablet contains\nMetformin Hydrochloride\n(as sustained release form)\nIP 500 mg\nVoglibose IP 0.2 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "223-metformin-hydrochloride-sustained-release-voglibose-tablets"
+        },
+        {
+          "serialNo": 224,
+          "formulation": "Diclofenac Sodium (PR) Tablets IP",
+          "composition": "Each uncoated prolonged release tablet contains\nDiclofenac Sodium IP 100 mg\nExcipients q.s",
+          "slug": "224-diclofenac-sodium-pr-tablets-ip"
+        },
+        {
+          "serialNo": 225,
+          "formulation": "Methylcobalamin (ER), Pyridoxine Hydrochloride (IR) & Folic Acid (IR) Tablet",
+          "composition": "Each film coated tablet contains\nMethylcobalamin\n(as extended release form)\nIP 1500 mcg\nPyridoxine Hydrochloride\n(as instant release form)\nIP 20 mg\nFolic Acid\n(as instant release form)\nIP 5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "225-methylcobalamin-er-pyridoxine-hydrochloride-ir-folic-acid-ir-tablet"
+        },
+        {
+          "serialNo": 226,
+          "formulation": "Etoricoxib & Thiocolchicoside Tablets",
+          "composition": "Each film coated tablet contains\nEtoricoxib IP 60 mg\nThiocolchicoside IP 8 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "226-etoricoxib-thiocolchicoside-tablets"
+        },
+        {
+          "serialNo": 227,
+          "formulation": "Quetiapine Tablets IP",
+          "composition": "Each film coated tablet contains\nQuetiapine Fumarate\nEq. to Quetiapine\nIP\n25 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "227-quetiapine-tablets-ip"
+        },
+        {
+          "serialNo": 228,
+          "formulation": "Telmisartan & Metoprolol Tartrate Tablets",
+          "composition": "Each film coated tablet contains\nTelmisartan IP 40 mg\nMetoprolol Succinate\nEq. to Metoprolol Tartrate\nIP 47.50",
+          "slug": "228-telmisartan-metoprolol-tartrate-tablets"
+        },
+        {
+          "serialNo": 229,
+          "formulation": "Duloxetine Gastro resistant Tablet IP",
+          "composition": "Each enteric coated tablet contains\nDuloxetine Hydrochloride\nEq. to Duloxetine\nIP\n20 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "229-duloxetine-gastro-resistant-tablet-ip"
+        },
+        {
+          "serialNo": 230,
+          "formulation": "Tizanidine Tablets IP",
+          "composition": "Each uncoated tablet contains\nTizanidine Hydrochloride\nEq. to Tizanidine\nIP\n2 mg\nExcipients q.s",
+          "slug": "230-tizanidine-tablets-ip"
+        },
+        {
+          "serialNo": 231,
+          "formulation": "Topiramate Tablets IP",
+          "composition": "Each uncoated tablet contains\nTopiramate IP 50 mg\nExcipients q.s",
+          "slug": "231-topiramate-tablets-ip"
+        },
+        {
+          "serialNo": 232,
+          "formulation": "Trihexyphenidyl Hydrochloride (sustained release) Tablets IP",
+          "composition": "Each uncoated sustained release tablet contains\nTrihexyphenidyl Hydrochloride IP 2 mg\nExcipients q.s",
+          "slug": "232-trihexyphenidyl-hydrochloride-sustained-release-tablets-ip"
+        },
+        {
+          "serialNo": 233,
+          "formulation": "Glimepiride & Metformin Hydrochloride (sustained release) Tablets IP",
+          "composition": "Each film coated tablet contains\nGlimepiride IP 2 mg\nMetformin Hydrochloride\n(as sustained release form)\nIP 1000 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "233-glimepiride-metformin-hydrochloride-sustained-release-tablets-ip"
+        },
+        {
+          "serialNo": 234,
+          "formulation": "Methylcobalamin , Folic acid & Pyridoxine Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nMethylcobalamin IP 1500 mcg\nFolic acid IP 1.5 mg\nPyridoxine Hydrochloride IP 3 mg\nExcipents q.s\nApproved colour used",
+          "slug": "234-methylcobalamin-folic-acid-pyridoxine-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 235,
+          "formulation": "Doxylamin Succinate, Pyridoxine Hydrochloride & Folic Acid Tablets",
+          "composition": "Each enteric coated tablet contains\nDoxylamin Succinate BP 20 mg\nPyridoxine Hydrochloride IP 20 mg\nFolic Acid IP 5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "235-doxylamin-succinate-pyridoxine-hydrochloride-folic-acid-tablets"
+        },
+        {
+          "serialNo": 236,
+          "formulation": "Lornoxicam & Paracetamol Tablets",
+          "composition": "Each film coated tablet contains\nLornoxicam 4 mg\nParacetamol IP 325 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "236-lornoxicam-paracetamol-tablets"
+        },
+        {
+          "serialNo": 237,
+          "formulation": "Losartan Potassium & Hydrochlorothiazid e Tablets IP",
+          "composition": "Each film coated tablet contains\nLosartan Potassium IP 25 mg\nHydrochlorothiazide IP 12.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "237-losartan-potassium-hydrochlorothiazid-e-tablets-ip"
+        },
+        {
+          "serialNo": 238,
+          "formulation": "Losartan Potassium & Hydrochlorothiazid e Tablets IP",
+          "composition": "Each film coated tablet contains\nLosartan Potassium IP 50 mg\nHydrochlorothiazide IP 12.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "238-losartan-potassium-hydrochlorothiazid-e-tablets-ip"
+        },
+        {
+          "serialNo": 239,
+          "formulation": "Doxylamin Succinate, Pyridoxine Hydrochloride & Folic Acid Tablets",
+          "composition": "Each enteric coated tablet contains\nDoxylamin Succinate BP 10 mg\nPyridoxine Hydrochloride IP 10 mg\nFolic Acid IP 2.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "239-doxylamin-succinate-pyridoxine-hydrochloride-folic-acid-tablets"
+        },
+        {
+          "serialNo": 240,
+          "formulation": "Calcium, Folic Acid & Cholecalciferol Tablets",
+          "composition": "Each film coated tablet contains\nCalcium Citrate Malate\nEq. to Elemental Calcium\nUSP 1250",
+          "slug": "240-calcium-folic-acid-cholecalciferol-tablets"
+        },
+        {
+          "serialNo": 241,
+          "formulation": "Calcium Citrate, Vitamin D3, Pyridoxine Hydrochloride, Methylcobalamin & Folic Acid Tablets",
+          "composition": "Each film coated tablet contains\nCalcium Citrate USP 1000 mg\nVitamin D3 IP 200 IU\nPyridoxine Hydrochloride IP 10 mg\nMethylcobalamin IP 500 mcg\nFolic Acid IP 5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "241-calcium-citrate-vitamin-d3-pyridoxine-hydrochloride-methylcobalamin-folic-acid-tablets"
+        },
+        {
+          "serialNo": 242,
+          "formulation": "Nimesulide (CR) Tablets (not to be Use in children below 12 years of age)",
+          "composition": "Each film coated controlled release tablet contains\nNimesulide BP 200 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "242-nimesulide-cr-tablets-not-to-be-use-in-children-below-12-years-of-age"
+        },
+        {
+          "serialNo": 243,
+          "formulation": "Cyproheptadine Hydrochloride Tablets IP",
+          "composition": "Each film coated tablet contains\nCyproheptadine Hydrochloride IP 4 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "243-cyproheptadine-hydrochloride-tablets-ip"
+        },
+        {
+          "serialNo": 244,
+          "formulation": "Atorvastatin & Ezetimibe Tablets",
+          "composition": "Each film coated tablet contains\nAtorvastatin Calcium\nEq. to Atorvastatin\nIP\n10 mg\nEzetimibe IP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "244-atorvastatin-ezetimibe-tablets"
+        },
+        {
+          "serialNo": 245,
+          "formulation": "Atorvastatin & Ezetimibe Tablets",
+          "composition": "Each film coated tablet contains\nAtorvastatin Calcium\nEq. to Atorvastatin\nIP\n20 mg\nEzetimibe IP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "245-atorvastatin-ezetimibe-tablets"
+        },
+        {
+          "serialNo": 246,
+          "formulation": "Lornoxicam & Paracetamol Tablets",
+          "composition": "Each film coated tablet contains\nLornoxicam 8 mg\nParacetamol IP 325 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "246-lornoxicam-paracetamol-tablets"
+        },
+        {
+          "serialNo": 247,
+          "formulation": "Pyridoxine Hydrochloride controlled release Tablets",
+          "composition": "Each controlled release tablet contains\nPyridoxine Hydrochloride IP 100 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "247-pyridoxine-hydrochloride-controlled-release-tablets"
+        },
+        {
+          "serialNo": 248,
+          "formulation": "Ramipril & Hydrochlorothiazid e Tablets",
+          "composition": "Each film coated tablet contains\nRamipril IP 5 mg\nHydrochlorothiazide IP 12.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "248-ramipril-hydrochlorothiazid-e-tablets"
+        },
+        {
+          "serialNo": 249,
+          "formulation": "Artemether & Lumefantrine Tablets",
+          "composition": "Each uncoated dispersible tablet contains\nArtemether IP 40 mg\nLumefantrine 240 mg\nExcipients q.s",
+          "slug": "249-artemether-lumefantrine-tablets"
+        },
+        {
+          "serialNo": 250,
+          "formulation": "Artemether & Lumefantrine Tablets",
+          "composition": "Each uncoated dispersible tablet contains\nArtemether IP 80 mg\nLumefantrine 480 mg\nExcipients q.s",
+          "slug": "250-artemether-lumefantrine-tablets"
+        },
+        {
+          "serialNo": 251,
+          "formulation": "Paracetamol & Caffeine Tablets IP",
+          "composition": "Each uncoated tablet contains\nParacetamol IP 500 mg\nCaffeine IP 25 mg\nExcipients q.s",
+          "slug": "251-paracetamol-caffeine-tablets-ip"
+        },
+        {
+          "serialNo": 252,
+          "formulation": "Paracetamol & Caffeine Tablets IP",
+          "composition": "Each uncoated tablet contains\nParacetamol IP 650 mg\nCaffeine IP 50 mg\nExcipients q.s",
+          "slug": "252-paracetamol-caffeine-tablets-ip"
+        },
+        {
+          "serialNo": 253,
+          "formulation": "Methylcobalamin, Thiamine Mononitrate, Riboflavin & Pyridoxine Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nMethylcobalamin IP 500 mcg\nThiamine Mononitrate IP 10 mg\nRiboflavin IP 10 mg\nPyridoxine Hydrochloride IP 1.5 mg\nExcipents q.s\nColour: Approved colour added",
+          "slug": "253-methylcobalamin-thiamine-mononitrate-riboflavin-pyridoxine-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 254,
+          "formulation": "Ketoconazole Tablets IP",
+          "composition": "Each uncoated tablet contains\nKetoconazole IP 200 mg\nExcipients q.s",
+          "slug": "254-ketoconazole-tablets-ip"
+        },
+        {
+          "serialNo": 255,
+          "formulation": "Diclofenac Potassium Tablets USP",
+          "composition": "Each film coated tablet contains\nDiclofenac Potassium USP 50 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "255-diclofenac-potassium-tablets-usp"
+        },
+        {
+          "serialNo": 256,
+          "formulation": "Linagliptin Tablets",
+          "composition": "Each film coated tablet contains\nLinagliptin 5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "256-linagliptin-tablets"
+        },
+        {
+          "serialNo": 257,
+          "formulation": "Glibenclamide & Metformin Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nGlibenclamide IP 2.5 mg\nMetformin Hydrochloride\n(as Prolonged Release form)\nIP 250 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "257-glibenclamide-metformin-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 258,
+          "formulation": "Glibenclamide & Metformin Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nGlibenclamide IP 2.5 mg\nMetformin Hydrochloride\n(as Prolonged Release form)\nIP 400 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "258-glibenclamide-metformin-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 259,
+          "formulation": "Methoxsalen Tablets",
+          "composition": "Each uncoated tablet contains\nMethoxsalen USP 20 mg\nExcipients q.s",
+          "slug": "259-methoxsalen-tablets"
+        },
+        {
+          "serialNo": 260,
+          "formulation": "Sodium Picosulfate Tablets",
+          "composition": "Each uncoated tablet contains\nSodium Picosulfate BP 5 mg\nExcipients q.s",
+          "slug": "260-sodium-picosulfate-tablets"
+        },
+        {
+          "serialNo": 261,
+          "formulation": "Sodium Picosulfate Tablets",
+          "composition": "Each uncoated tablet contains\nSodium Picosulfate BP 10 mg\nExcipients q.s",
+          "slug": "261-sodium-picosulfate-tablets"
+        },
+        {
+          "serialNo": 262,
+          "formulation": "Fluconazole Tablets IP 150 mg",
+          "composition": "Each uncoated tablet contains\nFluconazole IP 150 mg\nExcipients q.s",
+          "slug": "262-fluconazole-tablets-ip-150-mg"
+        },
+        {
+          "serialNo": 263,
+          "formulation": "Fluconazole Tablets IP 50 mg",
+          "composition": "Each uncoated tablet contains\nFluconazole IP 50 mg\nExcipients q.s",
+          "slug": "263-fluconazole-tablets-ip-50-mg"
+        },
+        {
+          "serialNo": 264,
+          "formulation": "Lornoxicam & Thiocolchicoside Tablets",
+          "composition": "Each film coated tablet contains\nLornoxicam 4 mg\nThiocolchicoside IP 4 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "264-lornoxicam-thiocolchicoside-tablets"
+        },
+        {
+          "serialNo": 265,
+          "formulation": "Lornoxicam & Thiocolchicoside Tablets",
+          "composition": "Each film coated tablet contains\nLornoxicam 4 mg\nThiocolchicoside IP 8 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "265-lornoxicam-thiocolchicoside-tablets"
+        },
+        {
+          "serialNo": 266,
+          "formulation": "Eperisone Hydrochloride sustained release Tablets",
+          "composition": "Each film coated sustained release tablet contains\nEperisone Hydrochloride JP 50 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "266-eperisone-hydrochloride-sustained-release-tablets"
+        },
+        {
+          "serialNo": 267,
+          "formulation": "Sildenafil Tablets IP 100 mg",
+          "composition": "Each film coated tablet contains\nSildenafil Citrate\nEq. to Sildenafil\nIP\n100 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "267-sildenafil-tablets-ip-100-mg"
+        },
+        {
+          "serialNo": 268,
+          "formulation": "Sildenafil Tablets IP 50 mg",
+          "composition": "Each film coated tablet contains\nSildenafil Citrate\nEq. to Sildenafil\nIP\n50 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "268-sildenafil-tablets-ip-50-mg"
+        },
+        {
+          "serialNo": 269,
+          "formulation": "Moxifloxacin Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nMoxifloxacin Hydrochloride\nEq. to Moxifloxacin\nIP\n400 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "269-moxifloxacin-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 270,
+          "formulation": "Salbutamol Sulphate Tablets IP",
+          "composition": "Each uncoated tablet contains\nSalbutamol Sulphate\nEq. to Salbutamol\nIP\n2 mg\nExcipients q.s",
+          "slug": "270-salbutamol-sulphate-tablets-ip"
+        },
+        {
+          "serialNo": 271,
+          "formulation": "Salbutamol Sulphate Tablets IP",
+          "composition": "Each uncoated tablet contains\nSalbutamol Sulphate\nEq. to Salbutamol\nIP\n4 mg\nExcipients q.s",
+          "slug": "271-salbutamol-sulphate-tablets-ip"
+        },
+        {
+          "serialNo": 272,
+          "formulation": "Rifaximin Tablets",
+          "composition": "Each film coated tablet contains\nRifaximin BP 200 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "272-rifaximin-tablets"
+        },
+        {
+          "serialNo": 273,
+          "formulation": "Rifaximin Tablets",
+          "composition": "Each film coated tablet contains\nRifaximin BP 400 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "273-rifaximin-tablets"
+        },
+        {
+          "serialNo": 274,
+          "formulation": "Rifaximin dispersible Tablets",
+          "composition": "Each uncoated dispersible tablet contains\nRifaximin BP 200 mg\nExcipients q.s",
+          "slug": "274-rifaximin-dispersible-tablets"
+        },
+        {
+          "serialNo": 275,
+          "formulation": "Ketoprofen & Thiocholchicoside Tablets",
+          "composition": "Each film coated tablet contains\nKetoprofen IP 50 mg\nThiocholchicoside IP 4 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "275-ketoprofen-thiocholchicoside-tablets"
+        },
+        {
+          "serialNo": 276,
+          "formulation": "Ketoprofen & Thiocholchicoside Tablets",
+          "composition": "Each film coated tablet contains\nKetoprofen IP 100 mg\nThiocholchicoside IP 8 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "276-ketoprofen-thiocholchicoside-tablets"
+        },
+        {
+          "serialNo": 277,
+          "formulation": "Terbutaline Sulphate, Theophylline & Ambroxol Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nTerbutaline Sulphate IP 2.5 mg\nTheophylline IP 100 mg\nAmbroxol Hydrochloride IP 30 mg\nExcipients q.s\nApproved colour used",
+          "slug": "277-terbutaline-sulphate-theophylline-ambroxol-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 278,
+          "formulation": "Myo-inositol & Metformin Hydrochloride Tablets",
+          "composition": "Each film coated bilayered tablet contains\nMyo-inositol BP 600 mg\nMetformin Hydrochloride\n(as sustained release form)\nIP 500 mg\nExcipients q.s\nApproved colour used",
+          "slug": "278-myo-inositol-metformin-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 279,
+          "formulation": "Nicorandil Tablets IP 10 mg",
+          "composition": "Each uncoated tablet contains\nNicorandil IP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "279-nicorandil-tablets-ip-10-mg"
+        },
+        {
+          "serialNo": 280,
+          "formulation": "Nicorandil Tablets IP 20 mg",
+          "composition": "Each uncoated tablet contains\nNicorandil IP 20 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "280-nicorandil-tablets-ip-20-mg"
+        },
+        {
+          "serialNo": 281,
+          "formulation": "Rabeprazole Gastro resistant Tablets IP",
+          "composition": "Each enteric coated tablet contains\nRabeprazole sodium IP 20 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "281-rabeprazole-gastro-resistant-tablets-ip"
+        },
+        {
+          "serialNo": 282,
+          "formulation": "Nicorandil Tablets IP 5 mg",
+          "composition": "Each uncoated tablet contains\nNicorandil IP 5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "282-nicorandil-tablets-ip-5-mg"
+        },
+        {
+          "serialNo": 283,
+          "formulation": "Ranitidine Tablets IP 150 mg",
+          "composition": "Each film coated tablet contains\nRanitidine Hydrochloride\nEq. to Ranitidine\nIP\n150 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "283-ranitidine-tablets-ip-150-mg"
+        },
+        {
+          "serialNo": 284,
+          "formulation": "Cetirizine Hydrochloride Tablets IP 10 mg",
+          "composition": "Each uncoated tablet contains\nCetirizine Hydrochloride IP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "284-cetirizine-hydrochloride-tablets-ip-10-mg"
+        },
+        {
+          "serialNo": 285,
+          "formulation": "Minoxidil Tablets IP",
+          "composition": "Each uncoated tablet contains\nMinoxidil IP 2.5 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "285-minoxidil-tablets-ip"
+        },
+        {
+          "serialNo": 286,
+          "formulation": "Methylcobalamin , Folic acid & Pyridoxine Hydrochloride Tablets",
+          "composition": "Each film coated tablet contains\nMethylcobalamin IP 500 mcg\nFolic acid IP 1.5 mg\nPyridoxine Hydrochloride IP 3 mg\nExcipents q.s\nApproved colour used",
+          "slug": "286-methylcobalamin-folic-acid-pyridoxine-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 287,
+          "formulation": "Etoricoxib & Paracetamol Tablets",
+          "composition": "Each uncoated tablet contains\nEtoricoxib IP 60 mg\nParacetamol IP 325 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "287-etoricoxib-paracetamol-tablets"
+        },
+        {
+          "serialNo": 288,
+          "formulation": "Tranexamic Acid Tablets IP",
+          "composition": "Each film coated tablet contains\nTranexamic Acid IP 500 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "288-tranexamic-acid-tablets-ip"
+        },
+        {
+          "serialNo": 289,
+          "formulation": "Nimesulide Tablets ( Not for Children below 12 years of age)",
+          "composition": "Each uncoated tablet contains\nNimesulide BP 100 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "289-nimesulide-tablets-not-for-children-below-12-years-of-age"
+        },
+        {
+          "serialNo": 290,
+          "formulation": "Paracetamol, Phenylephrine Hydrochloride & Cetirizine Hydrochloride Tablets",
+          "composition": "Each uncoated tablet contains\nParacetamol IP 325 mg\nPhenylephrine Hydrochloride IP 5 mg\nCetirizine Hydrochloride IP 5 mg\nExcipients q.s",
+          "slug": "290-paracetamol-phenylephrine-hydrochloride-cetirizine-hydrochloride-tablets"
+        },
+        {
+          "serialNo": 291,
+          "formulation": "Diclofenac Potassium & Paracetamol Tablets",
+          "composition": "Each uncoated tablet contains\nDiclofenac Potassium B\nP\n50 mg\nParacetamol IP 325 mg\nExcipients q.s",
+          "slug": "291-diclofenac-potassium-paracetamol-tablets"
+        },
+        {
+          "serialNo": 292,
+          "formulation": "Nimesulide & Para cetamol Tablets (Not for Children below 12 years of age)",
+          "composition": "Each uncoated tablet contains\nNimesulide BP 100 mg\nParacetamol IP 325 mg\nExcipients q.s",
+          "slug": "292-nimesulide-para-cetamol-tablets-not-for-children-below-12-years-of-age"
+        },
+        {
+          "serialNo": 293,
+          "formulation": "Ursodeoxycholic Acid Tablets IP",
+          "composition": "Each film coated tablet contains\nUrsodeoxycholic Acid IP 150 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "293-ursodeoxycholic-acid-tablets-ip"
+        },
+        {
+          "serialNo": 294,
+          "formulation": "Ursodeoxycholic Acid Tablets IP",
+          "composition": "Each film coated tablet contains\nUrsodeoxycholic Acid IP 300 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "294-ursodeoxycholic-acid-tablets-ip"
+        },
+        {
+          "serialNo": 295,
+          "formulation": "Diclofenac Potassium, Paracetamol & Chlorzoxazone Tablets",
+          "composition": "Each uncoated tablet contains\nDiclofenac Potassium BP 50 mg\nParacetamol IP 325 mg\nChlorzoxazone USP 250 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "295-diclofenac-potassium-paracetamol-chlorzoxazone-tablets"
+        },
+        {
+          "serialNo": 296,
+          "formulation": "Propranolol Hydrochloride sustained release Tablets",
+          "composition": "Each uncoated sustained release tablet contains\nPropranolol Hydrochloride IP 20 mg\nExcipents q.s",
+          "slug": "296-propranolol-hydrochloride-sustained-release-tablets"
+        },
+        {
+          "serialNo": 297,
+          "formulation": "Diclofenac Potassium, Paracetamol & Serratiopeptidase Tablets",
+          "composition": "Each uncoated tablet contains\nDiclofenac Potassium BP 50 mg\nParacetamol IP 325 mg\nSerratiopeptidase\n(as enteric coated granules\nenzyme activity 20,000 units)\nIP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "297-diclofenac-potassium-paracetamol-serratiopeptidase-tablets"
+        },
+        {
+          "serialNo": 298,
+          "formulation": "Rabeprazole sodium & Domperidone Tablets",
+          "composition": "Each enteric coated tablet contains\nRabeprazole sodium IP 20 mg\nDomperidone IP 10 mg\nExcipients q.s.\nColour: Approved colour added",
+          "slug": "298-rabeprazole-sodium-domperidone-tablets"
+        },
+        {
+          "serialNo": 299,
+          "formulation": "Diclofenac Potassium, Paracetamol & Chlorzoxazone Tablets",
+          "composition": "Each film coated tablet contains\nDiclofenac Potassium BP 50 mg\nParacetamol IP 325 mg\nChlorzoxazone USP 250 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "299-diclofenac-potassium-paracetamol-chlorzoxazone-tablets"
+        },
+        {
+          "serialNo": 300,
+          "formulation": "Diclofenac Potassium, Paracetamol & Serratiopeptidase Tablets",
+          "composition": "Each film coated tablet contains\nDiclofenac Potassium BP 50 mg\nParacetamol IP 325 mg\nSerratiopeptidase\n(as enteric coated granules\nenzyme activity 20,000 units)\nIP 10 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "300-diclofenac-potassium-paracetamol-serratiopeptidase-tablets"
+        },
+        {
+          "serialNo": 301,
+          "formulation": "Nimesulide & Para cetamol Tablets (Not for Children below 12 years of age)",
+          "composition": "Each uncoated bilayered tablet contains\nNimesulide BP 100 mg\nParacetamol IP 325 mg\nExcipients q.s\nApproved colour used",
+          "slug": "301-nimesulide-para-cetamol-tablets-not-for-children-below-12-years-of-age"
+        },
+        {
+          "serialNo": 302,
+          "formulation": "Trypsin, Bromelain & Rutoside Trihydrate Tablets",
+          "composition": "Each enteric coated tablet contains\nTrypsin BP 48 mg\nBromelain 90 mg\nRutoside Trihydrate BP 100 mg\nExcipents q.s\nApproved colour used",
+          "slug": "302-trypsin-bromelain-rutoside-trihydrate-tablets"
+        },
+        {
+          "serialNo": 303,
+          "formulation": "Ranolazine Sustained Release Tablets",
+          "composition": "Each film coated sustained release tablet contains\nRanolazine 500 mg\nExcipents q.s\nApproved colour used",
+          "slug": "303-ranolazine-sustained-release-tablets"
+        },
+        {
+          "serialNo": 304,
+          "formulation": "Montelukast Sodium orally disintegrating Tablets",
+          "composition": "Each uncoated orally disintegrating tablet contains\nMontelukast Sodium\nEq. to Montelukast\nIP\n4 mg\nExcipients q.s",
+          "slug": "304-montelukast-sodium-orally-disintegrating-tablets"
+        }
+      ]
+    },
+    {
+      "name": "Capsules",
+      "slug": "capsules",
+      "productCount": 40,
+      "products": [
+        {
+          "serialNo": 1,
+          "formulation": "Clindamycin Capsules IP 300mg",
+          "composition": "Each hard gelatin capsule contains\nClindamycin Hydrochloride\nEq. to Clindamycin\nIP\n300 mg\nExcipients q.s\nColour: Approved colour added",
+          "slug": "1-clindamycin-capsules-ip-300mg"
+        },
+        {
+          "serialNo": 2,
+          "formulation": "Pregabalin & Methylcobalamin Capsules",
+          "composition": "Each hard gelatin capsules contains\nPregabalin IP 75 mg\nMethylcobalamine IP 750 mcg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "2-pregabalin-methylcobalamin-capsules"
+        },
+        {
+          "serialNo": 3,
+          "formulation": "Pregabalin & Methylcobalamin Capsules",
+          "composition": "Each hard gelatin capsules contains\nPregabalin IP 75 mg\nMethylcobalamine IP 500 mcg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "3-pregabalin-methylcobalamin-capsules"
+        },
+        {
+          "serialNo": 4,
+          "formulation": "Pregabalin & Methylcobalamin Capsules",
+          "composition": "Each hard gelatin capsules contains\nPregabalin IP 150 mg\nMethylcobalamine IP 500 mcg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "4-pregabalin-methylcobalamin-capsules"
+        },
+        {
+          "serialNo": 5,
+          "formulation": "Calcium Dobesilate MonoHydrate Capsules 500 mg",
+          "composition": "Each hard gelatin capsule contains\nCalcium Dobesilate MonoHydrate IP 500 mg\nExcipients q.s\nApproved colour used in empty capsule shells",
+          "slug": "5-calcium-dobesilate-monohydrate-capsules-500-mg"
+        },
+        {
+          "serialNo": 6,
+          "formulation": "Esomeprazole (Enteric Coated) & Domperidone (Sustained Release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nEsomeprazole Magnesium\nTrihydrate\nEq. to Esomeprazole\n(as enteric coated pellets)\nIP\n40 mg\nDomperidone\n(as sustained Release pellets)\nIP 30 mg\nExcipients q.s\nApproved colour used in empty capsule shells",
+          "slug": "6-esomeprazole-enteric-coated-domperidone-sustained-release-capsules"
+        },
+        {
+          "serialNo": 7,
+          "formulation": "Doxycycline Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nDoxycycline Hydrochloride\nEq. to Doxycycline\nIP\n100 mg\nExcipients q.s\nApproved colour used in empty capsule shells",
+          "slug": "7-doxycycline-capsules-ip"
+        },
+        {
+          "serialNo": 8,
+          "formulation": "Methylcobalamin, Alpha Lipoic Acid, Vitamin B6& Folic Acid Capsules",
+          "composition": "Each hard gelatin capsule contains\nMethylcobalamin IP 1500 mcg\nAlpha Lipoic Acid USP 100 mg\nVitamin B6 IP 3 mg\nFolic Acid IP 1.5 mg\nExcipients q.s\nApproved colour used in empty capsule shells",
+          "slug": "8-methylcobalamin-alpha-lipoic-acid-vitamin-b6-folic-acid-capsules"
+        },
+        {
+          "serialNo": 9,
+          "formulation": "Rabeprazole Sodium (enteric coated) & Domperidone (Sustained Release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nRabeprazole sodium\n(as enteric coated pellets)\nIP 20 mg\nDomperidone\n(as sustained release pellets)\nIP 30 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "9-rabeprazole-sodium-enteric-coated-domperidone-sustained-release-capsules"
+        },
+        {
+          "serialNo": 10,
+          "formulation": "Rabeprazole Sodium (enteric coated) & Levosulpiride (Sustained Release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nRabeprazole sodium\n(as enteric coated pellets)\nIP 20 mg\nLevosulpiride\n(as sustained release pellets)\n75 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "10-rabeprazole-sodium-enteric-coated-levosulpiride-sustained-release-capsules"
+        },
+        {
+          "serialNo": 11,
+          "formulation": "Pantoprazole (as enteric gastro-resistant pellets) & Domperidone (prolonged-release) Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nPantoprazole sodium\nEq. to Pantoprazole\n(as enteric coated pellets)\nIP\n40 mg\nDomperidone\n(as Prolonged release pellets)\nIP 30 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "11-pantoprazole-as-enteric-gastro-resistant-pellets-domperidone-prolonged-release-capsules-ip"
+        },
+        {
+          "serialNo": 12,
+          "formulation": "Diclofenac Potassium (enteric coated) & Thiocolchicoside Capsules",
+          "composition": "Each hard gelatin capsule contains\nDiclofenac Potassium\n(as enteric coated pellets)\nBP 50 mg\nThiocolchicoside IP 8 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "12-diclofenac-potassium-enteric-coated-thiocolchicoside-capsules"
+        },
+        {
+          "serialNo": 13,
+          "formulation": "Itraconazole Capsules",
+          "composition": "Each hard gelatin capsule contains\nItraconazole\n(as pellets)\nBP 100 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "13-itraconazole-capsules"
+        },
+        {
+          "serialNo": 14,
+          "formulation": "Omeprazole & Domperidone Capsules",
+          "composition": "Each hard gelatin capsule contains\nOmeprazole\n(as enteric coated pellets)\nIP 20 mg\nDomperidone IP 10 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "14-omeprazole-domperidone-capsules"
+        },
+        {
+          "serialNo": 15,
+          "formulation": "Acebrophylline Capsules",
+          "composition": "Each hard gelatin capsule contains\nAcebrophylline 100 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "15-acebrophylline-capsules"
+        },
+        {
+          "serialNo": 16,
+          "formulation": "Pregabalin & Methylcobalamin Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nPregabalin IP 75 mg\nMethylcobalamin IP 750 mcg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "16-pregabalin-methylcobalamin-capsules-ip"
+        },
+        {
+          "serialNo": 17,
+          "formulation": "Clindamycin Capsules IP 150 mg",
+          "composition": "Each hard gelatin capsule contains\nClindamycin Hydrochloride\nEq. to Clindamycin\nIP\n150 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "17-clindamycin-capsules-ip-150-mg"
+        },
+        {
+          "serialNo": 18,
+          "formulation": "Elemental Iron, Folic Acid, Zinc & Vitamin B12 Capsules",
+          "composition": "Each hard gelatin capsule contains\nCarbonyl Iron\nEq. to Elemental Iron 100 mg\nFolic Acid IP 1.5 mg\nZinc Sulphate Monohydrate\nEq. to elemental Zinc\nIP 61.8\n22.5\nmg\nmg\nVitamin B12 IP 15 mcg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "18-elemental-iron-folic-acid-zinc-vitamin-b12-capsules"
+        },
+        {
+          "serialNo": 19,
+          "formulation": "Methylcobalamin, Alpha Lipoic Acid, Vitamin B6 & Folic Acid Capsules",
+          "composition": "Each hard gelatin capsule contains\nMethylcobalamin IP 1500 mcg\nAlpha Lipoic Acid USP 100 mg\nVitamin B6 IP 3 mg\nFolic Acid IP 1.5 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "19-methylcobalamin-alpha-lipoic-acid-vitamin-b6-folic-acid-capsules"
+        },
+        {
+          "serialNo": 20,
+          "formulation": "Pregabalin Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nPregabalin IP 75 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "20-pregabalin-capsules-ip"
+        },
+        {
+          "serialNo": 21,
+          "formulation": "Gabapentin Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nGabapentin IP 300 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "21-gabapentin-capsules-ip"
+        },
+        {
+          "serialNo": 22,
+          "formulation": "Gabapentin Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nGabapentin IP 400 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "22-gabapentin-capsules-ip"
+        },
+        {
+          "serialNo": 23,
+          "formulation": "Chloramphenicol Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nChloramphenicol IP 500 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "23-chloramphenicol-capsules-ip"
+        },
+        {
+          "serialNo": 24,
+          "formulation": "Aceclofenac (sustained release) & Rabeprazole Sodium (enteric coated) Capsules",
+          "composition": "Each hard gelatin capsule contains\nAceclofenac\n(as sustained release\npellets)\nIP 200 mg\nRabeprazole Sodium\n(as enteric coated pellets)\nIP 10 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "24-aceclofenac-sustained-release-rabeprazole-sodium-enteric-coated-capsules"
+        },
+        {
+          "serialNo": 25,
+          "formulation": "Aceclofenac (sustained release) & Rabeprazole Sodium (enteric coated) Capsules",
+          "composition": "Each hard gelatin capsule contains\nAceclofenac\n(as sustained release\npellets)\nIP 200 mg\nRabeprazole Sodium\n(as enteric coated pellets)\nIP 20 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "25-aceclofenac-sustained-release-rabeprazole-sodium-enteric-coated-capsules"
+        },
+        {
+          "serialNo": 26,
+          "formulation": "Thiocolchicoside Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nThiocolchicoside IP 8 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "26-thiocolchicoside-capsules-ip"
+        },
+        {
+          "serialNo": 27,
+          "formulation": "Diclofenac Potassium & Thiocolchicoside Capsules",
+          "composition": "Each hard gelatin capsule contains\nDiclofenac Potassium BP 50 mg\nThiocolchicoside IP 4 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "27-diclofenac-potassium-thiocolchicoside-capsules"
+        },
+        {
+          "serialNo": 28,
+          "formulation": "Diacerein Capsules IP",
+          "composition": "Each hard gelatin capsule contains\nDiacerein IP 50 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "28-diacerein-capsules-ip"
+        },
+        {
+          "serialNo": 29,
+          "formulation": "Methylcobalamin, Alpha Lipoic Acid, Zinc Sulphate , Vitamin B6 & Folic Acid Capsules",
+          "composition": "Each hard gelatin capsule contains\nMethylcobalamin IP 1500 mcg\nAlpha Lipoic Acid USP 100 mg\nZinc Sulphate IP 15 mg\nVitamin B6 IP 3 mg\nFolic Acid IP 1.5 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "29-methylcobalamin-alpha-lipoic-acid-zinc-sulphate-vitamin-b6-folic-acid-capsules"
+        },
+        {
+          "serialNo": 30,
+          "formulation": "Methylcobalamin, Alpha Lipoic Acid, Folic Acid, & Benfotiamine Capsules",
+          "composition": "Each hard gelatin capsule contains\nMecobalamin IP 500 mcg\nAlpha Lipoic Acid USP 100 mg\nFolic Acid IP 1.5 mg\nBenfotiamine 50 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "30-methylcobalamin-alpha-lipoic-acid-folic-acid-benfotiamine-capsules"
+        },
+        {
+          "serialNo": 31,
+          "formulation": "Omeprazole gastro-resistant Capsules IP 20 mg",
+          "composition": "Each hard gelatin capsule contains\nOmeprazole\n(as enteric coated pellets)\nIP 20 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "31-omeprazole-gastro-resistant-capsules-ip-20-mg"
+        },
+        {
+          "serialNo": 32,
+          "formulation": "Esomeprazole (enteric coated) & Itopride Hydrochloride (sustained release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nEsomeprazole Magnesium\nTrihydrate\nEq. to Esomeprazole\n(as enteric coated pellets)\nIP\n40 mg\nItopride Hydrochloride\n(as sustained release pellets)\n150 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "32-esomeprazole-enteric-coated-itopride-hydrochloride-sustained-release-capsules"
+        },
+        {
+          "serialNo": 33,
+          "formulation": "Rabeprazole Sodium (enteric coated) & Itopride Hydrochloride (sustained release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nRabeprazole Sodium\n(as enteric coated pellets)\nIP 20 mg\nItopride Hydrochloride\n(as sustained release pellets)\n150 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "33-rabeprazole-sodium-enteric-coated-itopride-hydrochloride-sustained-release-capsules"
+        },
+        {
+          "serialNo": 34,
+          "formulation": "Pantoprazole Sodium (enteric coated) & Itopride Hydrochloride (sustained release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nPantoprazole Sodium\n(as enteric coated pellets)\nIP 40 mg\nItopride Hydrochloride\n(as sustained release pellets)\n150 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "34-pantoprazole-sodium-enteric-coated-itopride-hydrochloride-sustained-release-capsules"
+        },
+        {
+          "serialNo": 35,
+          "formulation": "Eperisone Hydrochloride (sustained release) & Diclofenac Potassium (sustained release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nEperisone Hydrochloride\n(as sustained release pellets)\nJP 150 mg\nDiclofenac Potassium\n(as sustained release pellets)\n100 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "35-eperisone-hydrochloride-sustained-release-diclofenac-potassium-sustained-release-capsules"
+        },
+        {
+          "serialNo": 36,
+          "formulation": "Orlistat Capsules USP",
+          "composition": "Each hard gelatin capsule contains\nOrlistat USP 60 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "36-orlistat-capsules-usp"
+        },
+        {
+          "serialNo": 37,
+          "formulation": "Orlistat Capsules USP",
+          "composition": "Each hard gelatin capsule contains\nOrlistat USP 120 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "37-orlistat-capsules-usp"
+        },
+        {
+          "serialNo": 38,
+          "formulation": "Allopurinol (sustained release) Capsules USP",
+          "composition": "Each hard gelatin capsule contains\nAllopurinol\n(as sustained release pellets)\nIP 250 mg\nExcipients q.s\nApproved colour to be used in empty capsule shells",
+          "slug": "38-allopurinol-sustained-release-capsules-usp"
+        },
+        {
+          "serialNo": 39,
+          "formulation": "Rabeprazole Sodium (gastro-resistant) & Domperidone (prolonged-release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nRabeprazole sodium\n(as gastro-resistant pellets)\nIP 20 mg\nDomperidone\n(as prolonged-release pellets)\nIP 30 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "39-rabeprazole-sodium-gastro-resistant-domperidone-prolonged-release-capsules"
+        },
+        {
+          "serialNo": 40,
+          "formulation": "Rabeprazole Sodium (enteric coated) & Domperidone (Sustained Release) Capsules",
+          "composition": "Each hard gelatin capsule contains\nRabeprazole sodium\n(as enteric coated pellets)\nIP 40 mg\nDomperidone\n(as sustained release pellets)\nIP 30 mg\nExcipients q.s.\nColour: Approved colour used in empty capsule shells",
+          "slug": "40-rabeprazole-sodium-enteric-coated-domperidone-sustained-release-capsules"
+        }
+      ]
+    },
+    {
+      "name": "Oral Liquids",
+      "slug": "oral-liquids",
+      "productCount": 67,
+      "products": [
+        {
+          "serialNo": 1,
+          "formulation": "Dextromethorphan Hydrobromide, Chlorpheniramine Maleate & Menthol Syrup",
+          "composition": "Each 5ml contains:\nDextromethorphan\nHydrobromide\nIP 10 mg\nChlorpheniramine Maleate IP 4 mg\nMenthol IP 1 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "1-dextromethorphan-hydrobromide-chlorpheniramine-maleate-menthol-syrup"
+        },
+        {
+          "serialNo": 2,
+          "formulation": "Chlorpheniramine Maleate, Phenylephrine Hydrochloride & Dextromethorphan Hydrobromide Syrup",
+          "composition": "Each 5ml contains:\nChlorpheniramine Maleate IP 2 mg\nPhenylephrine Hydrochloride IP 5 mg\nDextromethorphan\nHydrobromide\nIP 15 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "2-chlorpheniramine-maleate-phenylephrine-hydrochloride-dextromethorphan-hydrobromide-syrup"
+        },
+        {
+          "serialNo": 3,
+          "formulation": "Terbutaline Sulphate, Bromhexine Hcl & Guaiphenesin Tablets",
+          "composition": "Each uncoated tablet contains:\nTerbutaline Sulphate IP 2.5 mg\nBromhexine Hcl IP 8 mg\nGuaiphenesin IP 100 mg\nExcipients q.s.\nApproved colour used",
+          "slug": "3-terbutaline-sulphate-bromhexine-hcl-guaiphenesin-tablets"
+        },
+        {
+          "serialNo": 4,
+          "formulation": "Terbutaline Sulphate, Bromhexine Hcl, Guaiphenesin & Menthol Syrup",
+          "composition": "Each 10ml contains:\nTerbutaline Sulphate IP 2.5 mg\nBromhexine Hcl IP 8 mg\nGuaiphenesin IP 100 mg\nMenthol IP 5 mg\nExcipients q.s.\nApproved colour used",
+          "slug": "4-terbutaline-sulphate-bromhexine-hcl-guaiphenesin-menthol-syrup"
+        },
+        {
+          "serialNo": 5,
+          "formulation": "Ferrous ascorbate & folic acid suspension",
+          "composition": "Each 5ml contains\nFerrous Ascorbate\nEq. to Elemental Iron 30 mg\nFolic Acid IP 550 mcg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "5-ferrous-ascorbate-folic-acid-suspension"
+        },
+        {
+          "serialNo": 6,
+          "formulation": "Cyproheptadine Hydrochloride & Tricholine Citrate Syrup",
+          "composition": "Each 5 ml contains\nCyproheptadine Hydrochloride IP 2 mg\nTricholine Citrate 65% IP 275 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "6-cyproheptadine-hydrochloride-tricholine-citrate-syrup"
+        },
+        {
+          "serialNo": 7,
+          "formulation": "Mefenamic Acid & Paracetamol Oral Suspension",
+          "composition": "Each 5 ml contains\nMefenamic Acid IP 50 mg\nParacetamol IP 125 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "7-mefenamic-acid-paracetamol-oral-suspension"
+        },
+        {
+          "serialNo": 8,
+          "formulation": "Citicoline Syrup",
+          "composition": "Each 5 ml contains\nCiticoline Sodium\nEq. to Citicoline\nIP\n500 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "8-citicoline-syrup"
+        },
+        {
+          "serialNo": 9,
+          "formulation": "Phenylephrine Hydrochloride & Chlorpheniramine Maleate Syrup",
+          "composition": "Each 5 ml contains\nPhenylephrine Hydrochloride IP 5 mg\nChlorpheniramine Maleate IP 2 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "9-phenylephrine-hydrochloride-chlorpheniramine-maleate-syrup"
+        },
+        {
+          "serialNo": 10,
+          "formulation": "Oxetacaine, Dried Aluminium Hydroxide Gel & Magnesium Hydroxide Oral suspension",
+          "composition": "Each 5 ml contains\nOxetacaine BP 10 mg\nDried Aluminium Hydroxide Gel IP 291 mg\nMagnesium Hydroxide IP 98 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "10-oxetacaine-dried-aluminium-hydroxide-gel-magnesium-hydroxide-oral-suspension"
+        },
+        {
+          "serialNo": 11,
+          "formulation": "Ambroxol Hydrochloride, Guaiphenesin & Levosalbutamol Syrup",
+          "composition": "Each 5 ml contains\nAmbroxol Hydrochloride IP 15 mg\nGuaiphenesin IP 50 mg\nLevosalbutamol Sulphate\nEq. to Levosalbutamol\nIP\n0.5 mg\nIn a mentholated syrupy base\nApproved colour used",
+          "slug": "11-ambroxol-hydrochloride-guaiphenesin-levosalbutamol-syrup"
+        },
+        {
+          "serialNo": 12,
+          "formulation": "Ambroxol Hydrochloride, Guaiphenesin, Terbutaline Sulphate & Menthol Syrup",
+          "composition": "Each 5 ml contains\nAmbroxol Hydrochloride IP 15 mg\nGuaiphenesin IP 50 mg\nTerbutaline Sulphate IP 1.25 mg\nMenthol IP 0.5 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "12-ambroxol-hydrochloride-guaiphenesin-terbutaline-sulphate-menthol-syrup"
+        },
+        {
+          "serialNo": 13,
+          "formulation": "Ofloxacin Oral Suspension IP",
+          "composition": "Each 5 ml contains\nOfloxacin IP 50 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "13-ofloxacin-oral-suspension-ip"
+        },
+        {
+          "serialNo": 14,
+          "formulation": "Ofloxacin Oral Suspension IP",
+          "composition": "Each 5 ml contains\nOfloxacin IP 100 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "14-ofloxacin-oral-suspension-ip"
+        },
+        {
+          "serialNo": 15,
+          "formulation": "Sodium Picosulfate Oral Solution BP",
+          "composition": "Each 5 ml contains\nSodium Picosulfate BP 5 mg\nIn a sorbitol base\nApproved colour used",
+          "slug": "15-sodium-picosulfate-oral-solution-bp"
+        },
+        {
+          "serialNo": 16,
+          "formulation": "Sucralfate & Oxetacaine Suspension",
+          "composition": "Each 10 ml contains\nSucralfate IP 1 gm\nOxetacaine BP 20 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "16-sucralfate-oxetacaine-suspension"
+        },
+        {
+          "serialNo": 17,
+          "formulation": "Magaldrate & Simethicone Suspension IP",
+          "composition": "Each 5 ml contains\nMagaldrate\n(as anhydrous)\nIP 400 mg\nSimethicone IP 60 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "17-magaldrate-simethicone-suspension-ip"
+        },
+        {
+          "serialNo": 18,
+          "formulation": "Paracetamol Paediatric Oral Suspension IP",
+          "composition": "Each 5 ml contains\nParacetamol IP 250 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "18-paracetamol-paediatric-oral-suspension-ip"
+        },
+        {
+          "serialNo": 19,
+          "formulation": "Ondansetron Oral solution IP",
+          "composition": "Each 5 ml contains\nOndansetron Hydrochloride\nEq. to Ondansetron\nIP\n2 mg\nIn a flavoured solution base\nApproved colour used",
+          "slug": "19-ondansetron-oral-solution-ip"
+        },
+        {
+          "serialNo": 20,
+          "formulation": "Ondansetron Oral solution IP",
+          "composition": "Each 5 ml contains\nOndansetron Hydrochloride\nEq. to Ondansetron\nIP\n4 mg\nIn a flavoured solution base\nApproved colour used",
+          "slug": "20-ondansetron-oral-solution-ip"
+        },
+        {
+          "serialNo": 21,
+          "formulation": "Azithromycin Oral Suspension IP",
+          "composition": "Each ml contains\nAzithromycin Dihydrate\nEq. to Azithromycin\nIP\n40 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "21-azithromycin-oral-suspension-ip"
+        },
+        {
+          "serialNo": 22,
+          "formulation": "Paracetamol Paediatric Oral Suspension IP",
+          "composition": "Each 5 ml contains\nParacetamol IP 125 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "22-paracetamol-paediatric-oral-suspension-ip"
+        },
+        {
+          "serialNo": 23,
+          "formulation": "Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride & Chlorpheniramine Maleate Syrup",
+          "composition": "Each 5 ml contains\nDextromethorphan\nHydrobromide\nIP 10 mg\nPhenylephrine Hydrochloride IP 5 mg\nChlorpheniramine Maleate IP 2 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "23-dextromethorphan-hydrobromide-phenylephrine-hydrochloride-chlorpheniramine-maleate-syrup"
+        },
+        {
+          "serialNo": 24,
+          "formulation": "Mefenamic Acid & Paracetamol Oral Suspension",
+          "composition": "Each 5 ml contains\nMefenamic Acid IP 100 mg\nParacetamol IP 250 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "24-mefenamic-acid-paracetamol-oral-suspension"
+        },
+        {
+          "serialNo": 25,
+          "formulation": "Albendazole suspension IP 200 mg",
+          "composition": "Each 5 ml contains\nAlbendazole IP 200 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "25-albendazole-suspension-ip-200-mg"
+        },
+        {
+          "serialNo": 26,
+          "formulation": "Deflazacort oral suspension",
+          "composition": "Each 5 ml contains\nDeflazacort 6 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "26-deflazacort-oral-suspension"
+        },
+        {
+          "serialNo": 27,
+          "formulation": "Ambroxol Hydrochloride, Guaiphenesin & Terbutaline Sulphate Syrup",
+          "composition": "Each 5 ml contains\nAmbroxol Hydrochloride IP 30 mg\nGuaiphenesin IP 50 mg\nTerbutaline Sulphate IP 1.25 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "27-ambroxol-hydrochloride-guaiphenesin-terbutaline-sulphate-syrup"
+        },
+        {
+          "serialNo": 28,
+          "formulation": "Dried Aluminium Hydroxide Gel, Magnesium Hydroxide & Simethicone Suspension",
+          "composition": "Each 10 ml contains\nDried Aluminium Hydroxide Gel\nEq. to Aluminium Hydroxide\nIP 250\n191.25\nmg\nmg\nMagnesium Hydroxide IP 250 mg\nActivated Dimethiicone\n(Simethicone)\nIP 50 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "28-dried-aluminium-hydroxide-gel-magnesium-hydroxide-simethicone-suspension"
+        },
+        {
+          "serialNo": 29,
+          "formulation": "Ofloxacin & Metronidazole Suspension",
+          "composition": "Each 5 ml contains\nOfloxacin IP 50 mg\nMetronidazole Benzoate\nEq. to Metronidazole\nIP\n125 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "29-ofloxacin-metronidazole-suspension"
+        },
+        {
+          "serialNo": 30,
+          "formulation": "Elemental Calcium, Vitamin D3 & Cyanocobalamin Suspension",
+          "composition": "Each 10 ml contains\nCalcium Carbonate (Oyster Shell)\nEq. to Elemental Calcium\nIP 625\n250\nmg\nmg\nVitamin D3 IP 400 IU\nCyanocobalamin IP 5 mcg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "30-elemental-calcium-vitamin-d3-cyanocobalamin-suspension"
+        },
+        {
+          "serialNo": 31,
+          "formulation": "Levetiracetam Oral Solution IP",
+          "composition": "Each 5 ml contains\nLevetiracetam IP 500 mg\nIn a flavoured aquves vhecals base\nApproved colour used",
+          "slug": "31-levetiracetam-oral-solution-ip"
+        },
+        {
+          "serialNo": 32,
+          "formulation": "Levocloperastine Fendizoate Oral Suspension",
+          "composition": "Each 5 ml contains\nLevocloperastine Fendizoate\nEq. to Levocloperastine\nHydrochloride\n35.4",
+          "slug": "32-levocloperastine-fendizoate-oral-suspension"
+        },
+        {
+          "serialNo": 33,
+          "formulation": "Levodropropizine & Chlorpheniramine Syrup",
+          "composition": "Each 5 ml contains\nLevodropropizine IP 30 mg\nChlorpheniramine Maleate IP 2 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "33-levodropropizine-chlorpheniramine-syrup"
+        },
+        {
+          "serialNo": 34,
+          "formulation": "Phenylephrine Hydrochloride, Chlorpheniramine Maleate, Sodium Citrate & Menthol Syrup",
+          "composition": "Each 5 ml contains\nPhenylephrine Hydrochloride IP 5 mg\nChlorpheniramine Maleate IP 1 mg\nSodium Citrate IP 60 mg\nMenthol IP 1 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "34-phenylephrine-hydrochloride-chlorpheniramine-maleate-sodium-citrate-menthol-syrup"
+        },
+        {
+          "serialNo": 35,
+          "formulation": "Salbutamol & Etofylline Syrup",
+          "composition": "Each 5 ml contains\nSalbutamol Sulphate\nEq. to Salbutamol\nIP\n1 mg\nEtofylline IP 50 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "35-salbutamol-etofylline-syrup"
+        },
+        {
+          "serialNo": 36,
+          "formulation": "Paracetamol, Phenylephrine Hydrochloride, Chlorpheniramine Maleate, Sodium Citrate , Ammonium Chloride & Menthol Suspension",
+          "composition": "Each 5 ml contains\nParacetamol IP 250 mg\nPhenylephrine Hydrochloride IP 5 mg\nChlorpheniramine Maleate IP 2 mg\nSodium Citrate IP 60 mg\nAmmonium Chloride IP 120 mg\nMenthol IP 1 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "36-paracetamol-phenylephrine-hydrochloride-chlorpheniramine-maleate-sodium-citrate-ammonium-chloride-menthol-suspension"
+        },
+        {
+          "serialNo": 37,
+          "formulation": "Ambroxol Hydrochloride & Guaiphenesin Syrup",
+          "composition": "Each 5 ml contains\nAmbroxol Hydrochloride IP 15 mg\nGuaiphenesin IP 100 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "37-ambroxol-hydrochloride-guaiphenesin-syrup"
+        },
+        {
+          "serialNo": 38,
+          "formulation": "Ambroxol Hydrochloride & Cetirizine Hydrochloride Syrup",
+          "composition": "Each 5 ml contains\nAmbroxol Hydrochloride IP 60 mg\nCetirizine Hydrochloride IP 5 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "38-ambroxol-hydrochloride-cetirizine-hydrochloride-syrup"
+        },
+        {
+          "serialNo": 39,
+          "formulation": "Dicyclomine Hydrochloride & Activated Dimethicone oral Suspension",
+          "composition": "Each 5 ml contains\nDicyclomine Hydrochloride IP 10 mg\nActivated Dimethicone IP 40 mg\nIn a flavoured suspension base\nApproved colour used",
+          "slug": "39-dicyclomine-hydrochloride-activated-dimethicone-oral-suspension"
+        },
+        {
+          "serialNo": 40,
+          "formulation": "Magaldrate, Simethicone & Oxetacaine Suspension",
+          "composition": "Each 5 ml contains\nMagaldrate\n(as anhydrous)\nIP 540 mg\nSimethicone IP 50 mg\nOxetacaine BP 10 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "40-magaldrate-simethicone-oxetacaine-suspension"
+        },
+        {
+          "serialNo": 41,
+          "formulation": "Cyanocobalamin, Folic Acid & Niacinamide oral Drops",
+          "composition": "Each 5ml contains\nCyanocobalamin (Anhydrous) IP 5 mcg\nFolic Acid IP 200 mcg\nNiacinamide IP 20 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "41-cyanocobalamin-folic-acid-niacinamide-oral-drops"
+        },
+        {
+          "serialNo": 42,
+          "formulation": "Potassium Citrate & Citric Acid oral Solution USP",
+          "composition": "Each 5 ml contains\nPotassium Citrate Monohydrate IP 1100 mg\nCitric Acid Monohydrate IP 334 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "42-potassium-citrate-citric-acid-oral-solution-usp"
+        },
+        {
+          "serialNo": 43,
+          "formulation": "Iron (III) Hydroxide Polymaltose & Folic Acid Oral Drops",
+          "composition": "Each ml contains\nIron (III) Hydroxide Polymaltose Complex\nEq. to Elemental Iron\nIP\n15 mg\nFolic Acid IP 0.2 mg\nIn a flavoured base\nApproved colour used",
+          "slug": "43-iron-iii-hydroxide-polymaltose-folic-acid-oral-drops"
+        },
+        {
+          "serialNo": 44,
+          "formulation": "Dicyclomine Hydrochloride & Simethicone oral Drops",
+          "composition": "Each ml contains\nDicyclomine Hydrochloride IP 10 mg\nSimethicone Emulsion\nEq. to Simethicone\nUSP\n40 mg\nIn a flavoured base\nApproved colour used",
+          "slug": "44-dicyclomine-hydrochloride-simethicone-oral-drops"
+        },
+        {
+          "serialNo": 45,
+          "formulation": "Ambroxol Hydrochloride, Guaiphenesin & Terbutaline Sulphate Drops",
+          "composition": "Each ml contains\nAmbroxol Hydrochloride IP 7.5 mg\nGuaiphenesin IP 12.5 mg\nTerbutaline Sulphate IP 0.25 mg\nIn a mentholated syrupy base\nApproved colour used",
+          "slug": "45-ambroxol-hydrochloride-guaiphenesin-terbutaline-sulphate-drops"
+        },
+        {
+          "serialNo": 46,
+          "formulation": "Levocetirizine Dihydrochloride Syrup IP",
+          "composition": "Each 5ml contains\nLevocetirizine Dihydrochloride IP 2.5 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "46-levocetirizine-dihydrochloride-syrup-ip"
+        },
+        {
+          "serialNo": 47,
+          "formulation": "Calcium & Vitamin D3 Suspension",
+          "composition": "Each 5ml contains\nCalcium Carbonate\nEq. to elemental Calcium\nFrom an Organic source (Oyster Shells)\nIP 625\n250\nmg\nmg\nVitamin D3 IP 125 IU\nIn a flavoured Suspension base\nApproved colour used",
+          "slug": "47-calcium-vitamin-d3-suspension"
+        },
+        {
+          "serialNo": 48,
+          "formulation": "Phenylephrine Hydrochloride & Chlorpheniramine Maleate Syrup",
+          "composition": "Each 5ml contains\nPhenylephrine Hydrochloride IP 5 mg\nChlorpheniramine Maleate IP 2 mg\nIn a flavoured Syrupy base\nApproved colour used",
+          "slug": "48-phenylephrine-hydrochloride-chlorpheniramine-maleate-syrup"
+        },
+        {
+          "serialNo": 49,
+          "formulation": "Liquid Paraffin, Milk of Magnesia & Sodium Picosulfate Suspension",
+          "composition": "Each 5ml contains\nLiquid Paraffin IP 1.25 ml\nMilk of Magnesia IP 3.75 ml\nSodium Picosulfate BP 3.33 mg\nIn a flavoured Sorbitol base\nApproved colour used",
+          "slug": "49-liquid-paraffin-milk-of-magnesia-sodium-picosulfate-suspension"
+        },
+        {
+          "serialNo": 50,
+          "formulation": "Magaldrate, Simethicone & Oxetacaine Suspension",
+          "composition": "Each 5 ml contains\nMagaldrate\n(as anhydrous)\nIP 480 mg\nSimethicone IP 20 mg\nOxetacaine BP 10 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "50-magaldrate-simethicone-oxetacaine-suspension"
+        },
+        {
+          "serialNo": 51,
+          "formulation": "Cyproheptadine Hydrochloride & Tricholine Citrate oral Drops",
+          "composition": "Each ml contains\nCyproheptadine Hydrochloride\n(as anhydrous)\nIP 1.5 mg\nTricholine Citrate 65% 55 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "51-cyproheptadine-hydrochloride-tricholine-citrate-oral-drops"
+        },
+        {
+          "serialNo": 52,
+          "formulation": "Albendazole & Ivermectin oral Suspension",
+          "composition": "Each 5 ml contains\nAlbendazole IP 200 mg\nIvermectin IP 1.5 mg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "52-albendazole-ivermectin-oral-suspension"
+        },
+        {
+          "serialNo": 53,
+          "formulation": "Ferric Ammonium Citrate, Folic Acid & Cyanocobalamin Syrup",
+          "composition": "Each 15 ml contains\nFerric Ammonium Citrate IP 160 mg\nFolic Acid IP 0.5 mg\nCyanocobalamin IP 7.5 mcg\nIn a flavoured syrupy base\nApproved colour used",
+          "slug": "53-ferric-ammonium-citrate-folic-acid-cyanocobalamin-syrup"
+        },
+        {
+          "serialNo": 54,
+          "formulation": "Potassium Chloride Oral Solution USP 20%",
+          "composition": "Each 15 ml contains\nPotassium Chloride IP 40 mEq\nIn a flavoured syrupy base q.s\nApproved colour used",
+          "slug": "54-potassium-chloride-oral-solution-usp-20"
+        },
+        {
+          "serialNo": 55,
+          "formulation": "Ambroxol Hydrochloride, Guaiphenesin & Levosalbutamol Syrup",
+          "composition": "Each 5 ml contains\nAmbroxol Hydrochloride IP 15 mg\nGuaiphenesin IP 50 mg\nLevosalbutamol Sulphate\nEq. to Levosalbutamol\nIP\n0.5 mg\nIn a flavoured syrupy base q.s\nApproved colour used",
+          "slug": "55-ambroxol-hydrochloride-guaiphenesin-levosalbutamol-syrup"
+        },
+        {
+          "serialNo": 56,
+          "formulation": "Ambroxol Hydrochloride, Guaiphenesin & Levosalbutamol Syrup",
+          "composition": "Each 5 ml contains\nAmbroxol Hydrochloride IP 30 mg\nGuaiphenesin IP 50 mg\nLevosalbutamol Sulphate\nEq. to Levosalbutamol\nIP\n1 mg\nIn a flavoured syrupy base q.s\nApproved colour used",
+          "slug": "56-ambroxol-hydrochloride-guaiphenesin-levosalbutamol-syrup"
+        },
+        {
+          "serialNo": 57,
+          "formulation": "Paracetamol, Phenylephrine Hydrochloride & Chlorpheniramine Maleate Suspension",
+          "composition": "Each 5 ml contains\nParacetamol IP 250 mg\nPhenylephrine Hydrochloride IP 5 mg\nChlorpheniramine Maleate IP 2 mg\nIn a flavoured suspension base q.s\nApproved colour used",
+          "slug": "57-paracetamol-phenylephrine-hydrochloride-chlorpheniramine-maleate-suspension"
+        },
+        {
+          "serialNo": 58,
+          "formulation": "Levocetirizine Dihydrochloride & Montelukast Syrup",
+          "composition": "Each 5 ml contains\nLevocetirizine Dihydrochloride IP 2.5 mg\nMontelukast Sodium\nEq. to Montelukast\nIP\n4 mg\nIn a flavoured syrupy base q.s\nApproved colour used",
+          "slug": "58-levocetirizine-dihydrochloride-montelukast-syrup"
+        },
+        {
+          "serialNo": 59,
+          "formulation": "Magaldrate & Simethicone Suspension IP",
+          "composition": "Each 10 ml contains\nMagaldrate\n(as anhydrous)\nIP 400 mg\nSimethicone IP 20 mg\nIn a flavoured suspension base q.s\nApproved colour used",
+          "slug": "59-magaldrate-simethicone-suspension-ip"
+        },
+        {
+          "serialNo": 60,
+          "formulation": "Vitamin D3 Oral Solution 60000 IU",
+          "composition": "Each 5 ml contains\nCholecalciferol Concentrate (as Stabilized)\nEq. to Cholecalciferol (Vitamin D3)\n(In Nano Droplet From)\nIP 60000 IU\nIn a flavoured Sorbitol (70%) base\n(Non Crystallising)\nq.s",
+          "slug": "60-vitamin-d3-oral-solution-60000-iu"
+        },
+        {
+          "serialNo": 61,
+          "formulation": "Ibuprofen & Paracetamol Suspension",
+          "composition": "Each 5 ml contains\nIbuprofen IP 100 mg\nParacetamol IP 162.5 mg\nIn a flavoured suspension base q.s\nApproved colour used",
+          "slug": "61-ibuprofen-paracetamol-suspension"
+        },
+        {
+          "serialNo": 62,
+          "formulation": "Magaldrate & Simethicone Suspension IP",
+          "composition": "Each 10 ml contains\nMagaldrate\n(as anhydrous)\nIP 400 mg\nSimethicone IP 20 mg\nSorbitol Solution (70%)\n(non-crystallising)\nq.s\nApproved colour used",
+          "slug": "62-magaldrate-simethicone-suspension-ip"
+        },
+        {
+          "serialNo": 63,
+          "formulation": "Aceclofenac & Paracetamol Suspension",
+          "composition": "Each 5ml contains\nAceclofenac IP 50 mg\nParacetamol IP 125 mg\nIn a flavoured syrupy base q.s\nApproved colour used",
+          "slug": "63-aceclofenac-paracetamol-suspension"
+        },
+        {
+          "serialNo": 64,
+          "formulation": "Cyproheptadine Hydrochloride & Tricholine Citrate Syrup",
+          "composition": "Each 5 ml contains\nCyproheptadine Hydrochloride\nEq. to Anhydrous Cyproheptadine\nHydrochloride\nIP\n2 mg\nTricholine Citrate 65% IP 275 mg\nIn a flavoured sorbitol (70%) base\n(Non-Crystallising)\nIP q.s\nApproved colour used",
+          "slug": "64-cyproheptadine-hydrochloride-tricholine-citrate-syrup"
+        },
+        {
+          "serialNo": 65,
+          "formulation": "Disodium Hydrogen Citrate Syrup",
+          "composition": "Each 5 ml contains\nDisodium Hydrogen Citrate BP 1.25 gm\nIn a flavoured syrupy base q.s\nApproved colour used",
+          "slug": "65-disodium-hydrogen-citrate-syrup"
+        },
+        {
+          "serialNo": 66,
+          "formulation": "Lactulose Oral Solution USP",
+          "composition": "Each 15 ml contains\nLactulose Concentrate\nEq. to Lactulose\nUSP\n6 gm\nPalatable base q.s.\nApproved colour used",
+          "slug": "66-lactulose-oral-solution-usp"
+        },
+        {
+          "serialNo": 67,
+          "formulation": "Paracetamol, Phenylephrine Hydrochloride & Chlorpheniramine Maleate Oral Drops",
+          "composition": "Each 1 ml contains\nParacetamol IP 125 mg\nPhenylephrine Hydrochloride IP 2.5 mg\nChlorpheniramine Maleate IP 2 mg\nIn a flavoured syrupy base q.s",
+          "slug": "67-paracetamol-phenylephrine-hydrochloride-chlorpheniramine-maleate-oral-drops"
+        }
+      ]
+    },
+    {
+      "name": "Ointments",
+      "slug": "ointments",
+      "productCount": 46,
+      "products": [
+        {
+          "serialNo": 1,
+          "formulation": "Terbinafine Hydrochloride cream IP 1% w/w",
+          "composition": "Terbinafine Hydrochloride IP 1% w/w\nCream base\nPreservatives:-\nMethylparaben IP 0.1% w/w\nPropylparaben IP 0.025% w/w",
+          "slug": "1-terbinafine-hydrochloride-cream-ip-1-w-w"
+        },
+        {
+          "serialNo": 2,
+          "formulation": "Clobetasol Propionate Cream IP",
+          "composition": "Clobetasol Propionate IP 0.05% w/w\nCream base q.s\nPreservatives:\nChlorocresol IP 0.1% w/w",
+          "slug": "2-clobetasol-propionate-cream-ip"
+        },
+        {
+          "serialNo": 3,
+          "formulation": "Mometasone Furoate Cream IP",
+          "composition": "Mometasone Furoate 0.1% w/v\nCream base q.s\nPreservatives:\nChlorocresol IP 0.1% w/w",
+          "slug": "3-mometasone-furoate-cream-ip"
+        },
+        {
+          "serialNo": 4,
+          "formulation": "Ketoconazole & Zinc Pyrithione Lotion Base",
+          "composition": "Ketoconazole IP 2% w/v\nZinc Pyrithione 1% w/v\nLotion Base",
+          "slug": "4-ketoconazole-zinc-pyrithione-lotion-base"
+        },
+        {
+          "serialNo": 5,
+          "formulation": "Permethrin Cream",
+          "composition": "Each gram contains\nPermethrin 5% w/v\nCream base q.s",
+          "slug": "5-permethrin-cream"
+        },
+        {
+          "serialNo": 6,
+          "formulation": "Chlorhexidine Gluconate, Sodium Fluoride & Zinc Chloride Mouth Wash IP",
+          "composition": "Chlorhexidine Gluconate Solution\nEq. to Chlorhexidine Gluconate\nIP\n0.2% w/v\nSodium Fluoride IP 0.05% w/v\nZinc Chloride IP 0.09% w/v\nAqueous base\nApproved colour used",
+          "slug": "6-chlorhexidine-gluconate-sodium-fluoride-zinc-chloride-mouth-wash-ip"
+        },
+        {
+          "serialNo": 7,
+          "formulation": "Diclofenac Sodium, Linseed Oil, Methyl Salicylate & Menthol Gel",
+          "composition": "Diclofenac Diethylamine\nEq. to Diclofenac Sodium\nBP 1.16%\n1.0%\nw/w\nw/w\nLinseed Oil BP 3.0% w/w\nMethyl Salicylate IP 10.0% w/w\nMenthol IP 5.0% w/w\nBenzyl Alcohol\n(as preservative)\nIP 1.0% w/w\nA gel base",
+          "slug": "7-diclofenac-sodium-linseed-oil-methyl-salicylate-menthol-gel"
+        },
+        {
+          "serialNo": 8,
+          "formulation": "Clobetasol Propionate, Neomycin Sulphate & Miconazole Nitrate Cream",
+          "composition": "Clobetasol Propionate USP 0.05% w/w\nNeomycin Sulphate IP 0.5% w/w\nMiconazole Nitrate IP 2.0% w/w\nChlorocresol\n(As preservative)\nIP 0.1% w/w\nCream base",
+          "slug": "8-clobetasol-propionate-neomycin-sulphate-miconazole-nitrate-cream"
+        },
+        {
+          "serialNo": 9,
+          "formulation": "Diclofenac Sodium, Oleum Lini, Methyl Salicylate & Menthol Gel",
+          "composition": "Diclofenac Diethylamine\nEq. to Diclofenac Sodium\nBP 1.16%\n1.0%\nw/w\nw/w\nOleum Lini BP 3.0% w/w\nMethyl Salicylate IP 10.0% w/w\nMenthol IP 5.0% w/w\nBenzyl Alcohol\n(as preservative)\nIP 1.0% w/w\nA gel base",
+          "slug": "9-diclofenac-sodium-oleum-lini-methyl-salicylate-menthol-gel"
+        },
+        {
+          "serialNo": 10,
+          "formulation": "Mometasone Furoate Cream IP",
+          "composition": "Mometasone Furoate IP 0.1% w/w\nCream base\nPreservatives:-\nChlorocresol IP 0.1% w/w",
+          "slug": "10-mometasone-furoate-cream-ip"
+        },
+        {
+          "serialNo": 11,
+          "formulation": "Mupirocin Ointment IP 2% w/w",
+          "composition": "Mupirocin IP 2% w/w\nOintment base",
+          "slug": "11-mupirocin-ointment-ip-2-w-w"
+        },
+        {
+          "serialNo": 12,
+          "formulation": "Itraconazole, Ofloxacin, Ornidazole & Clobetasol Propionate Cream",
+          "composition": "Itraconazole IP 1.0 % w/w\nOfloxacin IP 0.75 % w/w\nOrnidazole IP 2.0 % w/w\nClobetasol Propionate IP 0.05% w/w\nIn a cream base",
+          "slug": "12-itraconazole-ofloxacin-ornidazole-clobetasol-propionate-cream"
+        },
+        {
+          "serialNo": 13,
+          "formulation": "Povidone-Iodine Ointment USP",
+          "composition": "Povidone- Iodine IP 5% w/w\nOintment base q.s",
+          "slug": "13-povidone-iodine-ointment-usp"
+        },
+        {
+          "serialNo": 14,
+          "formulation": "Miconazole Nitrate Cream IP",
+          "composition": "Miconazole Nitrate IP 2% w/w\nCream base q.s",
+          "slug": "14-miconazole-nitrate-cream-ip"
+        },
+        {
+          "serialNo": 15,
+          "formulation": "Hydroquinone, Mometasone Furoate & Tretinoin Cream",
+          "composition": "Hydroquinone USP 2.0% w/w\nMometasone Furoate IP 0.1% w/w\nTretinoin USP 0.025% w/w\nCream base q.s",
+          "slug": "15-hydroquinone-mometasone-furoate-tretinoin-cream"
+        },
+        {
+          "serialNo": 16,
+          "formulation": "Clotrimazole, Beclomethasone Dipropionate & Neomycin Cream",
+          "composition": "Clotrimazole IP 1.0% w/\nw\nBeclomethasone Dipropionate IP 0.025% w/\nw\nNeomycin Sulphate\nEq. to Neomycin\nIP\n0.5% w/\nw\nCream base",
+          "slug": "16-clotrimazole-beclomethasone-dipropionate-neomycin-cream"
+        },
+        {
+          "serialNo": 17,
+          "formulation": "Povidone Iodine & Ornidazole Ointment",
+          "composition": "Povidone Iodine IP 5% w/w\nOrnidazole IP 1% w/w\nOintment base",
+          "slug": "17-povidone-iodine-ornidazole-ointment"
+        },
+        {
+          "serialNo": 18,
+          "formulation": "Clindamycin Phosphate Gel USP",
+          "composition": "Clindamycin Phosphate\nEq. to Clindamycin\nIP\n1.0% w/w\nGel base",
+          "slug": "18-clindamycin-phosphate-gel-usp"
+        },
+        {
+          "serialNo": 19,
+          "formulation": "Clindamycin Phosphate & Nicotinamide Gel",
+          "composition": "Clindamycin Phosphate\nEq. to Clindamycin\nIP\n1.0% w/w\nNicotinamide IP 4.0% w/w\nGel base",
+          "slug": "19-clindamycin-phosphate-nicotinamide-gel"
+        },
+        {
+          "serialNo": 20,
+          "formulation": "Clobetasol Propionate, Neomycin, Tolnaftate, Ketoconazole, Iodochlorhydroxyquinoline & Dexpanthenol cream",
+          "composition": "Each gm contains\nClobetasol Propionate IP 0.5 mg\nNeomycin Sulphate\nEq. to Neomycin\nIP\n1.0 mg\nTolnaftate IP 10 mg\nKetoconazole IP 20 mg\nIodochlorhydroxyquinoline IP 10 mg\nDexpanthenol USP 0.5 mg\nCream base",
+          "slug": "20-clobetasol-propionate-neomycin-tolnaftate-ketoconazole-iodochlorhydroxyquinoline-dexpanthenol-cream"
+        },
+        {
+          "serialNo": 21,
+          "formulation": "Tretinoin cream USP",
+          "composition": "Tretinoin USP 0.05% w/w\nCream base",
+          "slug": "21-tretinoin-cream-usp"
+        },
+        {
+          "serialNo": 22,
+          "formulation": "Clotrimazole & Halobetasol Propionate Cream",
+          "composition": "Clotrimazole IP 1.0% w/w\nHalobetasol Propionate 0.05% w/w\nCream base q.s",
+          "slug": "22-clotrimazole-halobetasol-propionate-cream"
+        },
+        {
+          "serialNo": 23,
+          "formulation": "Halobetasol Propionate Lotion 0.5% w/v",
+          "composition": "Halobetasol Propionate 0.05% w/v\nLotion Base q.s",
+          "slug": "23-halobetasol-propionate-lotion-0-5-w-v"
+        },
+        {
+          "serialNo": 24,
+          "formulation": "Halobetasol Propionate & Mupirocin Gel",
+          "composition": "Each gm contains\nHalobetasol Propionate 0.05% w/v\nMupirocin IP 2% w/w\nGel Base q.s",
+          "slug": "24-halobetasol-propionate-mupirocin-gel"
+        },
+        {
+          "serialNo": 25,
+          "formulation": "Salicylic Acid Gel 2% w/v",
+          "composition": "Salicylic Acid IP 2% w/v\nGel base containing aloevera\ngel\nq.s",
+          "slug": "25-salicylic-acid-gel-2-w-v"
+        },
+        {
+          "serialNo": 26,
+          "formulation": "Tacrolimus Ointment 0.03% w/w",
+          "composition": "Each gram of ointment contains\nTacrolimus IP 0.3 mg\nOintment base q.s",
+          "slug": "26-tacrolimus-ointment-0-03-w-w"
+        },
+        {
+          "serialNo": 27,
+          "formulation": "Tacrolimus Ointment 0.1% w/w",
+          "composition": "Each gram of ointment contains\nTacrolimus IP 1 mg\nOintment base q.s",
+          "slug": "27-tacrolimus-ointment-0-1-w-w"
+        },
+        {
+          "serialNo": 28,
+          "formulation": "Permethrin Lotion 5% w/v",
+          "composition": "Permethrin 5% w/v\nLotion Base q.s",
+          "slug": "28-permethrin-lotion-5-w-v"
+        },
+        {
+          "serialNo": 29,
+          "formulation": "Clotrimazole & Beclomethasone Dipropionate Cream",
+          "composition": "Clotrimazole IP 1% w/w\nBeclomethasone Dipropionate IP 0.025% w/w\nCream base q.s",
+          "slug": "29-clotrimazole-beclomethasone-dipropionate-cream"
+        },
+        {
+          "serialNo": 30,
+          "formulation": "Gentamicin Sulphate & Beclomethasone Dipropionate Cream",
+          "composition": "Gentamicin Sulphate IP 0.1% w/w\nBeclomethasone Dipropionate IP 0.025% w/w\nCream base q.s",
+          "slug": "30-gentamicin-sulphate-beclomethasone-dipropionate-cream"
+        },
+        {
+          "serialNo": 31,
+          "formulation": "Fusidic Acid Hemihydrate Cream IP",
+          "composition": "Fusidic Acid IP 2% w/w\nCream base q.s\nPreservatives:\nMethyl Paraben IP 0.1% w/w\nPropyl Paraben IP 0.025% w/w",
+          "slug": "31-fusidic-acid-hemihydrate-cream-ip"
+        },
+        {
+          "serialNo": 32,
+          "formulation": "Halobetasol Propionate & Salicylic Acid Ointment",
+          "composition": "Halobetasol Propionate 0.05% w/w\nSalicylic Acid IP 6% w/w\nOintment Base q.s",
+          "slug": "32-halobetasol-propionate-salicylic-acid-ointment"
+        },
+        {
+          "serialNo": 33,
+          "formulation": "Halobetasol Propionate & Salicylic Acid Ointment",
+          "composition": "Each gm contains\nHalobetasol Propionate 0.5 mg\nSalicylic Acid IP 30 mg mg\nOintment Base q.s",
+          "slug": "33-halobetasol-propionate-salicylic-acid-ointment"
+        },
+        {
+          "serialNo": 34,
+          "formulation": "Clobetasone Propionate & Miconazole Nitrate Cream",
+          "composition": "Clobetasone Propionate IP 0.05% w/w\nMiconazole Nitrate IP 2% w/w\nCream base\nPreservatives:\nMethyl Paraben IP 0.1% w/w\nPropyl Paraben IP 0.025% w/w",
+          "slug": "34-clobetasone-propionate-miconazole-nitrate-cream"
+        },
+        {
+          "serialNo": 35,
+          "formulation": "Clobetasone Propionate, Fusidic Acid & Clotrimazole Cream",
+          "composition": "Clobetasone Propionate IP 0.05% w/w\nFusidic Acid IP 2% w/w\nClotrimazole IP 1% w/w\nCream base",
+          "slug": "35-clobetasone-propionate-fusidic-acid-clotrimazole-cream"
+        },
+        {
+          "serialNo": 36,
+          "formulation": "Lidocaine Hydrochloride Gel 2% IP",
+          "composition": "Lignocaine Hydrochloride\nEq. to (Anhydrous) Lidocaine\nHydrochloride\nIP\n2% w/w\nGel base q.s",
+          "slug": "36-lidocaine-hydrochloride-gel-2-ip"
+        },
+        {
+          "serialNo": 37,
+          "formulation": "Povidone Iodine & Ornidazole Ointment",
+          "composition": "Povidone Iodine IP 5% w/w\nOrnidazole IP 1% w/w\nOintment base q.s",
+          "slug": "37-povidone-iodine-ornidazole-ointment"
+        },
+        {
+          "serialNo": 38,
+          "formulation": "Clobetasol Propionate & Gentamicin Cream",
+          "composition": "Clobetasol Propionate IP 0.05% w/w\nGentamicin\n(As Gentamicin Sulphate IP)\n0.1% w/w\nCream base q.s",
+          "slug": "38-clobetasol-propionate-gentamicin-cream"
+        },
+        {
+          "serialNo": 39,
+          "formulation": "Adapalene & Clindamycin Gel",
+          "composition": "Each gm contains\nAdapalene BP 1 mg\nClindamycin Phosphate\nEq. to Clindamycin\nIP\n10 mg\nIn an aqueous gel base q.s",
+          "slug": "39-adapalene-clindamycin-gel"
+        },
+        {
+          "serialNo": 40,
+          "formulation": "Ketoconazole Cream base",
+          "composition": "Ketoconazole IP 2% w/w\nCream base q.s",
+          "slug": "40-ketoconazole-cream-base"
+        },
+        {
+          "serialNo": 41,
+          "formulation": "Ornidazole & Miconazole Nitrate Vaginal Cream",
+          "composition": "Ornidazole IP 2% w/w\nMiconazole Nitrate IP 2% w/w\ncream base q.s",
+          "slug": "41-ornidazole-miconazole-nitrate-vaginal-cream"
+        },
+        {
+          "serialNo": 42,
+          "formulation": "Betamethasone Valerate ointment IP",
+          "composition": "Betamethasone Valerate\nEq. to Betamethasone\nIP\n0.1% w/w\nIn ointment base q.s",
+          "slug": "42-betamethasone-valerate-ointment-ip"
+        },
+        {
+          "serialNo": 43,
+          "formulation": "Clobetasole Propionate & Fusidic Acid Cream",
+          "composition": "Clobetasole Propionate IP 0.05% w/w\nFusidic Acid IP 2% w/w\nCream base q.s",
+          "slug": "43-clobetasole-propionate-fusidic-acid-cream"
+        },
+        {
+          "serialNo": 44,
+          "formulation": "Beclomethasone Dipropionate & Neomycin Cream",
+          "composition": "Beclomethasone Dipropionate IP 0.025% w/w\nNeomycin Sulphate\nEq. to Neomycin\nIP\n0.5% w/w\nIn cream base q.s",
+          "slug": "44-beclomethasone-dipropionate-neomycin-cream"
+        },
+        {
+          "serialNo": 45,
+          "formulation": "Clobetasol Propionate & Salicylic Acid Ointment",
+          "composition": "Clobetasol Propionate IP 0.05% w/w\nSalicylic Acid IP 3% w/w\nIn ointment base q.s",
+          "slug": "45-clobetasol-propionate-salicylic-acid-ointment"
+        },
+        {
+          "serialNo": 46,
+          "formulation": "Clobetasol Propionate, Neomycin, Tolnaftate, Ketoconazole & Iodochlorhydroxyquinoline Cream",
+          "composition": "Each gm contains\nClobetasol Propionate IP 0.5 mg\nNeomycin Sulphate\nEq. to Neomycin\nIP\n1 mg\nTolnaftate IP 10 mg\nKetoconazole IP 20 mg\nIodochlorhydroxyquinoline IP 10 mg\nIn cream base q.s",
+          "slug": "46-clobetasol-propionate-neomycin-tolnaftate-ketoconazole-iodochlorhydroxyquinoline-cream"
+        }
+      ]
+    }
+  ],
+  "totalProducts": 457,
+  "tabletsSource": "clean-text-import",
+  "capsulesSource": "clean-text-import",
+  "oralLiquidsSource": "clean-text-import",
+  "ointmentsSource": "clean-text-import"
+}

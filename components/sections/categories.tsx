@@ -3,7 +3,6 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
-import { ArrowUpRight } from 'lucide-react'
 import SectionHeading from '@/components/section-heading'
 import { categories } from '@/lib/data'
 import { staggerContainer, iconPop, lineDraw } from '@/lib/animations'
@@ -22,36 +21,16 @@ const CategorySVGs: Record<string, () => React.ReactNode> = {
       <line x1="10" y1="16" x2="22" y2="16"/>
     </svg>
   ),
-  Syrups: () => (
+  'Oral Liquids': () => (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 6h8l2 4v14a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V10l2-4z"/>
-      <line x1="10" y1="14" x2="22" y2="14"/>
-      <path d="M14 6V4h4v2"/>
-    </svg>
-  ),
-  Injectables: () => (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <line x1="24" y1="8" x2="8" y2="24"/>
-      <path d="M20 6l6 6-2 2-6-6z"/>
-      <path d="M10 22l-3 3"/>
-      <path d="M14 14l4 4"/>
+      <path d="M12 4h8l1 4v16a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2V8l1-4z"/>
+      <path d="M12 16c2 3 6 3 8 0"/>
     </svg>
   ),
   Ointments: () => (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 6h8v4l2 2v12a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V12l2-2V6z"/>
       <line x1="12" y1="14" x2="20" y2="14"/>
-    </svg>
-  ),
-  Liquids: () => (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 4h8l1 4v16a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2V8l1-4z"/>
-      <path d="M12 16c2 3 6 3 8 0"/>
-    </svg>
-  ),
-  'OTC Medicines': () => (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M8 14h4V8h8v6h4l-8 10-8-10z"/>
     </svg>
   ),
 }
@@ -67,7 +46,7 @@ export default function CategoriesSection() {
           badge="Our Lab Expertise"
           title="Comprehensive Pharmaceutical"
           accentWord="Catalog"
-          subtitle="From tablets and capsules to liquids and ointments — our medicine catalog covers the needs of modern healthcare providers."
+          subtitle="Capsules, tablets, oral liquids, and ointments — our core pharmaceutical dosage forms for modern healthcare."
           inView={inView}
         />
 
@@ -100,7 +79,7 @@ export default function CategoriesSection() {
                 whileHover={{ y: -8, transition: { duration: 0.22, ease: 'easeOut' } }}
               >
                 <Link
-                  href={`/products?category=${cat.slug}`}
+                  href={`/products/${cat.slug}`}
                   className={`group block bg-white rounded-3xl border p-7 transition-all duration-300 relative ${
                     isDefaultHover
                       ? `${a.activeBorder} ${a.activeShadow}`
@@ -132,18 +111,20 @@ export default function CategoriesSection() {
                     className="h-px bg-border mb-4"
                   />
 
-                  <p className="text-[13px] text-muted-foreground leading-relaxed mb-5">{cat.description}</p>
+                  <p className="text-[13px] text-muted-foreground leading-relaxed mb-4">{cat.description}</p>
 
-                  <div className="flex items-center justify-between">
-                    <span className="font-mono text-[10px] tracking-[0.12em] uppercase text-muted-foreground">
-                      {cat.count}+ products
+                  <div className="flex items-center justify-between gap-3">
+                    <div>
+                      <span className="font-mono text-[10px] tracking-[0.12em] uppercase text-muted-foreground block">
+                        {cat.countLabel}
+                      </span>
+                      <span className="inline-flex mt-2 text-[10px] font-mono tracking-[0.1em] uppercase text-primary bg-primary/8 border border-primary/15 rounded-full px-2.5 py-1">
+                        {cat.badge}
+                      </span>
+                    </div>
+                    <span className="text-xs font-semibold text-primary group-hover:translate-x-0.5 transition-transform">
+                      Explore Range →
                     </span>
-                    <motion.span
-                      className={`w-4 h-4 ${isDefaultHover ? 'text-secondary' : 'text-muted-foreground/40'}`}
-                      whileHover={{ x: 2, y: -2, transition: { duration: 0.15 } }}
-                    >
-                      <ArrowUpRight className="w-4 h-4" />
-                    </motion.span>
                   </div>
                 </Link>
               </motion.div>

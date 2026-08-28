@@ -1,0 +1,995 @@
+{
+  "tablets": {
+    "name": "Tablets",
+    "slug": "tablets",
+    "folder": "public/approval-pdf-pages/tablets/",
+    "pdfPageRange": "2-32",
+    "expectedSerials": 304,
+    "pages": {
+      "2": {
+        "pdfPage": 2,
+        "pngFile": "page-002.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-002.png",
+        "serialFrom": 1,
+        "serialTo": 8,
+        "count": 8,
+        "serials": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "3": {
+        "pdfPage": 3,
+        "pngFile": "page-003.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-003.png",
+        "serialFrom": 9,
+        "serialTo": 18,
+        "count": 10,
+        "serials": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "4": {
+        "pdfPage": 4,
+        "pngFile": "page-004.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-004.png",
+        "serialFrom": 19,
+        "serialTo": 28,
+        "count": 10,
+        "serials": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      "5": {
+        "pdfPage": 5,
+        "pngFile": "page-005.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-005.png",
+        "serialFrom": 29,
+        "serialTo": 38,
+        "count": 10,
+        "serials": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      "6": {
+        "pdfPage": 6,
+        "pngFile": "page-006.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-006.png",
+        "serialFrom": 39,
+        "serialTo": 49,
+        "count": 11,
+        "serials": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "7": {
+        "pdfPage": 7,
+        "pngFile": "page-007.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-007.png",
+        "serialFrom": 50,
+        "serialTo": 60,
+        "count": 11,
+        "serials": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ]
+      },
+      "8": {
+        "pdfPage": 8,
+        "pngFile": "page-008.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-008.png",
+        "serialFrom": 61,
+        "serialTo": 70,
+        "count": 10,
+        "serials": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70
+        ]
+      },
+      "9": {
+        "pdfPage": 9,
+        "pngFile": "page-009.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-009.png",
+        "serialFrom": 71,
+        "serialTo": 80,
+        "count": 10,
+        "serials": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ]
+      },
+      "10": {
+        "pdfPage": 10,
+        "pngFile": "page-010.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-010.png",
+        "serialFrom": 81,
+        "serialTo": 90,
+        "count": 10,
+        "serials": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ]
+      },
+      "11": {
+        "pdfPage": 11,
+        "pngFile": "page-011.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-011.png",
+        "serialFrom": 91,
+        "serialTo": 99,
+        "count": 9,
+        "serials": [
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ]
+      },
+      "12": {
+        "pdfPage": 12,
+        "pngFile": "page-012.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-012.png",
+        "serialFrom": 100,
+        "serialTo": 108,
+        "count": 9,
+        "serials": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108
+        ]
+      },
+      "13": {
+        "pdfPage": 13,
+        "pngFile": "page-013.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-013.png",
+        "serialFrom": 109,
+        "serialTo": 118,
+        "count": 10,
+        "serials": [
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ]
+      },
+      "14": {
+        "pdfPage": 14,
+        "pngFile": "page-014.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-014.png",
+        "serialFrom": 119,
+        "serialTo": 125,
+        "count": 7,
+        "serials": [
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125
+        ]
+      },
+      "15": {
+        "pdfPage": 15,
+        "pngFile": "page-015.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-015.png",
+        "serialFrom": 126,
+        "serialTo": 135,
+        "count": 10,
+        "serials": [
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135
+        ]
+      },
+      "16": {
+        "pdfPage": 16,
+        "pngFile": "page-016.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-016.png",
+        "serialFrom": 136,
+        "serialTo": 144,
+        "count": 9,
+        "serials": [
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144
+        ]
+      },
+      "17": {
+        "pdfPage": 17,
+        "pngFile": "page-017.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-017.png",
+        "serialFrom": 145,
+        "serialTo": 155,
+        "count": 11,
+        "serials": [
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155
+        ]
+      },
+      "18": {
+        "pdfPage": 18,
+        "pngFile": "page-018.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-018.png",
+        "serialFrom": 156,
+        "serialTo": 166,
+        "count": 11,
+        "serials": [
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166
+        ]
+      },
+      "19": {
+        "pdfPage": 19,
+        "pngFile": "page-019.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-019.png",
+        "serialFrom": 167,
+        "serialTo": 175,
+        "count": 9,
+        "serials": [
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175
+        ]
+      },
+      "20": {
+        "pdfPage": 20,
+        "pngFile": "page-020.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-020.png",
+        "serialFrom": 176,
+        "serialTo": 186,
+        "count": 11,
+        "serials": [
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186
+        ]
+      },
+      "21": {
+        "pdfPage": 21,
+        "pngFile": "page-021.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-021.png",
+        "serialFrom": 187,
+        "serialTo": 195,
+        "count": 9,
+        "serials": [
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ]
+      },
+      "22": {
+        "pdfPage": 22,
+        "pngFile": "page-022.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-022.png",
+        "serialFrom": 196,
+        "serialTo": 206,
+        "count": 11,
+        "serials": [
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206
+        ]
+      },
+      "23": {
+        "pdfPage": 23,
+        "pngFile": "page-023.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-023.png",
+        "serialFrom": 207,
+        "serialTo": 217,
+        "count": 11,
+        "serials": [
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217
+        ]
+      },
+      "24": {
+        "pdfPage": 24,
+        "pngFile": "page-024.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-024.png",
+        "serialFrom": 218,
+        "serialTo": 225,
+        "count": 8,
+        "serials": [
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225
+        ]
+      },
+      "25": {
+        "pdfPage": 25,
+        "pngFile": "page-025.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-025.png",
+        "serialFrom": 226,
+        "serialTo": 234,
+        "count": 9,
+        "serials": [
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234
+        ]
+      },
+      "26": {
+        "pdfPage": 26,
+        "pngFile": "page-026.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-026.png",
+        "serialFrom": 235,
+        "serialTo": 243,
+        "count": 9,
+        "serials": [
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243
+        ]
+      },
+      "27": {
+        "pdfPage": 27,
+        "pngFile": "page-027.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-027.png",
+        "serialFrom": 244,
+        "serialTo": 253,
+        "count": 10,
+        "serials": [
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253
+        ]
+      },
+      "28": {
+        "pdfPage": 28,
+        "pngFile": "page-028.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-028.png",
+        "serialFrom": 254,
+        "serialTo": 265,
+        "count": 12,
+        "serials": [
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265
+        ]
+      },
+      "29": {
+        "pdfPage": 29,
+        "pngFile": "page-029.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-029.png",
+        "serialFrom": 266,
+        "serialTo": 276,
+        "count": 11,
+        "serials": [
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276
+        ]
+      },
+      "30": {
+        "pdfPage": 30,
+        "pngFile": "page-030.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-030.png",
+        "serialFrom": 277,
+        "serialTo": 286,
+        "count": 10,
+        "serials": [
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286
+        ]
+      },
+      "31": {
+        "pdfPage": 31,
+        "pngFile": "page-031.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-031.png",
+        "serialFrom": 287,
+        "serialTo": 296,
+        "count": 10,
+        "serials": [
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296
+        ]
+      },
+      "32": {
+        "pdfPage": 32,
+        "pngFile": "page-032.png",
+        "pngPath": "/approval-pdf-pages/tablets/page-032.png",
+        "serialFrom": 297,
+        "serialTo": 304,
+        "count": 8,
+        "serials": [
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304
+        ]
+      }
+    }
+  },
+  "capsules": {
+    "name": "Capsules",
+    "slug": "capsules",
+    "folder": "public/approval-pdf-pages/capsules/",
+    "pdfPageRange": "33-37",
+    "expectedSerials": 40,
+    "pages": {
+      "33": {
+        "pdfPage": 33,
+        "pngFile": "page-033.png",
+        "pngPath": "/approval-pdf-pages/capsules/page-033.png",
+        "serialFrom": 1,
+        "serialTo": 8,
+        "count": 8,
+        "serials": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "34": {
+        "pdfPage": 34,
+        "pngFile": "page-034.png",
+        "pngPath": "/approval-pdf-pages/capsules/page-034.png",
+        "serialFrom": 9,
+        "serialTo": 16,
+        "count": 8,
+        "serials": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "35": {
+        "pdfPage": 35,
+        "pngFile": "page-035.png",
+        "pngPath": "/approval-pdf-pages/capsules/page-035.png",
+        "serialFrom": 17,
+        "serialTo": 24,
+        "count": 8,
+        "serials": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "36": {
+        "pdfPage": 36,
+        "pngFile": "page-036.png",
+        "pngPath": "/approval-pdf-pages/capsules/page-036.png",
+        "serialFrom": 25,
+        "serialTo": 32,
+        "count": 8,
+        "serials": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "37": {
+        "pdfPage": 37,
+        "pngFile": "page-037.png",
+        "pngPath": "/approval-pdf-pages/capsules/page-037.png",
+        "serialFrom": 33,
+        "serialTo": 40,
+        "count": 8,
+        "serials": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    }
+  },
+  "oral-liquids": {
+    "name": "Oral Liquids",
+    "slug": "oral-liquids",
+    "folder": "public/approval-pdf-pages/oral-liquids/",
+    "pdfPageRange": "38-46",
+    "expectedSerials": 67,
+    "pages": {
+      "38": {
+        "pdfPage": 38,
+        "pngFile": "page-038.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-038.png",
+        "serialFrom": 1,
+        "serialTo": 7,
+        "count": 7,
+        "serials": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "39": {
+        "pdfPage": 39,
+        "pngFile": "page-039.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-039.png",
+        "serialFrom": 8,
+        "serialTo": 15,
+        "count": 8,
+        "serials": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "40": {
+        "pdfPage": 40,
+        "pngFile": "page-040.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-040.png",
+        "serialFrom": 16,
+        "serialTo": 24,
+        "count": 9,
+        "serials": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "41": {
+        "pdfPage": 41,
+        "pngFile": "page-041.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-041.png",
+        "serialFrom": 25,
+        "serialTo": 33,
+        "count": 9,
+        "serials": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "42": {
+        "pdfPage": 42,
+        "pngFile": "page-042.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-042.png",
+        "serialFrom": 34,
+        "serialTo": 40,
+        "count": 7,
+        "serials": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      },
+      "43": {
+        "pdfPage": 43,
+        "pngFile": "page-043.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-043.png",
+        "serialFrom": 41,
+        "serialTo": 48,
+        "count": 8,
+        "serials": [
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ]
+      },
+      "44": {
+        "pdfPage": 44,
+        "pngFile": "page-044.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-044.png",
+        "serialFrom": 49,
+        "serialTo": 56,
+        "count": 8,
+        "serials": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      "45": {
+        "pdfPage": 45,
+        "pngFile": "page-045.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-045.png",
+        "serialFrom": 57,
+        "serialTo": 65,
+        "count": 9,
+        "serials": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      "46": {
+        "pdfPage": 46,
+        "pngFile": "page-046.png",
+        "pngPath": "/approval-pdf-pages/oral-liquids/page-046.png",
+        "serialFrom": 66,
+        "serialTo": 67,
+        "count": 2,
+        "serials": [
+          66,
+          67
+        ]
+      }
+    }
+  },
+  "ointments": {
+    "name": "Ointments",
+    "slug": "ointments",
+    "folder": "public/approval-pdf-pages/ointments/",
+    "pdfPageRange": "47-51",
+    "expectedSerials": 46,
+    "pages": {
+      "47": {
+        "pdfPage": 47,
+        "pngFile": "page-047.png",
+        "pngPath": "/approval-pdf-pages/ointments/page-047.png",
+        "serialFrom": 1,
+        "serialTo": 7,
+        "count": 7,
+        "serials": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "48": {
+        "pdfPage": 48,
+        "pngFile": "page-048.png",
+        "pngPath": "/approval-pdf-pages/ointments/page-048.png",
+        "serialFrom": 8,
+        "serialTo": 16,
+        "count": 9,
+        "serials": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "49": {
+        "pdfPage": 49,
+        "pngFile": "page-049.png",
+        "pngPath": "/approval-pdf-pages/ointments/page-049.png",
+        "serialFrom": 17,
+        "serialTo": 27,
+        "count": 11,
+        "serials": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "50": {
+        "pdfPage": 50,
+        "pngFile": "page-050.png",
+        "pngPath": "/approval-pdf-pages/ointments/page-050.png",
+        "serialFrom": 28,
+        "serialTo": 37,
+        "count": 10,
+        "serials": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "51": {
+        "pdfPage": 51,
+        "pngFile": "page-051.png",
+        "pngPath": "/approval-pdf-pages/ointments/page-051.png",
+        "serialFrom": 38,
+        "serialTo": 46,
+        "count": 9,
+        "serials": [
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ]
+      }
+    }
+  }
+}

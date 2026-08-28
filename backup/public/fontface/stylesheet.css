@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Nexa Text Pro_Trial';
+    src: url('NexaTextPro_Trial-Regular.woff2') format('woff2'),
+        url('NexaTextPro_Trial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Text Pro_Trial';
+    src: url('NexaTextPro_Trial-RegularItalic.woff2') format('woff2'),
+        url('NexaTextPro_Trial-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Text Pro_Trial';
+    src: url('NexaTextPro_Trial-Thin.woff2') format('woff2'),
+        url('NexaTextPro_Trial-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Text Pro_Trial';
+    src: url('NexaTextPro_Trial-ThinItalic.woff2') format('woff2'),
+        url('NexaTextPro_Trial-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Pro_Trial';
+    src: url('NexaPro_Trial-Black.woff2') format('woff2'),
+        url('NexaPro_Trial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Pro_Trial';
+    src: url('NexaPro_Trial-BlackItalic.woff2') format('woff2'),
+        url('NexaPro_Trial-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Pro_Trial';
+    src: url('NexaPro_Trial-Bold.woff2') format('woff2'),
+        url('NexaPro_Trial-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Pro_Trial';
+    src: url('NexaPro_Trial-BoldItalic.woff2') format('woff2'),
+        url('NexaPro_Trial-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

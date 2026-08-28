@@ -1,0 +1,694 @@
+LIQUID:-
+1 Dextromethorphan
+Hydrobromide,
+Chlorpheniramine
+Maleate & Menthol
+Syrup
+Each 5ml contains:
+Dextromethorphan
+Hydrobromide
+IP 10 mg
+Chlorpheniramine Maleate IP 4 mg
+Menthol IP 1 mg
+In a flavoured syrupy base
+Approved colour used
+2
+Chlorpheniramine
+Maleate, 
+Phenylephrine
+Hydrochloride &
+Dextromethorphan
+Hydrobromide Syrup
+Each 5ml contains:
+Chlorpheniramine Maleate IP 2 mg
+Phenylephrine Hydrochloride IP 5 mg
+Dextromethorphan
+Hydrobromide
+IP 15 mg
+In a flavoured syrupy base
+Approved colour used
+3 Terbutaline Sulphate,
+Bromhexine Hcl &
+Guaiphenesin Tablets
+Each uncoated tablet contains:
+Terbutaline Sulphate IP 2.5 mg
+Bromhexine Hcl IP 8 mg
+Guaiphenesin IP 100 mg
+Excipients q.s.
+Approved colour used
+4
+Terbutaline Sulphate,
+Bromhexine Hcl,
+Guaiphenesin &
+Menthol Syrup
+Each 10ml contains:
+Terbutaline Sulphate IP 2.5 mg
+Bromhexine Hcl IP 8 mg
+Guaiphenesin IP 100 mg
+Menthol IP 5 mg
+Excipients q.s.
+Approved colour used
+5
+Ferrous ascorbate &
+folic acid suspension
+Each 5ml contains:-
+Ferrous Ascorbate
+Eq. to Elemental Iron 30 mg
+Folic Acid IP 550 mcg
+In a flavoured suspension base
+Approved colour used
+6 Cyproheptadine 
+Hydrochloride & 
+Tricholine Citrate Syrup
+Each 5 ml contains:-
+Cyproheptadine Hydrochloride IP 2 mg
+Tricholine Citrate 65% IP 275 mg
+In a flavoured syrupy base
+Approved colour used 
+7 Mefenamic Acid & 
+Paracetamol Oral 
+Suspension
+Each 5 ml Contains:-
+Mefenamic Acid IP 50 mg
+Paracetamol IP 125 mg
+In a flavoured suspension base
+Approved colour used
+8 Citicoline Syrup Each 5 ml Contains:-
+Citicoline Sodium 
+Eq. to Citicoline
+IP
+500 mg
+In a flavoured syrupy base
+Approved colour used
+9 Phenylephrine 
+Hydrochloride & 
+Chlorpheniramine 
+Maleate Syrup
+Each 5 ml Contains:-
+Phenylephrine Hydrochloride IP 5 mg
+Chlorpheniramine Maleate IP 2 mg
+In a flavoured syrupy base
+Approved colour used
+10 Oxetacaine, Dried 
+Aluminium Hydroxide 
+Gel & Magnesium 
+Hydroxide Oral 
+suspension
+Each 5 ml Contains:-
+Oxetacaine BP 10 mg
+Dried Aluminium Hydroxide Gel IP 291 mg
+Magnesium Hydroxide IP 98 mg
+In a flavoured suspension base
+Approved colour used
+11 Ambroxol 
+Hydrochloride, 
+Guaiphenesin & 
+Levosalbutamol Syrup
+Each 5 ml Contains:-
+Ambroxol Hydrochloride IP 15 mg
+Guaiphenesin IP 50 mg
+Levosalbutamol Sulphate
+Eq. to Levosalbutamol
+IP
+0.5 mg
+In a mentholated syrupy base
+Approved colour used
+12 Ambroxol 
+Hydrochloride, 
+Guaiphenesin, 
+Terbutaline Sulphate & 
+Menthol Syrup
+Each 5 ml Contains:-
+Ambroxol Hydrochloride IP 15 mg
+Guaiphenesin IP 50 mg
+Terbutaline Sulphate IP 1.25 mg
+Menthol IP 0.5 mg
+In a flavoured syrupy base
+Approved colour used
+13 Ofloxacin Oral 
+Suspension IP
+Each 5 ml Contains: -
+Ofloxacin IP 50 mg
+In a flavoured suspension base
+Approved colour used
+14 Ofloxacin Oral 
+Suspension IP
+Each 5 ml Contains: -
+Ofloxacin IP 100 mg
+In a flavoured suspension base
+Approved colour used
+15 Sodium Picosulfate 
+Oral Solution BP
+Each 5 ml Contains: -
+Sodium Picosulfate BP 5 mg
+In a sorbitol base
+Approved colour used
+16 Sucralfate 
+&Oxetacaine 
+Suspension
+Each 10 ml contains: -
+Sucralfate IP 1 gm
+Oxetacaine BP 20 mg
+In a flavoured suspension base
+Approved colour used 
+17 Magaldrate 
+&Simethicone 
+Suspension IP
+Each 5 ml contains:-
+Magaldrate 
+(as anhydrous)
+IP 400 mg
+Simethicone IP 60 mg
+In a flavoured suspension base
+Approved colour used 
+18 Paracetamol 
+Paediatric Oral 
+Suspension IP
+Each 5 ml contains:-
+Paracetamol IP 250 mg
+In a flavoured suspension base
+Approved colour used 
+19 OndansetronOral 
+solution IP
+Each 5 ml contains:-
+Ondansetron Hydrochloride
+Eq. to Ondansetron
+IP
+ 2 mg
+In a flavoured solution base
+Approved colour used 
+20 OndansetronOral 
+solution IP
+Each 5 ml contains:-
+Ondansetron Hydrochloride
+Eq. to Ondansetron
+IP
+ 4 mg
+In a flavoured solution base
+Approved colour used 
+21 Azithromycin Oral 
+Suspension IP
+Each ml contains:-
+Azithromycin Dihydrate
+Eq. to Azithromycin
+IP
+40 mg
+In a flavoured suspension base
+Approved colour used
+22 Paracetamol 
+Paediatric Oral 
+Suspension IP
+Each 5 ml contains:-
+Paracetamol IP 125 mg
+In a flavoured suspension base
+Approved colour used 
+23 Dextromethorphan 
+Hydrobromide, 
+Phenylephrine 
+Hydrochloride& 
+Chlorpheniramine 
+Maleate Syrup
+Each 5 ml Contains:-
+Dextromethorphan 
+Hydrobromide
+IP 10 mg
+Phenylephrine Hydrochloride IP 5 mg
+Chlorpheniramine Maleate IP 2 mg
+In a flavoured syrupy base
+Approved colour used
+24 Mefenamic Acid & 
+Paracetamol Oral 
+Suspension
+Each 5 ml Contains:-
+Mefenamic Acid IP 100 mg
+Paracetamol IP 250 mg
+In a flavoured suspension base
+Approved colour used
+25 Albendazole 
+suspension IP 200 
+mg
+Each 5 ml Contains:-
+Albendazole IP 200 mg
+In a flavoured suspension base
+Approved colour used
+26 Deflazacort oral 
+suspension
+Each 5 ml Contains:-
+Deflazacort 6 mg
+In a flavoured suspension base
+Approved colour used
+27 Ambroxol 
+Hydrochloride, 
+Guaiphenesin & 
+Terbutaline 
+Sulphate Syrup
+Each 5 ml Contains:-
+Ambroxol Hydrochloride IP 30 mg
+Guaiphenesin IP 50 mg
+Terbutaline Sulphate IP 1.25 mg
+In a flavoured syrupy base
+Approved colour used
+28 Dried Aluminium 
+Hydroxide Gel, 
+Magnesium 
+Hydroxide & 
+Simethicone 
+Suspension
+Each 10 ml Contains:-
+Dried Aluminium Hydroxide Gel
+Eq. to Aluminium Hydroxide
+IP 250
+191.25
+mg
+mg
+Magnesium Hydroxide IP 250 mg
+Activated Dimethiicone 
+(Simethicone) 
+IP 50 mg
+In a flavoured suspension base
+Approved colour used
+29 Ofloxacin & 
+Metronidazole 
+Suspension
+Each 5 ml contains:-
+Ofloxacin IP 50 mg
+Metronidazole Benzoate
+Eq. to Metronidazole
+IP
+125 mg
+In a flavoured suspension base
+Approved colour used
+30 Elemental 
+Calcium, Vitamin 
+D3 & 
+Cyanocobalamin 
+Suspension
+Each 10 ml contains:-
+Calcium Carbonate (Oyster Shell)
+Eq. to Elemental Calcium
+IP 625
+250
+mg
+mg
+Vitamin D3 IP 400 IU
+Cyanocobalamin IP 5 mcg
+In a flavoured suspension base
+Approved colour used
+31 Levetiracetam 
+Oral Solution IP
+Each 5 ml contains:-
+Levetiracetam IP 500 mg
+In a flavoured aquves vhecals base
+Approved colour used
+32 Levocloperastine 
+Fendizoate Oral 
+Suspension
+Each 5 ml contains:-
+Levocloperastine Fendizoate
+Eq. to Levocloperastine 
+Hydrochloride
+35.4
+20
+mg
+mg
+In a flavoured suspension base
+Approved colour used
+33
+Levodropropizine 
+& 
+Chlorpheniramine 
+Syrup
+Each 5 ml contains:-
+Levodropropizine IP 30 mg
+Chlorpheniramine Maleate IP 2 mg
+In a flavoured syrupy base
+Approved colour used
+34 Phenylephrine 
+Hydrochloride, 
+Chlorpheniramin
+e Maleate, 
+Sodium Citrate & 
+Menthol Syrup
+Each 5 ml contains:-
+Phenylephrine Hydrochloride IP 5 mg
+Chlorpheniramine Maleate IP 1 mg
+Sodium Citrate IP 60 mg
+Menthol IP 1 mg
+In a flavoured syrupy base
+Approved colour used
+35 Salbutamol & 
+Etofylline Syrup 
+Each 5 ml contains:-
+Salbutamol Sulphate
+Eq. to Salbutamol 
+IP
+1 mg
+Etofylline IP 50 mg
+In a flavoured syrupy base
+Approved colour used
+36 Paracetamol, 
+Phenylephrine 
+Hydrochloride, 
+Chlorpheniramine 
+Maleate, Sodium 
+Citrate , 
+Ammonium 
+Chloride & 
+Menthol 
+Suspension
+Each 5 ml contains:-
+Paracetamol IP 250 mg
+Phenylephrine Hydrochloride IP 5 mg
+Chlorpheniramine Maleate IP 2 mg
+Sodium Citrate IP 60 mg
+Ammonium Chloride IP 120 mg
+Menthol IP 1 mg
+In a flavoured suspension base
+Approved colour used
+37 Ambroxol 
+Hydrochloride & 
+Guaiphenesin 
+Syrup
+Each 5 ml contains:-
+Ambroxol Hydrochloride IP 15 mg
+Guaiphenesin IP 100 mg
+In a flavoured syrupy base
+Approved colour used
+38 Ambroxol 
+Hydrochloride & 
+Cetirizine 
+Hydrochloride 
+Syrup
+Each 5 ml contains:-
+Ambroxol Hydrochloride IP 60 mg
+Cetirizine Hydrochloride IP 5 mg
+In a flavoured syrupy base
+Approved colour used
+39 Dicyclomine 
+Hydrochloride & 
+Activated 
+Dimethicone oral 
+Suspension
+Each 5 ml contains:-
+Dicyclomine Hydrochloride IP 10 mg
+Activated Dimethicone IP 40 mg
+In a flavoured suspension base
+Approved colour used
+40 Magaldrate, 
+Simethicone & 
+Oxetacaine 
+Suspension
+Each 5 ml contains:-
+Magaldrate 
+(as anhydrous)
+IP 540 mg
+Simethicone IP 50 mg
+Oxetacaine BP 10 mg
+In a flavoured syrupy base
+Approved colour used 
+41 Cyanocobalamin, 
+Folic Acid & 
+Niacinamide oral 
+Drops
+Each 5ml contains:-
+Cyanocobalamin (Anhydrous) IP 5 mcg
+Folic Acid IP 200 mcg
+Niacinamide IP 20 mg
+In a flavoured syrupy base
+Approved colour used
+42 Potassium Citrate 
+& Citric Acid oral 
+Solution USP
+Each 5 ml contains:-
+Potassium Citrate Monohydrate IP 1100 mg
+Citric Acid Monohydrate IP 334 mg
+In a flavoured syrupy base
+Approved colour used
+43 Iron (III) 
+Hydroxide 
+Polymaltose & 
+Folic Acid Oral 
+Drops
+Each ml contains:-
+Iron (III) Hydroxide Polymaltose Complex 
+Eq. to Elemental Iron 
+IP
+15 mg
+Folic Acid IP 0.2 mg
+In a flavoured base
+Approved colour used
+44 Dicyclomine 
+Hydrochloride & 
+Simethicone oral 
+Drops
+Each ml contains:-
+Dicyclomine Hydrochloride IP 10 mg
+Simethicone Emulsion
+Eq. to Simethicone 
+USP
+40 mg
+In a flavoured base
+Approved colour used
+45 Ambroxol 
+Hydrochloride, 
+Guaiphenesin & 
+Terbutaline 
+Sulphate Drops
+Each ml Contains:-
+Ambroxol Hydrochloride IP 7.5 mg
+Guaiphenesin IP 12.5 mg
+Terbutaline Sulphate IP 0.25 mg
+In a mentholated syrupy base
+Approved colour used
+46 Levocetirizine 
+Dihydrochloride 
+Syrup IP
+Each 5ml contains:-
+Levocetirizine Dihydrochloride IP 2.5 mg
+In a flavoured syrupy base
+Approved colour used
+47 Calcium & 
+Vitamin D3 
+Suspension 
+Each 5ml contains:-
+Calcium Carbonate
+Eq. to elemental Calcium 
+From an Organic source (Oyster Shells)
+IP 625
+250
+mg
+mg
+Vitamin D3 IP 125 IU
+In a flavoured Suspension base
+Approved colour used
+48 Phenylephrine 
+Hydrochloride & 
+Chlorpheniramin
+e Maleate Syrup
+Each 5ml contains:-
+Phenylephrine Hydrochloride IP 5 mg
+Chlorpheniramine Maleate IP 2 mg
+In a flavoured Syrupy base
+Approved colour used
+49 Liquid Paraffin, 
+Milk of Magnesia 
+& Sodium 
+Picosulfate 
+Suspension
+Each 5ml contains:-
+Liquid Paraffin IP 1.25 ml
+Milk of Magnesia IP 3.75 ml
+Sodium Picosulfate BP 3.33 mg
+In a flavoured Sorbitol base
+Approved colour used
+50 Magaldrate, 
+Simethicone & 
+Oxetacaine 
+Suspension
+Each 5 ml contains:-
+Magaldrate 
+(as anhydrous)
+IP 480 mg
+Simethicone IP 20 mg
+Oxetacaine BP 10 mg
+In a flavoured syrupy base
+Approved colour used 
+51 Cyproheptadine 
+Hydrochloride 
+& Tricholine 
+Citrate oral 
+Drops
+Each ml contains:-
+Cyproheptadine Hydrochloride 
+(as anhydrous)
+IP 1.5 mg
+Tricholine Citrate 65% 55 mg
+In a flavoured syrupy base
+Approved colour used
+52 Albendazole & 
+Ivermectin oral 
+Suspension 
+Each 5 ml Contains:-
+Albendazole IP 200 mg
+Ivermectin IP 1.5 mg
+In a flavoured syrupy base
+Approved colour used
+53 Ferric Ammonium 
+Citrate, Folic Acid 
+& Cyanocobalamin 
+Syrup 
+Each 15 ml Contains:-
+Ferric Ammonium Citrate IP 160 mg
+Folic Acid IP 0.5 mg
+Cyanocobalamin IP 7.5 mcg
+In a flavoured syrupy base
+Approved colour used
+54 Potassium 
+Chloride Oral 
+Solution USP 20%
+Each 15 ml contains:-
+Potassium Chloride IP 40 mEq
+In a flavoured syrupy base q.s
+Approved colour used
+55 Ambroxol 
+Hydrochloride, 
+Guaiphenesin & 
+Levosalbutamol 
+Syrup
+Each 5 ml contains:-
+Ambroxol Hydrochloride IP 15 mg
+Guaiphenesin IP 50 mg
+Levosalbutamol Sulphate 
+Eq. to Levosalbutamol
+IP
+0.5 mg
+In a flavoured syrupy base q.s
+Approved colour used
+56 Ambroxol 
+Hydrochloride, 
+Guaiphenesin & 
+Levosalbutamol 
+Syrup
+Each 5 ml contains:-
+Ambroxol Hydrochloride IP 30 mg
+Guaiphenesin IP 50 mg
+Levosalbutamol Sulphate 
+Eq. to Levosalbutamol
+IP
+1 mg
+In a flavoured syrupy base q.s
+Approved colour used
+ 
+57 Paracetamol, 
+Phenylephrine 
+Hydrochloride & 
+Chlorpheniramine 
+Maleate 
+Suspension
+Each 5 ml contains:-
+Paracetamol IP 250 mg
+Phenylephrine Hydrochloride IP 5 mg
+Chlorpheniramine Maleate IP 2 mg
+In a flavoured suspension base q.s
+Approved colour used
+58 Levocetirizine 
+Dihydrochloride & 
+Montelukast Syrup
+Each 5 ml contains:-
+Levocetirizine Dihydrochloride IP 2.5 mg
+Montelukast Sodium 
+Eq. to Montelukast
+IP
+4 mg
+In a flavoured syrupy base q.s
+Approved colour used
+59 Magaldrate & 
+Simethicone
+Suspension IP
+Each 10 ml contains:-
+Magaldrate 
+(as anhydrous)
+IP 400 mg
+Simethicone IP 20 mg
+In a flavoured suspension base q.s
+Approved colour used
+60 Vitamin D3 Oral 
+Solution 60000 IU
+Each 5 ml contains:-
+Cholecalciferol Concentrate (as Stabilized)
+Eq. to Cholecalciferol (Vitamin D3)
+(In Nano Droplet From)
+IP 60000 IU
+In a flavoured Sorbitol (70%) base
+(Non Crystallising)
+q.s
+61 Ibuprofen & 
+Paracetamol 
+Suspension 
+Each 5 ml contains:-
+Ibuprofen IP 100 mg
+Paracetamol IP 162.5 mg
+In a flavoured suspension base q.s
+Approved colour used
+62 Magaldrate & 
+Simethicone
+Suspension IP
+Each 10 ml contains:-
+Magaldrate 
+(as anhydrous)
+IP 400 mg
+Simethicone IP 20 mg
+Sorbitol Solution (70%)
+(non-crystallising)
+q.s
+Approved colour used
+63 Aceclofenac & 
+Paracetamol 
+Suspension 
+Each 5ml contains:-
+Aceclofenac IP 50 mg
+Paracetamol IP 125 mg
+In a flavoured syrupy base q.s
+Approved colour used
+64 Cyproheptadine 
+Hydrochloride & 
+Tricholine Citrate 
+Syrup
+Each 5 ml contains:-
+Cyproheptadine Hydrochloride
+Eq. to Anhydrous Cyproheptadine 
+Hydrochloride
+IP
+2 mg
+Tricholine Citrate 65% IP 275 mg
+In a flavoured sorbitol (70%) base 
+(Non-Crystallising)
+IP q.s
+Approved colour used 
+65 Disodium 
+Hydrogen Citrate 
+Syrup 
+Each 5 ml contains:-
+Disodium Hydrogen Citrate BP 1.25 gm
+In a flavoured syrupy base q.s
+Approved colour used
+66 Lactulose Oral 
+Solution USP
+Each 15 ml contains:-
+Lactulose Concentrate 
+Eq. to Lactulose 
+USP
+6 gm
+Palatable base q.s.
+Approved colour used
+67 Paracetamol, 
+Phenylephrine 
+Hydrochloride & 
+Chlorpheniramine 
+Maleate Oral 
+Drops
+Each 1 ml contains:-
+Paracetamol IP 125 mg
+Phenylephrine Hydrochloride IP 2.5 mg
+Chlorpheniramine Maleate IP 2 mg
+In a flavoured syrupy base q.s

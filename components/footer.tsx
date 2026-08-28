@@ -18,11 +18,10 @@ const footerLinks = {
   products: {
     title: 'Products',
     links: [
-      { label: 'Tablets & Capsules', href: '/products?category=tablets' },
-      { label: 'Syrups & Liquids', href: '/products?category=syrups' },
-      { label: 'Injectables', href: '/products?category=injectables' },
-      { label: 'Ointments', href: '/products?category=ointments' },
-      { label: 'OTC Medicines', href: '/products?category=otc' },
+      { label: 'Capsules', href: '/products/capsules' },
+      { label: 'Tablets', href: '/products/tablets' },
+      { label: 'Oral Liquids', href: '/products/oral-liquids' },
+      { label: 'Ointments', href: '/products/ointments' },
     ],
   },
   services: {
