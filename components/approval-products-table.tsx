@@ -1,10 +1,10 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import Link from 'next/link'
 import { Search, X } from 'lucide-react'
 import type { ApprovalProduct } from '@/lib/approval-products'
-import { parseComposition } from '@/lib/parse-composition'
+import ApprovalProductsTableDesktop from '@/components/approval-products-table-desktop'
+import ApprovalProductsTableMobile from '@/components/approval-products-table-mobile'
 
 type TableProduct = ApprovalProduct & {
   categoryName?: string
@@ -14,26 +14,6 @@ type TableProduct = ApprovalProduct & {
 type ApprovalProductsTableProps = {
   products: TableProduct[]
   title?: string
-}
-
-const cellBase =
-  'border border-slate-800 px-1.5 py-1 text-xs md:text-sm text-slate-900'
-
-const cell = `${cellBase} align-top`
-
-const compositionCell = `${cell} w-[1%] whitespace-nowrap`
-const compositionCellWrap = `${cell} w-[1%]`
-
-function rowspanCell(classes: string) {
-  return `${cellBase} border-b-0 relative p-0 ${classes}`
-}
-
-function rowspanContent(classes: string) {
-  return `absolute inset-0 flex items-center px-1.5 py-1 ${classes}`
-}
-
-function withoutBottomBorder(classes: string) {
-  return `${classes} border-b-0`
 }
 
 export default function ApprovalProductsTable({
@@ -89,132 +69,12 @@ export default function ApprovalProductsTable({
         Showing <span className="font-semibold text-foreground">{filtered.length}</span> formulations
       </p>
 
-      <div className="overflow-x-auto border-2 border-slate-800 bg-white">
-        <table className="w-max min-w-full border-collapse">
-          <colgroup>
-            <col className="w-10" />
-            <col className="w-[200px]" />
-            <col />
-            <col className="w-12" />
-            <col className="w-12" />
-            <col className="w-12" />
-            <col className="w-[88px]" />
-          </colgroup>
-          <thead>
-            <tr className="bg-white">
-              <th className={`${cell} font-bold text-center`}>S.N.</th>
-              <th className={`${cell} font-bold`}>GENERIC NAME &amp; DOSAGE FORM.</th>
-              <th className={`${compositionCell} font-bold`}>COMPOSITION.</th>
-              <th className={`${cell} font-bold text-center`}>SPC.</th>
-              <th className={`${cell} font-bold text-center`}>QTY.</th>
-              <th className={`${cell} font-bold text-center`}>UNIT</th>
-              <th className={`${cell} font-bold text-center`}>REFERENCE</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filtered.length === 0 ? (
-              <tr>
-                <td colSpan={7} className={`${cell} py-16 text-center text-muted-foreground`}>
-                  No formulations found. Try a different search.
-                </td>
-              </tr>
-            ) : (
-              filtered.flatMap((product) => {
-                const compositionRows = parseComposition(product.composition)
-                const rowSpan = compositionRows.length
+      <div className="block md:hidden">
+        <ApprovalProductsTableMobile products={filtered} />
+      </div>
 
-                const rows = compositionRows.map((row, rowIndex) => {
-                  const isLastSubRow = rowIndex === compositionRows.length - 1
-                  const rowCell = (classes: string) =>
-                    isLastSubRow ? withoutBottomBorder(classes) : classes
-
-                  return (
-                  <tr key={`${product.slug}-${rowIndex}`}>
-                    {rowIndex === 0 ? (
-                      <>
-                        <td className={rowspanCell('text-center font-semibold')} rowSpan={rowSpan}>
-                          <div className={rowspanContent('justify-center')}>{product.serialNo}</div>
-                        </td>
-                        <td className={rowspanCell('font-medium')} rowSpan={rowSpan}>
-                          <div className={rowspanContent('leading-snug')}>{product.formulation}</div>
-                        </td>
-                      </>
-                    ) : null}
-
-                    {row.type === 'header' ? (
-                      <>
-                        <td className={rowCell(compositionCell)}>{row.text}</td>
-                        <td className={rowCell(cell)} />
-                        <td className={rowCell(cell)} />
-                        <td className={rowCell(cell)} />
-                      </>
-                    ) : null}
-
-                    {row.type === 'ingredient' ? (
-                      <>
-                        <td className={rowCell(compositionCell)}>{row.name}</td>
-                        <td className={rowCell(`${cell} text-center`)}>{row.spc}</td>
-                        <td className={rowCell(`${cell} text-center`)}>{row.qty}</td>
-                        <td className={rowCell(`${cell} text-center`)}>{row.unit}</td>
-                      </>
-                    ) : null}
-
-                    {row.type === 'excipients' ? (
-                      <>
-                        <td className={rowCell(compositionCell)}>Excipients</td>
-                        <td className={rowCell(cell)} />
-                        <td className={rowCell(`${cell} text-center`)}>{row.qty}</td>
-                        <td className={rowCell(cell)} />
-                      </>
-                    ) : null}
-
-                    {row.type === 'base' ? (
-                      <>
-                        <td className={rowCell(compositionCell)}>{row.name}</td>
-                        <td className={rowCell(cell)} />
-                        <td className={rowCell(`${cell} text-center`)}>{row.qty}</td>
-                        <td className={rowCell(cell)} />
-                      </>
-                    ) : null}
-
-                    {row.type === 'colour' || row.type === 'note' ? (
-                      <>
-                        <td className={rowCell(compositionCellWrap)}>{row.text}</td>
-                        <td className={rowCell(cell)} />
-                        <td className={rowCell(cell)} />
-                        <td className={rowCell(cell)} />
-                      </>
-                    ) : null}
-
-                    {rowIndex === 0 ? (
-                      <td className={rowspanCell('text-center')} rowSpan={rowSpan}>
-                        <div className={rowspanContent('justify-center')}>
-                          <Link
-                            href={`/products/${product.slug}`}
-                            className="font-semibold text-primary hover:text-primary/80 underline underline-offset-2"
-                          >
-                            Click Here
-                          </Link>
-                        </div>
-                      </td>
-                    ) : null}
-                  </tr>
-                  )
-                })
-
-                return [
-                  ...rows,
-                  <tr key={`${product.slug}-divider`} aria-hidden="true" className="h-0">
-                    <td
-                      colSpan={7}
-                      className="h-0 p-0 border-0 border-b-2 border-b-slate-800 leading-[0]"
-                    />
-                  </tr>,
-                ]
-              })
-            )}
-          </tbody>
-        </table>
+      <div className="hidden md:block">
+        <ApprovalProductsTableDesktop products={filtered} />
       </div>
     </div>
   )

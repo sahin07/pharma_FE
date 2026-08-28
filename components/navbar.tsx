@@ -38,7 +38,7 @@ const productCategories = categories.map((cat) => ({
 const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
-  { label: 'Products', href: '/products', hasDropdown: true },
+  { label: 'Available', href: '/products', hasDropdown: true },
   { label: 'Certifications', href: '/certifications' },
   { label: 'Contact', href: '/contact' },
 ]
