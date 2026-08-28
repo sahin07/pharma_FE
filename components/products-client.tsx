@@ -13,7 +13,7 @@ export default function ProductsClient({ categorySlug }: ProductsClientProps) {
 
   return (
     <section className="py-10 bg-background">
-      <div className="max-w-[1680px] mx-auto px-10">
+      <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-10">
         <ProductCategoryTabs />
         <ApprovalProductsTable
           products={products}

@@ -36,8 +36,8 @@ export default function ProductCategoryTabs() {
   const pathname = usePathname()
 
   return (
-    <nav aria-label="Product categories" className="mb-10 flex justify-center">
-      <div className="inline-flex items-center justify-center gap-1 rounded-xl border border-border bg-white px-2 py-1.5 shadow-sm sm:gap-2 sm:px-3">
+    <nav aria-label="Product categories" className="mb-10 w-full">
+      <div className="grid w-full grid-cols-2 gap-1.5 rounded-xl border border-border bg-white p-1.5 shadow-sm sm:inline-flex sm:w-auto sm:grid-cols-none sm:items-center sm:justify-center sm:gap-2 sm:px-3 sm:py-1.5">
         {categories.map((cat) => {
           const href = `/products/${cat.slug}`
           const isActive = pathname === href
@@ -48,7 +48,7 @@ export default function ProductCategoryTabs() {
               key={cat.slug}
               href={href}
               className={cn(
-                'inline-flex shrink-0 items-center gap-2 rounded-lg px-4 py-2.5 text-[13px] font-semibold whitespace-nowrap transition-all duration-200 sm:px-5 sm:text-sm',
+                'inline-flex items-center justify-center gap-1.5 rounded-lg px-2.5 py-2 text-xs font-semibold transition-all duration-200 sm:shrink-0 sm:gap-2 sm:px-5 sm:py-2.5 sm:text-sm sm:whitespace-nowrap',
                 isActive
                   ? 'bg-gradient-to-r from-[#3DC0C3] to-[#00827F] text-white shadow-md shadow-primary/25'
                   : 'text-muted-foreground hover:text-foreground',
