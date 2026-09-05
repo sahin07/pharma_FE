@@ -6,7 +6,7 @@ import CTABanner from '@/components/sections/cta-banner'
 
 export const metadata: Metadata = {
   title: 'Certifications | Samay Pharma',
-  description: 'Samay Pharma certifications: GMP, GLP, ISO 9001:2015, and FSSAI. Verified quality from recognized standards bodies.',
+  description: 'Samay Pharma certifications: GMP, GLP, and ISO 9001:2015. Verified quality from recognized standards bodies.',
 }
 
 export default function CertificationsPage() {

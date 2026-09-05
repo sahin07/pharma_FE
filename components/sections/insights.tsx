@@ -29,7 +29,7 @@ export default function InsightsSection() {
           variants={staggerContainer(0.1, 0.05)}
           initial="hidden"
           animate={inView ? 'show' : 'hidden'}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto"
         >
           {insights.map((article, i) => (
             <motion.article

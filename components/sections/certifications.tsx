@@ -46,7 +46,6 @@ const certifications = [
   { year: 'GMP', badge: 'Active', title: 'GMP Certification', body: 'Good Manufacturing Practice', description: 'Manufacturing aligned to GMP so every batch meets required quality and safety standards' },
   { year: 'GLP', badge: 'Active', title: 'GLP Compliance', body: 'Good Laboratory Practice', description: 'GMP-GLP compliant operations across formulation, testing, and quality control' },
   { year: '2015', badge: 'Active', title: 'ISO 9001:2015', body: 'Quality Management', description: 'International quality management system covering how we manufacture and control our products' },
-  { year: 'FSSAI', badge: 'Active', title: 'FSSAI Certification', body: 'Food Safety Standards', description: 'Certified against FSSAI requirements for applicable product categories' },
   { year: 'IP', badge: 'Active', title: 'Pharmacopoeia Standards', body: 'Statutory Compliance', description: 'Products formulated to meet relevant pharmacopoeia standards and statutory requirements' },
 ]
 
@@ -105,8 +104,8 @@ export default function CertificationsSection() {
               {[
                 { value: 'GMP', label: 'GLP compliant' },
                 { value: 'ISO', label: '9001:2015' },
-                { value: 'FSSAI', label: 'Certified' },
-                { value: '2', label: 'Facilities' },
+                { value: 'IP', label: 'Pharmacopoeia' },
+                { value: '1', label: 'Facility' },
               ].map(({ value, label }, i) => (
                 <motion.div
                   key={label}

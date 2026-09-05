@@ -15,7 +15,7 @@ export const allProducts: Product[] = [
   {
     id: 7,
     name: 'Atorvastatin 20mg Tablets',
-    brand: 'Zydus Pharmaceuticals',
+    brand: 'Samay Pharma',
     category: 'Tablets',
     description: 'HMG-CoA reductase inhibitor for hypercholesterolemia and cardiovascular risk reduction',
     image: '/images/products/metformin.png',
@@ -24,7 +24,7 @@ export const allProducts: Product[] = [
   {
     id: 8,
     name: 'Azithromycin 250mg Capsules',
-    brand: 'Lupin Ltd',
+    brand: 'Samay Pharma',
     category: 'Capsules',
     description: 'Macrolide antibiotic for respiratory tract and soft tissue infections',
     image: '/images/products/amoxicillin.png',
@@ -33,7 +33,7 @@ export const allProducts: Product[] = [
   {
     id: 9,
     name: 'Ondansetron 4mg Syrup',
-    brand: 'Cipla Ltd',
+    brand: 'Samay Pharma',
     category: 'Oral Liquids',
     description: 'Antiemetic serotonin antagonist for nausea and vomiting',
     image: '/images/products/paracetamol-syrup.png',

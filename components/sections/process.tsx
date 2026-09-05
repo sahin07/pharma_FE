@@ -60,7 +60,7 @@ export default function ProcessSection() {
           badge="Our Process"
           title="How does it Work?"
           accentWord="Work?"
-          subtitle="From inquiry to doorstep delivery — simple steps that power reliable pharmaceutical manufacturing and supply."
+          subtitle="From inquiry to dispatch — simple steps that power reliable pharmaceutical manufacturing and supply."
           inView={inView}
         />
 

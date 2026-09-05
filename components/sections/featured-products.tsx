@@ -40,6 +40,12 @@ const TabIcons: Record<string, () => React.ReactNode> = {
       <line x1="6" y1="7" x2="10" y2="7"/>
     </svg>
   ),
+  'External Preparations': () => (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+      <path d="M6 2h4v2l1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5l1-1V2z"/>
+      <line x1="6" y1="7" x2="10" y2="7"/>
+    </svg>
+  ),
 }
 
 const ALL_TAB = 'All'

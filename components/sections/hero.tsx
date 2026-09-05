@@ -137,8 +137,9 @@ export default function HeroSection() {
                 variants={wordReveal}
                 className="text-muted-foreground leading-relaxed text-[1.0625rem] mb-10 max-w-[440px]"
               >
-                Manufacturing certified, quality-assured medicines for hospitals,
-                pharmacies, and healthcare partners across India.
+                We manufacture quality tablets, capsules, oral liquids, and external
+                preparations at our GMP-GLP certified plant in Kala Amb — for
+                third-party and PCD partners across India.
               </motion.p>
 
               {/* CTA buttons */}
@@ -214,8 +215,8 @@ export default function HeroSection() {
             >
               <motion.div style={{ y: imageY, scale: imageScale }} className="absolute inset-0">
                 <Image
-                  src="/images/hero-pharma.png"
-                  alt="Premium pharmaceutical warehouse"
+                  src="/images/hero-new.jpg"
+                  alt="Samay Pharma manufacturing facility"
                   fill
                   className="object-cover"
                   priority
@@ -247,7 +248,6 @@ export default function HeroSection() {
               >
                 {[
                   ['Pan-India', '28 States'],
-                  ['Metro Cities', '24-hr Delivery'],
                   ['Emergency', '24/7 Support'],
                 ].map(([label, val]) => (
                   <motion.div
@@ -271,11 +271,11 @@ export default function HeroSection() {
               whileHover={{ rotate: -3, scale: 1.05, transition: { duration: 0.2 } }}
               className="absolute -top-5 -right-4 bg-white border border-border rounded-2xl px-5 py-4 shadow-xl shadow-black/8 cursor-default"
             >
-              <div className="font-mono font-bold text-foreground text-[2.25rem] leading-none tracking-tight">
-                25+
+              <div className="font-mono font-bold text-foreground text-[1.5rem] leading-none tracking-tight">
+                GMP-GLP
               </div>
               <div className="font-mono text-[9px] tracking-[0.15em] uppercase text-muted-foreground mt-2 leading-tight">
-                Years of<br />Excellence
+                Certified<br />Facility
               </div>
             </motion.div>
           </motion.div>

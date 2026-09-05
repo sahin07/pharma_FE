@@ -131,7 +131,7 @@ export default function CTABanner() {
               transition={{ delay: 0.9 }}
               className="mt-6 text-muted-foreground/70 text-xs font-mono tracking-wide uppercase"
             >
-              GMP-GLP &nbsp;·&nbsp; ISO 9001:2015 &nbsp;·&nbsp; FSSAI
+              GMP-GLP &nbsp;·&nbsp; ISO 9001:2015
             </motion.p>
           </motion.div>
 

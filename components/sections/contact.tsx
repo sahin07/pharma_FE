@@ -23,7 +23,7 @@ const contactMeta = [
   {
     icon: MapPin,
     label: 'Address',
-    lines: ['Plot no. 34/35, Industrial Area Road', 'Trilokpur Road, Kala Amb, Himachal Pradesh 173030'],
+    lines: ['Plot no. 34/35, Industrial Area Road, Trilokpur Road, Kala Amb, Himachal Pradesh 173030'],
     sub: 'India',
     accent: 'primary',
   },
@@ -37,10 +37,10 @@ const contactMeta = [
 ]
 
 const fields = [
-  { id: 'name',    label: 'Full Name',              type: 'text',  placeholder: 'Dr. Rajesh Sharma',     required: true },
-  { id: 'email',   label: 'Email Address',           type: 'email', placeholder: 'rajesh@hospital.com',   required: true },
-  { id: 'company', label: 'Company / Hospital',      type: 'text',  placeholder: 'Apollo Hospitals',      required: false },
-  { id: 'phone',   label: 'Phone Number',            type: 'tel',   placeholder: '+91 98166 67007',       required: false },
+  { id: 'name',    label: 'Full Name',              type: 'text',  placeholder: 'Amit Verma',              required: true },
+  { id: 'email',   label: 'Email Address',           type: 'email', placeholder: 'amit@company.com',        required: true },
+  { id: 'company', label: 'Company / Brand',         type: 'text',  placeholder: 'Your Pharma Brand',       required: false },
+  { id: 'phone',   label: 'Phone Number',            type: 'tel',   placeholder: '+91 98166 67007',         required: false },
 ]
 
 export default function ContactSection() {

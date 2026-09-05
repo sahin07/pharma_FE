@@ -31,7 +31,7 @@ export const categories = [
   },
   {
     id: 4,
-    name: 'Ointments',
+    name: 'External Preparations',
     icon: '🧴',
     count: 46,
     countLabel: '46 Formulations',
@@ -45,7 +45,7 @@ export const featuredProducts = [
   {
     id: 1,
     name: 'Amoxicillin 500mg Capsules',
-    brand: 'GSK Pharma',
+    brand: 'Samay Pharma',
     category: 'Capsules',
     description: 'Broad-spectrum penicillin antibiotic for bacterial infections',
     image: '/images/products/amoxicillin.png',
@@ -54,7 +54,7 @@ export const featuredProducts = [
   {
     id: 2,
     name: 'Metformin 850mg Tablets',
-    brand: 'Sun Pharma',
+    brand: 'Samay Pharma',
     category: 'Tablets',
     description: 'First-line oral antidiabetic agent for Type 2 Diabetes Mellitus',
     image: '/images/products/metformin.png',
@@ -63,7 +63,7 @@ export const featuredProducts = [
   {
     id: 3,
     name: 'Paracetamol 250mg Syrup',
-    brand: 'Abbott India',
+    brand: 'Samay Pharma',
     category: 'Oral Liquids',
     description: 'Analgesic and antipyretic syrup formulation for pediatric use',
     image: '/images/products/paracetamol-syrup.png',
@@ -82,7 +82,7 @@ export const featuredProducts = [
     id: 5,
     name: 'Diclofenac Gel 30g',
     brand: 'Samay Pharma',
-    category: 'Ointments',
+    category: 'External Preparations',
     description: 'Topical NSAID gel for musculoskeletal pain and inflammation',
     image: '/images/products/bp-monitor.png',
     slug: 'diclofenac-gel-30g',
@@ -90,9 +90,8 @@ export const featuredProducts = [
 ]
 
 export const stats = [
-  { value: 5000, suffix: '+', label: 'Products Available' },
-  { value: 1200, suffix: '+', label: 'Healthcare Partners' },
-  { value: 25, suffix: '+', label: 'Years Experience' },
+  { value: 500, suffix: '+', label: 'Products Available' },
+  { value: 1200, suffix: '+', label: 'Parties / Clients' },
   { value: 98, suffix: '%', label: 'Client Satisfaction' },
 ]
 
@@ -104,13 +103,13 @@ export const features = [
   },
   {
     icon: 'Truck',
-    title: 'Third-Party Manufacturing',
-    description: 'Contract manufacturing for small and large pharma companies that need a reliable partner for quality products at scale.',
+    title: 'Third-Party & PCD',
+    description: 'Contract manufacturing and PCD franchise support for small and large pharma companies that need a reliable partner for quality products at scale.',
   },
   {
     icon: 'Award',
     title: 'Certified Quality',
-    description: 'GMP, ISO 9001:2015, and FSSAI credentials behind how we manufacture, test, and release every batch.',
+    description: 'GMP and ISO 9001:2015 credentials behind how we manufacture, test, and release every batch.',
   },
   {
     icon: 'Users',
@@ -119,8 +118,8 @@ export const features = [
   },
   {
     icon: 'MapPin',
-    title: 'Two-Location Setup',
-    description: 'Corporate office in Delhi and a manufacturing unit in Kala Amb, Himachal Pradesh — with shear, fluid-bed, and film-coating capability.',
+    title: 'Himachal Manufacturing Unit',
+    description: 'Our manufacturing unit in Kala Amb, Himachal Pradesh — with shear, fluid-bed, and film-coating capability.',
   },
   {
     icon: 'Tag',
@@ -133,52 +132,51 @@ export const certifications = [
   { year: 'GMP', title: 'GMP Certification', body: 'Good Manufacturing Practice', description: 'Manufacturing aligned to GMP so every batch meets required quality and safety standards' },
   { year: 'GLP', title: 'GLP Compliance', body: 'Good Laboratory Practice', description: 'GMP-GLP compliant operations across formulation, testing, and quality control' },
   { year: '2015', title: 'ISO 9001:2015', body: 'Quality Management', description: 'International quality management system covering how we manufacture and control our products' },
-  { year: 'FSSAI', title: 'FSSAI Certification', body: 'Food Safety Standards', description: 'Certified against FSSAI requirements for applicable product categories' },
   { year: 'IP', title: 'Pharmacopoeia Standards', body: 'Statutory Compliance', description: 'Products formulated to meet relevant pharmacopoeia standards and statutory requirements' },
 ]
 
 export const processSteps = [
-  { step: 1, title: 'Send Inquiry', description: 'Submit your product requirements via our online form, email, or phone. Our team responds within 2 hours.', icon: 'MessageSquare' },
-  { step: 2, title: 'Consultation', description: 'Our pharmaceutical experts review your needs and provide tailored product recommendations with pricing.', icon: 'HeadphonesIcon' },
-  { step: 3, title: 'Order Processing', description: 'Once confirmed, your order is verified, documents prepared, and production is scheduled at our manufacturing unit.', icon: 'ClipboardList' },
-  { step: 4, title: 'Dispatch', description: 'Products packed in cold-chain compliant packaging and dispatched via our trusted logistics partners.', icon: 'Package' },
-  { step: 5, title: 'Delivery', description: 'Track your shipment in real-time. Guaranteed delivery within 48-72 hours to most major cities.', icon: 'CheckCircle' },
+  { step: 1, title: 'Send Inquiry', description: 'Submit your product or PCD requirements via our online form, email, or phone. Our team responds within 2 hours.', icon: 'MessageSquare' },
+  { step: 2, title: 'Consultation', description: 'Our manufacturing team reviews your needs and shares tailored formulation options with pricing.', icon: 'HeadphonesIcon' },
+  { step: 3, title: 'Order Processing', description: 'Once confirmed, your order is verified, documents prepared, and production is scheduled at our Kala Amb plant.', icon: 'ClipboardList' },
+  { step: 4, title: 'Dispatch', description: 'Finished goods are packed to required standards and dispatched from our manufacturing unit via trusted logistics partners.', icon: 'Package' },
+  { step: 5, title: 'Delivery', description: 'Track your shipment in real-time through our logistics partners across major cities.', icon: 'CheckCircle' },
 ]
 
 export const testimonials = [
   {
     id: 1,
-    name: 'Dr. Rajesh Sharma',
-    role: 'Procurement Head',
-    company: 'Apollo Hospitals',
-    quote: 'Samay Pharma has been our primary manufacturing partner for 8 years. Their product quality, documentation, and delivery reliability is unmatched in the industry.',
+    name: 'Amit Verma',
+    role: 'PCD Franchise Partner',
+    company: 'North India Region',
+    quote: 'Samay Pharma gave us a full PCD range with consistent quality and clear documentation. Our franchise network trusts every batch that leaves their Kala Amb plant.',
     rating: 5,
-    avatar: 'RS',
+    avatar: 'AV',
   },
   {
     id: 2,
-    name: 'Priya Mehta',
-    role: 'Supply Chain Director',
-    company: 'MedLife Healthcare',
-    quote: 'The breadth of their catalog combined with WHO-GMP compliance gives us confidence in every order. Exceptional customer service and transparent pricing.',
+    name: 'Neha Kapoor',
+    role: 'Director',
+    company: 'Third-Party Brand Owner',
+    quote: 'We outsource our oral solids and liquids to Samay Pharma. Formulation support, GMP-GLP discipline, and on-time dispatch make them a reliable manufacturing partner.',
     rating: 5,
-    avatar: 'PM',
+    avatar: 'NK',
   },
   {
     id: 3,
-    name: 'Mohammed Iqbal',
-    role: 'General Manager',
-    company: 'City Hospital Network',
-    quote: 'We&apos;ve streamlined our pharmaceutical procurement by 40% since partnering with Samay Pharma. Their ordering process is a game-changer.',
+    name: 'Rakesh Malhotra',
+    role: 'Founder',
+    company: 'Regional Pharma Marketer',
+    quote: 'From tablets to external preparations, they manufacture what we need under our brand. Pricing is fair and communication from the plant team is always clear.',
     rating: 5,
-    avatar: 'MI',
+    avatar: 'RM',
   },
   {
     id: 4,
     name: 'Sunita Patel',
-    role: 'Pharmacy Director',
-    company: 'Fortis Medical Centre',
-    quote: 'Consistent quality, competitive prices, and a dedicated account manager. Samay Pharma understands the unique demands of hospital procurement.',
+    role: 'Procurement Lead',
+    company: 'Contract Manufacturing Client',
+    quote: 'Documentation, batch consistency, and responsive coordination — Samay Pharma understands third-party manufacturing, not just order-taking.',
     rating: 5,
     avatar: 'SP',
   },
@@ -190,16 +188,12 @@ export const faqs = [
     answer: 'Our MOQ varies by product category. For most medicines, the minimum order is 1 carton (typically 100-500 units). Please contact our sales team for specific product MOQs.',
   },
   {
-    question: 'Are all products WHO-GMP certified?',
-    answer: 'Yes. Our medicines are manufactured in a GMP-GLP compliant facility and aligned to pharmacopoeia and statutory quality requirements.',
-  },
-  {
     question: 'What are your payment terms?',
     answer: 'We offer flexible payment terms including advance payment, credit terms (30/45/60 days) for established clients, and Letter of Credit for international orders. Terms are determined after credit assessment.',
   },
   {
     question: 'Do you handle temperature-sensitive products?',
-    answer: 'Yes. We have dedicated cold-chain infrastructure including refrigerated warehouses and temperature-controlled vehicles for products requiring 2-8°C or -20°C storage throughout the supply chain.',
+    answer: 'Yes. Temperature-sensitive products are handled with dedicated cold-chain packaging and controlled transport for products requiring 2-8°C storage.',
   },
   {
     question: 'How can I track my order?',
@@ -212,29 +206,29 @@ export const faqs = [
 ]
 
 export const partners = [
-  'Sun Pharma', 'Cipla', 'Dr. Reddys', 'Lupin', 'Abbott India',
-  'Pfizer', 'Novartis', 'GSK', 'Zydus', 'Torrent Pharma',
+  'Ofloxacin Tablets IP 400mg',
+  'Aceclofenac & Paracetamol Tablets',
+  'Clindamycin Capsules IP 300mg',
+  'Pregabalin & Methylcobalamin Capsules',
+  'Ambroxol & Levosalbutamol Syrup',
+  'Terbinafine Cream IP 1%',
+  'Clobetasol Propionate Cream IP',
+  'Mupirocin Ointment IP 2%',
+  'Pantoprazole & Domperidone Capsules',
+  'Diclofenac & Thiocolchicoside Capsules',
 ]
 
 export const insights = [
   {
     id: 1,
-    title: 'Advances In Oral Solid Dosage Manufacturing',
+    title: 'Manufacturing and Analysis of Drug Formulations',
     date: 'March 18, 2026',
-    slug: 'advances-oral-solid-dosage-manufacturing',
+    slug: 'manufacturing-and-analysis-of-drug-formulations',
     image: '/images/insights/lab-on-chip.png',
     tags: ['Manufacturing'],
   },
   {
     id: 2,
-    title: 'Standardizing Sample Handling In Clinical Labs',
-    date: 'March 18, 2026',
-    slug: 'standardizing-sample-handling-clinical-labs',
-    image: '/images/insights/sample-handling.png',
-    tags: ['Laboratory'],
-  },
-  {
-    id: 3,
     title: 'AI-Powered Drug Discovery In Modern Research',
     date: 'March 18, 2026',
     slug: 'ai-powered-drug-discovery-modern-research',

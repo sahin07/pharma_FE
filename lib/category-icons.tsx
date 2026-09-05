@@ -6,6 +6,7 @@ const categoryIconMap: Record<string, LucideIcon> = {
   Tablets: Pill,
   'Oral Liquids': FlaskConical,
   Ointments: HeartPulse,
+  'External Preparations': HeartPulse,
 }
 
 type CategoryIconProps = {

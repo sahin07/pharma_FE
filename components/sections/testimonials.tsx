@@ -91,7 +91,7 @@ export default function TestimonialsSection() {
               className="flex flex-col gap-3 mb-10"
             >
               {[
-                { label: '1,200+ Partners' },
+                { label: '1,200+ Parties / Clients' },
                 { label: '98% Satisfaction' },
               ].map(({ label }) => (
                 <motion.div key={label} variants={listItem} className="flex items-center gap-2">

@@ -54,7 +54,7 @@ export default function Navbar() {
       <div className="bg-foreground text-white py-3.5 hidden md:block">
         <div className="max-w-[1680px] mx-auto px-10 flex items-center justify-between">
           <span className="font-mono text-[12px] tracking-[0.12em] uppercase text-white/70">
-            WHO-GMP Certified &nbsp;·&nbsp; ISO 9001:2015 &nbsp;·&nbsp; Nationwide Distribution
+            GMP Certified &nbsp;·&nbsp; ISO 9001:2015 &nbsp;·&nbsp; Nationwide Distribution
           </span>
           <div className="flex items-center gap-6 font-mono text-[12px] tracking-wider text-white/70">
             <a href="tel:+919816667007" className="flex items-center gap-2 hover:text-white transition-colors">
@@ -75,15 +75,15 @@ export default function Navbar() {
           isScrolled ? 'bg-white/98 backdrop-blur-md shadow-sm shadow-black/4' : 'bg-white'
         }`}
       >
-        <nav className="max-w-[1680px] mx-auto px-10 flex items-center justify-between h-[4.75rem]">
+        <nav className="max-w-[1680px] mx-auto px-10 flex items-center justify-between h-[5.25rem]">
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0 group">
             <Image
               src="/images/logos/2.png"
               alt="Samay Pharma"
-              width={160}
-              height={38}
-              className="h-9 w-auto object-contain"
+              width={200}
+              height={48}
+              className="h-12 w-auto object-contain"
               priority
             />
           </Link>

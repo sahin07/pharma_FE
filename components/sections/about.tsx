@@ -18,16 +18,17 @@ import {
 
 const highlights = [
   'GMP-GLP compliant plant with modern labs, chemical plants, and large-scale lines',
-  'Full oral and topical range: tablets, capsules, liquids, and ointments',
+  'Full oral and topical range: tablets, capsules, oral liquids, and external preparations',
   'In-house R&D for formulation work, including prolonged-release products',
   'Third-party manufacturing for small and large pharmaceutical companies',
+  'PCD franchise support for marketers building their own pharma brand',
 ]
 
 const miniStats = [
   { value: 'TAB', label: 'Tablets' },
   { value: 'CAP', label: 'Capsules' },
-  { value: 'LIQ', label: 'Liquids' },
-  { value: 'OIN', label: 'Ointments' },
+  { value: 'LIQ', label: 'Oral Liquid' },
+  { value: 'OIN', label: 'External Preparations' },
 ]
 
 export default function AboutSection({
@@ -79,7 +80,7 @@ export default function AboutSection({
             >
               <motion.div style={{ y: imgY }} className="absolute inset-[-10%] inset-x-0">
                 <Image
-                  src="/images/about-warehouse.png"
+                  src="/images/hero-new.jpg"
                   alt="Samay Pharma manufacturing facility"
                   fill
                   className="object-cover scale-110"
@@ -105,7 +106,7 @@ export default function AboutSection({
                     transition={{ delay: 0.85 + i * 0.07 }}
                   >
                     <div className="font-mono font-bold text-white text-xl leading-none">{value}</div>
-                    <div className="font-mono text-[9px] tracking-[0.14em] uppercase text-white/50 mt-1">{label}</div>
+                    <div className="font-mono text-[8px] tracking-[0.1em] uppercase text-white/50 mt-1 leading-tight">{label}</div>
                   </motion.div>
                 ))}
               </div>
@@ -124,7 +125,7 @@ export default function AboutSection({
               badge="Our Story"
               title="Building a Healthier Life Through Quality"
               accentWord="Medicines"
-              subtitle="Based in Kala Amb, Himachal Pradesh, Samay Pharma India manufactures quality medicines — tablets, capsules, liquids, and ointments — to international pharmacopoeia standards, at prices meant to stay within reach."
+              subtitle="Based in Kala Amb, Himachal Pradesh, Samay Pharma India manufactures quality medicines — tablets, capsules, oral liquids, and external preparations — to international pharmacopoeia standards, at prices meant to stay within reach."
               centered={false}
               inView={inView}
             />

@@ -8,7 +8,7 @@ import CTABanner from '@/components/sections/cta-banner'
 
 export const metadata: Metadata = {
   title: 'About Samay Pharma | Our Story & Mission',
-  description: 'Samay Pharma India Pvt. Ltd. manufactures quality medicines from Kala Amb, Himachal Pradesh — GMP-GLP compliant tablets, capsules, liquids, and ointments, including third-party manufacturing.',
+  description: 'Samay Pharma India Pvt. Ltd. manufactures quality medicines from Kala Amb, Himachal Pradesh — GMP-GLP compliant tablets, capsules, oral liquids, and external preparations, including third-party and PCD manufacturing.',
 }
 
 export default function AboutPage() {

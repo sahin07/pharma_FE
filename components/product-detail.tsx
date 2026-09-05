@@ -10,7 +10,7 @@ const productDetails = {
   storage: '25°C or below, away from direct sunlight',
   moq: '1 Carton (100 units)',
   leadTime: '48–72 hours',
-  regulatory: 'CDSCO Licensed | WHO-GMP Certified Source',
+  regulatory: 'CDSCO Licensed | GMP Certified Source',
 }
 
 const highlights = [

@@ -21,17 +21,17 @@ const footerLinks = {
       { label: 'Capsules', href: '/products/capsules' },
       { label: 'Tablets', href: '/products/tablets' },
       { label: 'Oral Liquids', href: '/products/oral-liquids' },
-      { label: 'Ointments', href: '/products/ointments' },
+      { label: 'External Preparations', href: '/products/ointments' },
     ],
   },
   services: {
     title: 'Services',
     links: [
-      { label: 'Bulk Procurement', href: '/services' },
-      { label: 'Cold Chain Logistics', href: '/services#cold-chain' },
-      { label: 'Export Services', href: '/services#export' },
-      { label: 'Regulatory Support', href: '/services#regulatory' },
+      { label: 'Third-Party Manufacturing', href: '/services' },
+      { label: 'PCD Franchise', href: '/services#pcd' },
       { label: 'Custom Packaging', href: '/services#packaging' },
+      { label: 'Regulatory Support', href: '/services#regulatory' },
+      { label: 'Export Services', href: '/services#export' },
     ],
   },
   resources: {
@@ -64,13 +64,13 @@ export default function Footer() {
               <Image
                 src="/images/logos/3.png"
                 alt="Samay Pharma"
-                width={150}
-                height={34}
-                className="h-8 w-auto object-contain"
+                width={180}
+                height={42}
+                className="h-10 w-auto object-contain"
               />
             </Link>
             <p className="text-[13px] text-white/50 leading-relaxed mb-6 max-w-[240px]">
-              India&apos;s trusted pharmaceutical manufacturing company. Quality medicines since 1999.
+              India&apos;s trusted pharmaceutical manufacturing company. Quality medicines from Kala Amb, Himachal Pradesh.
             </p>
             <div className="space-y-2.5">
               <a href="tel:+919816667007" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors">

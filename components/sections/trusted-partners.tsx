@@ -11,7 +11,7 @@ export default function TrustedPartners() {
     <section className="py-14 section-bg-dark border-y border-white/8">
       <div className="max-w-[1680px] mx-auto px-10 mb-8 text-center">
         <p className="font-mono text-[10px] font-medium text-white uppercase tracking-[0.22em]">
-          Trusted by Leading Pharmaceutical Partners
+          Our Samay Pharma Brand Products
         </p>
       </div>
 
@@ -20,7 +20,7 @@ export default function TrustedPartners() {
         <motion.div
           className="flex w-max"
           animate={{ x: ['0%', '-50%'] }}
-          transition={{ duration: 35, repeat: Infinity, ease: 'linear' }}
+          transition={{ duration: 60, repeat: Infinity, ease: 'linear' }}
         >
           {[0, 1].map((copy) => (
             <div
@@ -31,9 +31,9 @@ export default function TrustedPartners() {
               {track.map((partner, i) => (
                 <div
                   key={`${copy}-${partner}-${i}`}
-                  className="px-7 py-3 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-secondary/50 transition-all cursor-default group shrink-0"
+                  className="px-7 py-3 bg-white rounded-xl border border-border shadow-sm hover:border-primary/40 hover:shadow-md transition-all cursor-default group shrink-0"
                 >
-                  <span className="text-[13px] font-semibold text-white/50 group-hover:text-white transition-colors whitespace-nowrap">
+                  <span className="text-[13px] font-semibold text-foreground group-hover:text-primary transition-colors whitespace-nowrap">
                     {partner}
                   </span>
                 </div>
