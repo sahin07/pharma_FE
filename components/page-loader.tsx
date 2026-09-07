@@ -73,7 +73,7 @@ export default function PageLoader() {
             className="pointer-events-none absolute inset-0 opacity-60"
             style={{
               background:
-                'radial-gradient(ellipse 50% 40% at 50% 45%, color-mix(in srgb, #3DC0C3 28%, transparent), transparent 70%)',
+                'radial-gradient(ellipse 50% 40% at 50% 45%, color-mix(in srgb, #008000 28%, transparent), transparent 70%)',
             }}
           />
 
@@ -100,7 +100,7 @@ export default function PageLoader() {
 
             <div className="mt-2 h-1 w-36 overflow-hidden rounded-full bg-white/10 sm:w-40">
               <motion.div
-                className="h-full rounded-full bg-[#3DC0C3]"
+                className="h-full rounded-full bg-[#008000]"
                 style={{ width: `${progress}%` }}
               />
             </div>

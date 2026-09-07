@@ -126,7 +126,7 @@ export default function Footer() {
                 type="submit"
                 className="px-6 py-2.5 text-white font-bold rounded-full text-sm shadow-md hover:brightness-105 transition-all shrink-0"
                 style={{
-                  background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
+                  background: 'linear-gradient(180deg, #008000, #006400)',
                 }}
               >
                 Subscribe

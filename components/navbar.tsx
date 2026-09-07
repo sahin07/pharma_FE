@@ -217,7 +217,7 @@ export default function Navbar() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2 text-[15px] font-bold text-white px-7 py-3 rounded-full shadow-md hover:brightness-105 transition-all"
               style={{
-                background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
+                background: 'linear-gradient(180deg, #008000, #006400)',
               }}
             >
               Get a Quote
@@ -265,7 +265,7 @@ export default function Navbar() {
                     href="/contact"
                     className="block w-full text-center px-4 py-3 text-sm font-bold text-primary-foreground rounded-full shadow-md hover:brightness-105 transition-all"
                     style={{
-                      background: 'linear-gradient(180deg, #3DC0C3, #00827F)',
+                      background: 'linear-gradient(180deg, #008000, #006400)',
                     }}
                     onClick={() => setMobileOpen(false)}
                   >

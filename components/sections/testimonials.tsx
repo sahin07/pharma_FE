@@ -23,7 +23,7 @@ function TealStars({ count }: { count: number }) {
           width="14"
           height="14"
           viewBox="0 0 14 14"
-          fill="oklch(0.60 0.16 210)"
+          fill="#008000"
           initial={{ scale: 0, rotate: -20 }}
           animate={{ scale: 1, rotate: 0 }}
           transition={{ delay: i * 0.07 + 0.3, type: 'spring', stiffness: 300, damping: 15 }}

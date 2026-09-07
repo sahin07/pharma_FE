@@ -84,7 +84,7 @@ export default function ApprovalProductDetail({ product }: ApprovalProductDetail
                 <Link
                   href="/contact"
                   className="flex-1 flex items-center justify-center gap-2 px-6 py-3.5 text-primary-foreground font-bold rounded-full shadow-md shadow-primary/20 hover:brightness-105 transition-all"
-                  style={{ background: 'linear-gradient(180deg, #3DC0C3, #00827F)' }}
+                  style={{ background: 'linear-gradient(180deg, #008000, #006400)' }}
                 >
                   Request a Quote
                 </Link>

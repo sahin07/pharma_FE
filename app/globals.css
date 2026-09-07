@@ -53,42 +53,42 @@
   color-scheme: light;
   /* Pure white page background — teal blobs supply colour depth */
   --background: oklch(1 0 0);
-  /* Dark teal-ink headings */
+  /* Dark green-ink headings */
   --foreground: oklch(0.22 0.04 190);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.22 0.04 190);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.22 0.04 190);
-  /* Brand teal — #00827F / #3DC0C3 */
-  --brand-light: #3DC0C3;
-  --brand-dark: #00827F;
-  --brand-gradient: linear-gradient(180deg, #3DC0C3, #00827F);
-  --primary: #00827F;
+  /* Brand green — #006400 / #008000 */
+  --brand-light: #008000;
+  --brand-dark: #006400;
+  --brand-gradient: linear-gradient(180deg, #008000, #006400);
+  --primary: #006400;
   --primary-foreground: oklch(1 0 0);
-  --secondary: #3DC0C3;
+  --secondary: #008000;
   --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.965 0.008 190);
   --muted-foreground: oklch(0.48 0.03 190);
-  --accent: #00827F;
+  --accent: #006400;
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.91 0.01 190);
   --input: oklch(0.91 0.01 190);
-  --ring: #00827F;
-  --chart-1: #00827F;
-  --chart-2: #3DC0C3;
+  --ring: #006400;
+  --chart-1: #006400;
+  --chart-2: #008000;
   --chart-3: oklch(0.58 0.10 185);
   --chart-4: oklch(0.70 0.10 195);
   --chart-5: oklch(0.42 0.08 190);
   --radius: 1rem;
   --sidebar: oklch(1 0 0);
   --sidebar-foreground: oklch(0.22 0.04 190);
-  --sidebar-primary: #00827F;
+  --sidebar-primary: #006400;
   --sidebar-primary-foreground: oklch(1 0 0);
   --sidebar-accent: oklch(0.965 0.008 190);
   --sidebar-accent-foreground: oklch(0.22 0.04 190);
   --sidebar-border: oklch(0.91 0.01 190);
-  --sidebar-ring: #00827F;
+  --sidebar-ring: #006400;
 }
 
 /* Light-only design — dark mode intentionally disabled */
@@ -126,25 +126,25 @@
     font-synthesis: none;
   }
 
-  /* Shared dark teal fill — section CTAs / dark panels */
+  /* Shared dark green fill — section CTAs / dark panels */
   .bg-navy-btn {
-    background: linear-gradient(180deg, #00827F, #006663);
+    background: linear-gradient(180deg, #006400, #004d00);
   }
 
-  /* Brand button gradient — #3DC0C3 → #00827F */
+  /* Brand button gradient — #008000 → #006400 */
   .bg-brand-btn {
-    background: linear-gradient(180deg, #3DC0C3, #00827F);
+    background: linear-gradient(180deg, #008000, #006400);
   }
 
-  /* Deep brand teal fill only — safe for fixed overlays (no position override) */
+  /* Deep brand green fill only — safe for fixed overlays (no position override) */
   .bg-brand-deep {
-    background: linear-gradient(165deg, #042524 0%, #061a19 48%, #08302e 100%);
+    background: linear-gradient(90deg, #010a01 0%, #021402 50%, #003000 100%);
   }
 
-  /* Why Choose Us — deep brand teal so light text / accents read clearly */
+  /* Dark sections — left deep green → right darker mid green */
   .section-bg-why {
     position: relative;
-    background: linear-gradient(165deg, #042524 0%, #061a19 48%, #08302e 100%);
+    background: linear-gradient(90deg, #010a01 0%, #021402 35%, #002800 70%, #003800 100%);
     overflow: hidden;
   }
   .section-bg-why::before {
@@ -152,9 +152,7 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 55% 50% at 8% 20%, color-mix(in srgb, #00827F 35%, transparent) 0%, transparent 62%),
-      radial-gradient(ellipse 50% 48% at 92% 85%, color-mix(in srgb, #3DC0C3 18%, transparent) 0%, transparent 60%),
-      radial-gradient(ellipse 40% 35% at 50% 50%, color-mix(in srgb, #00827F 12%, transparent) 0%, transparent 55%);
+      linear-gradient(105deg, transparent 60%, color-mix(in srgb, #004d00 12%, transparent) 100%);
     pointer-events: none;
     z-index: 0;
   }
@@ -175,9 +173,9 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 60% 50% at 5% 15%, color-mix(in srgb, #3DC0C3 22%, transparent) 0%, transparent 65%),
-      radial-gradient(ellipse 45% 55% at 95% 85%, color-mix(in srgb, #00827F 16%, transparent) 0%, transparent 62%),
-      radial-gradient(ellipse 30% 25% at 50% 50%, color-mix(in srgb, #3DC0C3 10%, transparent) 0%, transparent 55%);
+      radial-gradient(ellipse 60% 50% at 5% 15%, color-mix(in srgb, #008000 22%, transparent) 0%, transparent 65%),
+      radial-gradient(ellipse 45% 55% at 95% 85%, color-mix(in srgb, #006400 16%, transparent) 0%, transparent 62%),
+      radial-gradient(ellipse 30% 25% at 50% 50%, color-mix(in srgb, #008000 10%, transparent) 0%, transparent 55%);
     pointer-events: none;
     z-index: 0;
   }
@@ -194,9 +192,9 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 55% 55% at 88% 10%, color-mix(in srgb, #3DC0C3 18%, transparent) 0%, transparent 62%),
-      radial-gradient(ellipse 50% 45% at 8% 82%, color-mix(in srgb, #00827F 16%, transparent) 0%, transparent 60%),
-      radial-gradient(ellipse 35% 30% at 50% 45%, color-mix(in srgb, #3DC0C3 10%, transparent) 0%, transparent 52%);
+      radial-gradient(ellipse 55% 55% at 88% 10%, color-mix(in srgb, #008000 18%, transparent) 0%, transparent 62%),
+      radial-gradient(ellipse 50% 45% at 8% 82%, color-mix(in srgb, #006400 16%, transparent) 0%, transparent 60%),
+      radial-gradient(ellipse 35% 30% at 50% 45%, color-mix(in srgb, #008000 10%, transparent) 0%, transparent 52%);
     pointer-events: none;
     z-index: 0;
   }
@@ -213,18 +211,18 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 70% 40% at 50% -5%, color-mix(in srgb, #3DC0C3 18%, transparent) 0%, transparent 65%),
-      radial-gradient(ellipse 38% 45% at 2% 95%, color-mix(in srgb, #00827F 14%, transparent) 0%, transparent 58%),
-      radial-gradient(ellipse 38% 40% at 98% 58%, color-mix(in srgb, #3DC0C3 14%, transparent) 0%, transparent 58%);
+      radial-gradient(ellipse 70% 40% at 50% -5%, color-mix(in srgb, #008000 18%, transparent) 0%, transparent 65%),
+      radial-gradient(ellipse 38% 45% at 2% 95%, color-mix(in srgb, #006400 14%, transparent) 0%, transparent 58%),
+      radial-gradient(ellipse 38% 40% at 98% 58%, color-mix(in srgb, #008000 14%, transparent) 0%, transparent 58%);
     pointer-events: none;
     z-index: 0;
   }
   .section-bg-c > * { position: relative; z-index: 1; }
 
-  /* ── Dark panels — same deep brand teal family as Why Choose Us ── */
+  /* ── Dark panels — same left→right green wash ── */
   .section-bg-dark {
     position: relative;
-    background: linear-gradient(165deg, #042524 0%, #061a19 48%, #08302e 100%);
+    background: linear-gradient(90deg, #010a01 0%, #021402 35%, #002800 70%, #003800 100%);
     overflow: hidden;
   }
   .section-bg-dark::before {
@@ -232,9 +230,7 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 52% 55% at 12% 28%, color-mix(in srgb, #00827F 32%, transparent) 0%, transparent 62%),
-      radial-gradient(ellipse 48% 52% at 90% 78%, color-mix(in srgb, #3DC0C3 16%, transparent) 0%, transparent 60%),
-      radial-gradient(ellipse 32% 28% at 54% 8%,  color-mix(in srgb, #00827F 14%, transparent) 0%, transparent 52%);
+      linear-gradient(105deg, transparent 60%, color-mix(in srgb, #004d00 12%, transparent) 100%);
     pointer-events: none;
     z-index: 0;
   }
@@ -242,7 +238,7 @@
 
   .section-bg-navy {
     position: relative;
-    background: linear-gradient(165deg, #031f1e 0%, #051716 45%, #072b29 100%);
+    background: linear-gradient(90deg, #010a01 0%, #021402 35%, #002800 70%, #003800 100%);
     overflow: hidden;
   }
   .section-bg-navy::before {
@@ -250,9 +246,7 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 50% 52% at 8% 20%, color-mix(in srgb, #00827F 30%, transparent) 0%, transparent 60%),
-      radial-gradient(ellipse 44% 48% at 92% 82%, color-mix(in srgb, #3DC0C3 14%, transparent) 0%, transparent 58%),
-      radial-gradient(ellipse 36% 32% at 58% 5%,  color-mix(in srgb, #00827F 12%, transparent) 0%, transparent 52%);
+      linear-gradient(105deg, transparent 60%, color-mix(in srgb, #004d00 12%, transparent) 100%);
     pointer-events: none;
     z-index: 0;
   }
