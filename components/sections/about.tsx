@@ -80,7 +80,7 @@ export default function AboutSection({
             >
               <motion.div style={{ y: imgY }} className="absolute inset-[-10%] inset-x-0">
                 <Image
-                  src="/images/hero-new.jpg"
+                  src="/below-hero.jpg"
                   alt="Samay Pharma manufacturing facility"
                   fill
                   className="object-cover scale-110"

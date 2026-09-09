@@ -215,7 +215,7 @@ export default function HeroSection() {
             >
               <motion.div style={{ y: imageY, scale: imageScale }} className="absolute inset-0">
                 <Image
-                  src="/images/hero-new.jpg"
+                  src="/banner.jpg"
                   alt="Samay Pharma manufacturing facility"
                   fill
                   className="object-cover"
