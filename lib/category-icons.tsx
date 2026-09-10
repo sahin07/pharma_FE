@@ -2,8 +2,11 @@ import { FlaskConical, HeartPulse, Package, Pill, type LucideIcon } from 'lucide
 import { cn } from '@/lib/utils'
 
 const categoryIconMap: Record<string, LucideIcon> = {
+  Capsule: Package,
   Capsules: Package,
+  Tablet: Pill,
   Tablets: Pill,
+  'Oral Liquid': FlaskConical,
   'Oral Liquids': FlaskConical,
   Ointments: HeartPulse,
   'External Preparations': HeartPulse,

@@ -18,9 +18,9 @@ const footerLinks = {
   products: {
     title: 'Products',
     links: [
-      { label: 'Capsules', href: '/products/capsules' },
-      { label: 'Tablets', href: '/products/tablets' },
-      { label: 'Oral Liquids', href: '/products/oral-liquids' },
+      { label: 'Capsule', href: '/products/capsules' },
+      { label: 'Tablet', href: '/products/tablets' },
+      { label: 'Oral Liquid', href: '/products/oral-liquids' },
       { label: 'External Preparations', href: '/products/ointments' },
     ],
   },

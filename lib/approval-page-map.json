@@ -1,6 +1,6 @@
 {
   "tablets": {
-    "name": "Tablets",
+    "name": "Tablet",
     "slug": "tablets",
     "folder": "public/approval-pdf-pages/tablets/",
     "pdfPageRange": "2-32",
@@ -623,7 +623,7 @@
     }
   },
   "capsules": {
-    "name": "Capsules",
+    "name": "Capsule",
     "slug": "capsules",
     "folder": "public/approval-pdf-pages/capsules/",
     "pdfPageRange": "33-37",
@@ -722,7 +722,7 @@
     }
   },
   "oral-liquids": {
-    "name": "Oral Liquids",
+    "name": "Oral Liquid",
     "slug": "oral-liquids",
     "folder": "public/approval-pdf-pages/oral-liquids/",
     "pdfPageRange": "38-46",
@@ -888,7 +888,7 @@
     }
   },
   "ointments": {
-    "name": "Ointments",
+    "name": "External Preparations",
     "slug": "ointments",
     "folder": "public/approval-pdf-pages/ointments/",
     "pdfPageRange": "47-51",

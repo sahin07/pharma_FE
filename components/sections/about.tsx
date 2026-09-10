@@ -25,8 +25,8 @@ const highlights = [
 ]
 
 const miniStats = [
-  { value: 'TAB', label: 'Tablets' },
-  { value: 'CAP', label: 'Capsules' },
+  { value: 'TAB', label: 'Tablet' },
+  { value: 'CAP', label: 'Capsule' },
   { value: 'LIQ', label: 'Oral Liquid' },
   { value: 'OIN', label: 'External Preparations' },
 ]

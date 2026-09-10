@@ -19,7 +19,7 @@ export default function CategoriesSection() {
           badge="Our Lab Expertise"
           title="Comprehensive Pharmaceutical"
           accentWord="Catalog"
-          subtitle="Capsules, tablets, oral liquids, and external preparations — our core pharmaceutical dosage forms for modern healthcare."
+          subtitle="Capsule, Tablet, Oral Liquid, and External Preparations — our core pharmaceutical dosage forms for modern healthcare."
           inView={inView}
         />
 

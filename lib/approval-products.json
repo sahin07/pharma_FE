@@ -65,7 +65,7 @@
   },
   "categories": [
     {
-      "name": "Tablets",
+      "name": "Tablet",
       "slug": "tablets",
       "productCount": 304,
       "products": [
@@ -1896,7 +1896,7 @@
       ]
     },
     {
-      "name": "Capsules",
+      "name": "Capsule",
       "slug": "capsules",
       "productCount": 40,
       "products": [
@@ -2143,7 +2143,7 @@
       ]
     },
     {
-      "name": "Oral Liquids",
+      "name": "Oral Liquid",
       "slug": "oral-liquids",
       "productCount": 67,
       "products": [
