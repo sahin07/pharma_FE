@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return { title: 'Product Not Found' }
   return {
     title: `${product.name} | Samay Pharma`,
-    description: `${product.description}. Manufactured by Samay Pharma — GMP-GLP certified pharmaceutical manufacturer.`,
+    description: `${product.description}. Manufactured by Samay Pharma — International certified pharmaceutical manufacturer.`,
   }
 }
 

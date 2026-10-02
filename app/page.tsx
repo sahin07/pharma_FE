@@ -8,7 +8,6 @@ import WhyChooseUsSection from '@/components/sections/why-choose-us'
 import CertificationsSection from '@/components/sections/certifications'
 import ProcessSection from '@/components/sections/process'
 import TestimonialsSection from '@/components/sections/testimonials'
-import InsightsSection from '@/components/sections/insights'
 import FAQSection from '@/components/sections/faq'
 import CTABanner from '@/components/sections/cta-banner'
 import ContactSection from '@/components/sections/contact'
@@ -27,7 +26,6 @@ export default function HomePage() {
       <CertificationsSection />
       <ProcessSection />
       <TestimonialsSection />
-      <InsightsSection />
       <FAQSection />
       <CTABanner />
       <ContactSection />

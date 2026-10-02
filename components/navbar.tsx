@@ -54,7 +54,7 @@ export default function Navbar() {
       <div className="bg-foreground text-white py-3.5 hidden md:block">
         <div className="max-w-[1680px] mx-auto px-10 flex items-center justify-between">
           <span className="font-mono text-[12px] tracking-[0.12em] uppercase text-white/70">
-            GMP Certified &nbsp;·&nbsp; ISO 9001:2015 &nbsp;·&nbsp; Nationwide Distribution
+            International Certified &nbsp;·&nbsp; ISO 9001:2015 &nbsp;·&nbsp; Nationwide Distribution
           </span>
           <div className="flex items-center gap-6 font-mono text-[12px] tracking-wider text-white/70">
             <a href="tel:+919816667007" className="flex items-center gap-2 hover:text-white transition-colors">
@@ -79,9 +79,9 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0 group">
             <Image
-              src="/images/logos/2.png"
+              src="/images/header-logo-cropped.png"
               alt="Samay Pharma"
-              width={200}
+              width={205}
               height={48}
               className="h-12 w-auto object-contain"
               priority
@@ -121,7 +121,7 @@ export default function Navbar() {
                           <div>
                             <h3 className="text-xs font-mono font-bold tracking-wider uppercase text-primary flex items-center gap-1.5">
                               <span className="w-2 h-2 rounded-full bg-primary" />
-                              GMP & GLP Certified Formulations
+                              International Certified Formulations
                             </h3>
                             <p className="text-sm text-muted-foreground mt-0.5 font-medium">
                               Explore our primary pharmaceutical dosage categories manufactured to strict standards.

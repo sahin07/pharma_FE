@@ -44,48 +44,53 @@ export const categories = [
 export const featuredProducts = [
   {
     id: 1,
-    name: 'Amoxicillin 500mg Capsules',
+    name: 'Samrab-DSR Capsules',
     brand: 'Samay Pharma',
     category: 'Capsule',
-    description: 'Broad-spectrum penicillin antibiotic for bacterial infections',
-    image: '/images/products/amoxicillin.png',
-    slug: 'amoxicillin-500mg',
+    description: 'Rabeprazole Sodium (enteric coated) & Domperidone (Sustained Release) Capsules',
+    image: '/images/products/Samrab-DSR.jpeg',
+    slug: 'samrab-dsr-capsules',
+    approvalSlug: '9-rabeprazole-sodium-enteric-coated-domperidone-sustained-release-capsules',
   },
   {
     id: 2,
-    name: 'Metformin 850mg Tablets',
+    name: 'Azisam-500 Tablets',
     brand: 'Samay Pharma',
     category: 'Tablet',
-    description: 'First-line oral antidiabetic agent for Type 2 Diabetes Mellitus',
-    image: '/images/products/metformin.png',
-    slug: 'metformin-850mg',
+    description: 'Azithromycin Tablets IP',
+    image: '/images/products/Azisam.jpeg',
+    slug: 'azisam-500-tablets',
+    approvalSlug: '82-azithromycin-tablets-ip',
   },
   {
     id: 3,
-    name: 'Paracetamol 250mg Syrup',
+    name: 'Levosam-M Syrup',
     brand: 'Samay Pharma',
     category: 'Oral Liquid',
-    description: 'Analgesic and antipyretic syrup formulation for pediatric use',
-    image: '/images/products/paracetamol-syrup.png',
-    slug: 'paracetamol-syrup',
+    description: 'Levocetirizine Dihydrochloride & Montelukast Syrup',
+    image: '/images/products/LEVOSAM-M.jpeg',
+    slug: 'levosam-m-syrup',
+    approvalSlug: '58-levocetirizine-dihydrochloride-montelukast-syrup',
   },
   {
     id: 4,
-    name: 'Cough Syrup 100ml',
+    name: 'Samlose Oral Solution',
     brand: 'Samay Pharma',
     category: 'Oral Liquid',
-    description: 'Oral liquid formulation for relief of dry and productive cough',
-    image: '/images/products/paracetamol-syrup.png',
-    slug: 'cough-syrup-100ml',
+    description: 'Lactulose Oral Solution USP',
+    image: '/images/products/samlose.jpeg',
+    slug: 'samlose-oral-solution',
+    approvalSlug: '66-lactulose-oral-solution-usp',
   },
   {
     id: 5,
-    name: 'Diclofenac Gel 30g',
+    name: 'Dolosam Gel',
     brand: 'Samay Pharma',
     category: 'External Preparations',
-    description: 'Topical NSAID gel for musculoskeletal pain and inflammation',
-    image: '/images/products/bp-monitor.png',
-    slug: 'diclofenac-gel-30g',
+    description: 'Diclofenac Sodium, Linseed Oil, Methyl Salicylate & Menthol Gel',
+    image: '/images/products/dolosam.jpeg',
+    slug: 'dolosam-gel',
+    approvalSlug: '7-diclofenac-sodium-linseed-oil-methyl-salicylate-menthol-gel',
   },
 ]
 
@@ -98,8 +103,8 @@ export const stats = [
 export const features = [
   {
     icon: 'Shield',
-    title: 'GMP-GLP Certified',
-    description: 'Manufacturing aligned to GMP-GLP, pharmacopoeia standards, and statutory requirements — so composition, purity, and safety stay consistent.',
+    title: 'International Certified',
+    description: 'Manufacturing aligned to International, pharmacopoeia standards, and statutory requirements — so composition, purity, and safety stay consistent.',
   },
   {
     icon: 'Truck',
@@ -109,7 +114,7 @@ export const features = [
   {
     icon: 'Award',
     title: 'Certified Quality',
-    description: 'GMP and ISO 9001:2015 credentials behind how we manufacture, test, and release every batch.',
+    description: 'International and ISO 9001:2015 credentials behind how we manufacture, test, and release every batch.',
   },
   {
     icon: 'Users',
@@ -129,8 +134,8 @@ export const features = [
 ]
 
 export const certifications = [
-  { year: 'GMP', title: 'GMP Certification', body: 'Good Manufacturing Practice', description: 'Manufacturing aligned to GMP so every batch meets required quality and safety standards' },
-  { year: 'GLP', title: 'GLP Compliance', body: 'Good Laboratory Practice', description: 'GMP-GLP compliant operations across formulation, testing, and quality control' },
+  { year: 'International', title: 'International Certification', body: 'Good Manufacturing Practice', description: 'Manufacturing aligned to International so every batch meets required quality and safety standards' },
+  { year: 'International', title: 'International Compliance', body: 'Good Laboratory Practice', description: 'International compliant operations across formulation, testing, and quality control' },
   { year: '2015', title: 'ISO 9001:2015', body: 'Quality Management', description: 'International quality management system covering how we manufacture and control our products' },
   { year: 'IP', title: 'Pharmacopoeia Standards', body: 'Statutory Compliance', description: 'Products formulated to meet relevant pharmacopoeia standards and statutory requirements' },
 ]
@@ -158,7 +163,7 @@ export const testimonials = [
     name: 'Neha Kapoor',
     role: 'Director',
     company: 'Third-Party Brand Owner',
-    quote: 'We outsource our oral solids and liquids to Samay Pharma. Formulation support, GMP-GLP discipline, and on-time dispatch make them a reliable manufacturing partner.',
+    quote: 'We outsource our oral solids and liquids to Samay Pharma. Formulation support, International discipline, and on-time dispatch make them a reliable manufacturing partner.',
     rating: 5,
     avatar: 'NK',
   },

@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     'pharmaceutical manufacturing',
     'medicine manufacturer',
     'B2B pharma',
-    'GMP certified',
+    'International certified',
     'third-party manufacturing',
   ],
   openGraph: {

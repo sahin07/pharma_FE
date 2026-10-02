@@ -14,7 +14,7 @@ type ProductsPageShellProps = {
 export default function ProductsPageShell({
   categorySlug,
   title = 'Product Catalog',
-  description = 'Certified medicines manufactured at our GMP-GLP compliant facility',
+  description = 'Certified medicines manufactured at our International compliant facility',
   breadcrumbLabel,
 }: ProductsPageShellProps) {
   return (

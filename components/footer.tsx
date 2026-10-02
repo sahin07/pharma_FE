@@ -2,17 +2,14 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, Mail, MapPin, ArrowRight, Globe, Share2, MessageSquare, AtSign } from 'lucide-react'
+import { Phone, Mail, MapPin, ArrowRight } from 'lucide-react'
 
 const footerLinks = {
   company: {
     title: 'Company',
     links: [
       { label: 'About Us', href: '/about' },
-      { label: 'Our Team', href: '/about#team' },
       { label: 'Certifications', href: '/certifications' },
-      { label: 'Infrastructure', href: '/about#infrastructure' },
-      { label: 'Careers', href: '/careers' },
     ],
   },
   products: {
@@ -24,48 +21,29 @@ const footerLinks = {
       { label: 'External Preparations', href: '/products/ointments' },
     ],
   },
-  services: {
-    title: 'Services',
-    links: [
-      { label: 'Third-Party Manufacturing', href: '/services' },
-      { label: 'PCD Franchise', href: '/services#pcd' },
-      { label: 'Custom Packaging', href: '/services#packaging' },
-      { label: 'Regulatory Support', href: '/services#regulatory' },
-      { label: 'Export Services', href: '/services#export' },
-    ],
-  },
   resources: {
     title: 'Resources',
     links: [
-      { label: 'Blog', href: '/blog' },
       { label: 'FAQ', href: '/faq' },
       { label: 'Product Catalog', href: '/products' },
       { label: 'Contact', href: '/contact' },
-      { label: 'Privacy Policy', href: '/privacy' },
     ],
   },
 }
-
-const socials = [
-  { icon: Globe, href: '#', label: 'LinkedIn' },
-  { icon: Share2, href: '#', label: 'Twitter / X' },
-  { icon: MessageSquare, href: '#', label: 'Facebook' },
-  { icon: AtSign, href: '#', label: 'Instagram' },
-]
 
 export default function Footer() {
   return (
     <footer className="text-primary-foreground section-bg-why">
       <div className="max-w-[1680px] mx-auto px-10 pt-16 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-flex items-center mb-6 shrink-0">
               <Image
-                src="/images/logos/3.png"
+                src="/images/footer-logo-cropped.png"
                 alt="Samay Pharma"
-                width={180}
-                height={42}
+                width={171}
+                height={40}
                 className="h-10 w-auto object-contain"
               />
             </Link>
@@ -136,22 +114,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="border-t border-white/10 pt-6 flex justify-center">
           <p className="font-mono text-[11px] tracking-wide text-white/35 text-center">
             &copy; {new Date().getFullYear()} Samay Pharma India Pvt. Ltd. All rights reserved.
           </p>
-          <div className="flex items-center gap-3">
-            {socials.map((social) => (
-              <a
-                key={social.label}
-                href={social.href}
-                aria-label={social.label}
-                className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-all"
-              >
-                <social.icon className="w-4 h-4" />
-              </a>
-            ))}
-          </div>
         </div>
       </div>
     </footer>

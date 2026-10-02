@@ -43,8 +43,8 @@ const CertIcons = [
 ]
 
 const certifications = [
-  { year: 'GMP', badge: 'Active', title: 'GMP Certification', body: 'Good Manufacturing Practice', description: 'Manufacturing aligned to GMP so every batch meets required quality and safety standards' },
-  { year: 'GLP', badge: 'Active', title: 'GLP Compliance', body: 'Good Laboratory Practice', description: 'GMP-GLP compliant operations across formulation, testing, and quality control' },
+  { year: 'International', badge: 'Active', title: 'International Certification', body: 'Good Manufacturing Practice', description: 'Manufacturing aligned to International so every batch meets required quality and safety standards' },
+  { year: 'International', badge: 'Active', title: 'International Compliance', body: 'Good Laboratory Practice', description: 'International compliant operations across formulation, testing, and quality control' },
   { year: '2015', badge: 'Active', title: 'ISO 9001:2015', body: 'Quality Management', description: 'International quality management system covering how we manufacture and control our products' },
   { year: 'IP', badge: 'Active', title: 'Pharmacopoeia Standards', body: 'Statutory Compliance', description: 'Products formulated to meet relevant pharmacopoeia standards and statutory requirements' },
 ]
@@ -102,7 +102,7 @@ export default function CertificationsSection() {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-4 mb-8">
               {[
-                { value: 'GMP', label: 'GLP compliant' },
+                { value: 'International', label: 'Compliant' },
                 { value: 'ISO', label: '9001:2015' },
                 { value: 'IP', label: 'Pharmacopoeia' },
                 { value: '1', label: 'Facility' },
@@ -114,7 +114,7 @@ export default function CertificationsSection() {
                   transition={{ duration: 0.5, delay: 0.2 + i * 0.07, ease: [0.22, 1, 0.36, 1] }}
                   className="bg-white/5 border border-white/10 rounded-2xl p-4"
                 >
-                  <div className="font-sans font-black text-white text-2xl leading-none mb-1">{value}</div>
+                  <div className={`font-sans font-black text-white leading-none mb-1 ${value.length > 4 ? 'text-base' : 'text-2xl'}`}>{value}</div>
                   <div className="text-white/40 text-[11px]">{label}</div>
                 </motion.div>
               ))}
@@ -163,7 +163,7 @@ export default function CertificationsSection() {
 
                 return (
                   <motion.div
-                    key={cert.year}
+                    key={cert.title}
                     variants={{
                       hidden: { opacity: 0, x: 32 },
                       show: {

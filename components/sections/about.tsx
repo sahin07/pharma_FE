@@ -17,7 +17,7 @@ import {
 } from '@/lib/animations'
 
 const highlights = [
-  'GMP-GLP compliant plant with modern labs, chemical plants, and large-scale lines',
+  'International compliant plant with modern labs, chemical plants, and large-scale lines',
   'Full oral and topical range: tablets, capsules, oral liquids, and external preparations',
   'In-house R&D for formulation work, including prolonged-release products',
   'Third-party manufacturing for small and large pharmaceutical companies',

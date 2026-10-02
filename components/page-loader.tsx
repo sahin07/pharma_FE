@@ -89,9 +89,9 @@ export default function PageLoader() {
               transition={{ duration: 1.6, repeat: Infinity, ease: 'easeInOut' }}
             >
               <Image
-                src="/images/logos/3.png"
+                src="/images/footer-logo-cropped.png"
                 alt="Samay Pharma"
-                width={200}
+                width={192}
                 height={45}
                 className="h-9 w-auto max-w-[min(200px,70vw)] object-contain sm:h-10"
                 priority

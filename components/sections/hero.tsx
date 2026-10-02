@@ -138,7 +138,7 @@ export default function HeroSection() {
                 className="text-muted-foreground leading-relaxed text-[1.0625rem] mb-10 max-w-[440px]"
               >
                 We manufacture quality tablets, capsules, oral liquids, and external
-                preparations at our GMP-GLP certified plant in Kala Amb — for
+                preparations at our International certified plant in Kala Amb — for
                 third-party and PCD partners across India.
               </motion.p>
 
@@ -272,7 +272,7 @@ export default function HeroSection() {
               className="absolute -top-5 -right-4 bg-white border border-border rounded-2xl px-5 py-4 shadow-xl shadow-black/8 cursor-default"
             >
               <div className="font-mono font-bold text-foreground text-[1.5rem] leading-none tracking-tight">
-                GMP-GLP
+                International
               </div>
               <div className="font-mono text-[9px] tracking-[0.15em] uppercase text-muted-foreground mt-2 leading-tight">
                 Certified<br />Facility

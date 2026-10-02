@@ -187,12 +187,12 @@ export default function FeaturedProductsSection() {
                   className="group block bg-white rounded-2xl border border-border overflow-hidden hover:shadow-xl hover:shadow-primary/10 hover:border-primary/25 transition-all duration-300"
                 >
                   {/* Product Image */}
-                  <div className="relative bg-muted/30 overflow-hidden h-52">
+                  <div className="relative bg-white overflow-hidden h-64">
                     <Image
                       src={product.image}
                       alt={product.name}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
                     />
                     {/* Quick view overlay */}
                     <div className="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">

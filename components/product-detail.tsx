@@ -3,28 +3,34 @@ import Link from 'next/link'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 import CTABanner from '@/components/sections/cta-banner'
+import { getApprovalProductBySlug } from '@/lib/approval-products'
+import { parseComposition, type CompositionRow } from '@/lib/parse-composition'
 import { allProducts, type Product } from '@/lib/products'
-import { ArrowLeft, CheckCircle2, Mail, Package, Phone, Shield, Truck } from 'lucide-react'
+import { ArrowLeft, Mail, Phone } from 'lucide-react'
 
-const productDetails = {
-  storage: '25°C or below, away from direct sunlight',
-  moq: '1 Carton (100 units)',
-  leadTime: '48–72 hours',
-  regulatory: 'CDSCO Licensed | GMP Certified Source',
+function compositionCells(row: CompositionRow) {
+  if (row.type === 'ingredient') {
+    return [row.name, row.spc, row.qty, row.unit]
+  }
+  if (row.type === 'excipients') {
+    return ['Excipients', '', row.qty, '']
+  }
+  if (row.type === 'base') {
+    return [row.name, '', row.qty, '']
+  }
+  if (row.type === 'header' || row.type === 'colour' || row.type === 'note') {
+    return [row.text, '', '', '']
+  }
+  return ['', '', '', '']
 }
-
-const highlights = [
-  'Manufactured in a GMP-GLP certified facility',
-  'CDSCO licensed and fully documented',
-  'Cold-chain compliant packaging available',
-  'Bulk and third-party manufacturing on request',
-]
 
 type ProductDetailProps = {
   product: Product
 }
 
 export default function ProductDetail({ product }: ProductDetailProps) {
+  const approval = getApprovalProductBySlug(product.approvalSlug)
+  const compositionRows = parseComposition(approval?.composition ?? '')
   const related = allProducts.filter(
     (p) => p.category === product.category && p.slug !== product.slug,
   ).slice(0, 3)
@@ -55,12 +61,12 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             <div className="bg-white rounded-3xl border border-border overflow-hidden shadow-xl shadow-slate-900/8">
-              <div className="relative h-[380px] md:h-[460px] bg-muted/30">
+              <div className="relative h-[380px] md:h-[460px] bg-white">
                 <Image
                   src={product.image}
                   alt={product.name}
                   fill
-                  className="object-cover"
+                  className="object-contain p-6"
                   priority
                 />
                 <div className="absolute top-4 left-4">
@@ -75,38 +81,44 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               <div className="mb-1">
                 <span className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">{product.brand}</span>
               </div>
-              <h1 className="font-heading text-3xl md:text-4xl font-black text-foreground text-balance mb-4 leading-tight">
+              <h1 className="font-heading text-3xl md:text-4xl font-black text-foreground text-balance mb-3 leading-tight">
                 {product.name}
               </h1>
-              <p className="text-muted-foreground leading-relaxed mb-6 text-base">
-                {product.description}
+              <p className="text-foreground/80 leading-relaxed mb-2 text-base">
+                {approval?.formulation ?? product.description}
               </p>
+              {approval && (
+                <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-6">
+                  Approval list S. No. {String(approval.serialNo).padStart(2, '0')}
+                </p>
+              )}
 
-              <div className="grid grid-cols-2 gap-3 mb-7">
-                {[
-                  { label: 'Min. Order', value: productDetails.moq, icon: Package },
-                  { label: 'Lead Time', value: productDetails.leadTime, icon: Truck },
-                  { label: 'Storage', value: productDetails.storage, icon: Shield },
-                  { label: 'Regulatory', value: productDetails.regulatory, icon: CheckCircle2 },
-                ].map(({ label, value, icon: Icon }) => (
-                  <div key={label} className="bg-muted/50 rounded-xl border border-border p-4">
-                    <div className="flex items-center gap-1.5 mb-1">
-                      <Icon className="w-3.5 h-3.5 text-primary" />
-                      <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">{label}</span>
-                    </div>
-                    <span className="text-sm font-medium text-foreground leading-snug">{value}</span>
-                  </div>
-                ))}
+              <h2 className="font-heading text-lg font-black text-foreground mb-3">Composition</h2>
+              <div className="overflow-x-auto rounded-2xl border border-border mb-8">
+                <table className="w-full min-w-[520px] border-collapse text-sm">
+                  <thead>
+                    <tr className="bg-primary/8 text-left">
+                      <th className="px-4 py-3 font-semibold text-foreground">Composition</th>
+                      <th className="px-3 py-3 font-semibold text-foreground text-center">SPC</th>
+                      <th className="px-3 py-3 font-semibold text-foreground text-center">Qty</th>
+                      <th className="px-3 py-3 font-semibold text-foreground text-center">Unit</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {compositionRows.map((row, index) => {
+                      const [name, spc, qty, unit] = compositionCells(row)
+                      return (
+                        <tr key={`${name}-${index}`} className="border-t border-border">
+                          <td className="px-4 py-2.5 text-foreground/85">{name}</td>
+                          <td className="px-3 py-2.5 text-center text-foreground/80">{spc}</td>
+                          <td className="px-3 py-2.5 text-center text-foreground/80">{qty}</td>
+                          <td className="px-3 py-2.5 text-center text-foreground/80">{unit}</td>
+                        </tr>
+                      )
+                    })}
+                  </tbody>
+                </table>
               </div>
-
-              <ul className="space-y-2.5 mb-8">
-                {highlights.map((item) => (
-                  <li key={item} className="flex items-start gap-2.5">
-                    <CheckCircle2 className="w-4.5 h-4.5 text-secondary shrink-0 mt-0.5" />
-                    <span className="text-sm text-foreground/80">{item}</span>
-                  </li>
-                ))}
-              </ul>
 
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
@@ -144,12 +156,12 @@ export default function ProductDetail({ product }: ProductDetailProps) {
                     href={`/products/${p.slug}`}
                     className="group block bg-white rounded-2xl border border-border overflow-hidden hover:shadow-xl hover:shadow-slate-900/8 hover:-translate-y-1.5 transition-all duration-300"
                   >
-                    <div className="relative h-44 bg-muted/30 overflow-hidden">
+                    <div className="relative h-52 bg-white overflow-hidden">
                       <Image
                         src={p.image}
                         alt={p.name}
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute top-3 left-3">
                         <span className="text-xs font-medium bg-white/90 text-primary rounded-full px-2.5 py-1 backdrop-blur-sm">{p.category}</span>

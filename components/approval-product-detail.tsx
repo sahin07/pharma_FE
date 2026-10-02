@@ -69,7 +69,7 @@ export default function ApprovalProductDetail({ product }: ApprovalProductDetail
 
               <ul className="space-y-2.5 mt-8 mb-8">
                 {[
-                  'Manufactured in a GMP-GLP certified facility',
+                  'Manufactured in an International certified facility',
                   'Samay Pharma India Pvt. Ltd — Kala Amb, Himachal Pradesh',
                   'Third-party manufacturing and bulk supply available',
                 ].map((item) => (
